@@ -21,7 +21,9 @@
 
         <FrontEnd>
 
-            <Head title="Plan Details"></Head>
+            <Head title="Plan Details">
+                <meta name="description" content="Check out Evergreen By Designs website design and management plans today!">
+            </Head>
 
             <PageBanner heading="Website Design And Management<br/> Plan Details" />
 
