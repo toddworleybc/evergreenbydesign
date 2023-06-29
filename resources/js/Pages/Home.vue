@@ -89,7 +89,8 @@
         <Frontend>
 
             <Head title="Evergreen By Design">
-                <meta name="description" content="Evergreen By design provides both website wesign and FULL ongoing website management. Get started today!">
+                <meta name="description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
+                <meta name="keywords" content="evergreen by design website design and management, website design roseburg oregon, website management roseburg oregon, website services roseburg oregon, website design, website management,full website management, website services, website designer">
             </Head>
 
             <HeroBanner />

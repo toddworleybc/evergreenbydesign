@@ -77,7 +77,9 @@
  <div>
     <FrontEnd>
 
-        <Head title="Pricing"></Head>
+        <Head title="Pricing">
+            <meta name="description" content="Evergreen By Design offers competitive pricing for your website design and management services.">
+        </Head>
 
         <PageBanner heading="Website Services And <br/>Management Pricing" />
 

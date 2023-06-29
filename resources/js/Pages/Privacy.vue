@@ -73,7 +73,10 @@ word-break: break-word !important;
 
         <FrontEnd> 
 
-                <Head title="Privacy Policy" ></Head>
+                <Head title="Privacy Policy" >
+                        <meta name="robots" content="noindex">
+                        
+                </Head>
         
             <PageBanner heading="Evergreen By Design <br/> Website Privacy Notice" />
 
