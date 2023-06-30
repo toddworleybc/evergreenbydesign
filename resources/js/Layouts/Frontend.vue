@@ -219,6 +219,7 @@ html {
 }
 
 .btn,
+a:link.btn,
 button,
 button[type='submit'] {
     @apply bg-green-600 hover:bg-green-300 text-white hover:text-gray-600 shadow-md border-yellow-300 transform scale-100 active:scale-90 active:shadow-sm rounded py-1 px-4 transition-all border-2 cursor-pointer;
@@ -298,13 +299,7 @@ a:link {
     margin-bottom: -1px;
 }
 
-a:link.btn {
-    @apply text-white outline-none;
-}
 
-a:link.btn:focus {
-    @apply outline-inherit;
-}
 
 
 
