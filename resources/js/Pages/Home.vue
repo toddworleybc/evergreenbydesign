@@ -801,7 +801,7 @@
 
     .inspiration-heading {
         text-shadow: 2px 2px 20px black;
-        line-height: 1.1;
+        line-height: 1.2;
     }
 
     #ebd-section-services {
