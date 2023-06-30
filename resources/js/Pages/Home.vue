@@ -95,6 +95,7 @@
 
             <HeroBanner />
             
+            
 
                 <section id="ebd-section-intro" class="mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
                     
@@ -117,7 +118,10 @@
                                 <ComputerImg class="w-full shadow-lg" />
                             </div>
                         </div>
-                        <Link class="btn mt-8 inline-block" :href="route('about')">Learn More</Link>
+                        <div class="text-center md:text-left">
+                            <Link class="btn mt-8 inline-block" :href="route('about')">Learn More</Link>
+                        </div>
+                        
                         <div class="pt-20">
                             <img class="w-full" :src="`${route('home')}/media/images/png/castle2.png`" alt="">
                         </div>

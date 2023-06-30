@@ -2,8 +2,9 @@
     import PageBanner from '@/Components/PageBanner.vue';
     import FrontEnd from '@/Layouts/Frontend.vue';
     import MostPopular from '@/Components/Svg/most-popular.svg';
-    import { PhoneIcon, EnvelopeIcon, ChatBubbleLeftIcon } from '@heroicons/vue/24/outline';
+    import { PhoneIcon, EnvelopeIcon, ChatBubbleLeftIcon, ArrowPathIcon } from '@heroicons/vue/24/outline';
     import { ref, onMounted } from 'vue';
+    import { modal } from '@/Utilities/modal';
     import { useForm, Link, Head } from '@inertiajs/vue3';
 
 
@@ -481,9 +482,10 @@
 
                         <div class="mt-8">
                             <p class="text-red-600" v-if="formErrors">Error Has Occured!</p>
-                            <button
-                            :disabled="form.processing">Send Message</button>
                             <div v-if="form.processing" class="mt-8 flex items-center"><span class="mr-2">Sending....</span><ArrowPathIcon class="animate-spin w-5 h-5" /></div>
+                            <button class="mt-4"
+                            :disabled="form.processing">Send Message</button>
+                            
                             <p v-if="formSuccess">Thank you for submitting the form!</p>
                         </div>
                     

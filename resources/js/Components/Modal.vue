@@ -3,7 +3,7 @@
     import Chat from '@/Components/ModalTemplates/Chat.vue';
     import { XMarkIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal';
-    import { onMounted, ref, watch } from 'vue';
+    import { onMounted, ref } from 'vue';
 
 
     const modalCloseBtn = ref(null);

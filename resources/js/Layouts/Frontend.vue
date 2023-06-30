@@ -298,6 +298,11 @@ a:link {
     margin-bottom: -1px;
 }
 
+a:link.btn {
+    @apply text-white;
+}
+
+
 
 a:hover {
     border-bottom: 1px solid rgba(0, 0, 255, 0);

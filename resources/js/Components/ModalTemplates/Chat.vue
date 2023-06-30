@@ -1,6 +1,6 @@
 <script setup>
     
-    import { onMounted, ref, reactive } from 'vue';
+    import { onMounted, ref } from 'vue';
     import { modal } from '@/Utilities/modal';
     import { useForm } from '@inertiajs/vue3';
     import { EnvelopeIcon, PhoneIcon, ArrowPathIcon } from '@heroicons/vue/24/outline';
