@@ -130,7 +130,7 @@
 
                 
 
-                <section id="ebd-section-pricing" class="scroll-mt-36">
+                <section id="ebd-section-pricing" class="scroll-mt-36 mb-20">
 
                     <div class="ebd-container space-y-24">
 
@@ -149,7 +149,7 @@
 
                         <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
 
-                            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2 mb-12">
+                            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2">
 
                                 <div id="website-design" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
 

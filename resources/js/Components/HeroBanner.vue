@@ -1,7 +1,7 @@
 <script setup>
     import HeroImageMobile from '@/Components/Svg/ebd-mobile-header.svg';
     import HeroImageDesktop from '@/Components/Svg/ebd-header.svg';
-    import { onMounted, onBeforeMount, shallowRef, ref } from 'vue';
+    import { onMounted, onBeforeMount, shallowRef } from 'vue';
     import { gsap } from 'gsap';
     import { modal } from '@/Utilities/modal';
 
@@ -35,7 +35,6 @@
 
 
 
-   
 
 
     // SVG FUNCTIONS /===================//

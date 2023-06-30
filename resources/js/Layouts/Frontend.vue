@@ -299,7 +299,11 @@ a:link {
 }
 
 a:link.btn {
-    @apply text-white;
+    @apply text-white outline-none;
+}
+
+a:link.btn:focus {
+    @apply outline-inherit;
 }
 
 
