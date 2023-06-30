@@ -94,9 +94,7 @@
             </Head>
 
             <HeroBanner />
-            
-            
-
+        
                 <section id="ebd-section-intro" class="mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
                     
                     <div class="ebd-container">
