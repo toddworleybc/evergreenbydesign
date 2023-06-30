@@ -257,7 +257,7 @@ onMounted( () => {
 }
 
 .nav-link:link {
-    @apply text-inherit;
+    @apply text-white;
 }
  
 </style>

@@ -32,7 +32,7 @@
 
 
 onMounted(() => {
-    modal.loadAnimation($el('#modal'));
+    // modal.loadAnimation($el('#modal'));
     screenHeight.value = window.innerHeight - 20;
 });
 
