@@ -40,7 +40,21 @@
                         </div>
 
 
-                        <div id="tc-designing-website" style="margin-top: 0;">
+                        <div id="tc-website-plans" style="margin-top: 0;">
+
+                            <h3 class="mb-4">Website Management Plans</h3>
+                            <ul class="space-y-1">
+                                <li><a href="#basic-plan">Basic Plan</a></li>
+                                <li><a href="#premium-plan">Premium Plan</a></li>
+                                <li><a href="#gold-plan">Gold Plan</a></li>
+                                <li><a href="#elite-plan">Elite Plan</a></li>
+                            </ul>
+
+                        </div>
+                            <!-- tc-website-plans  -->
+
+
+                        <div id="tc-designing-website">
 
                             <h3 class="mb-4">Designing Your Website</h3>
                             <ul class="space-y-1">
@@ -56,18 +70,7 @@
                         </div>
                         <!-- tc-designing-website  -->
                         
-                        <div id="tc-website-plans">
-
-                            <h3 class="mb-4">Website Management Plans</h3>
-                            <ul class="space-y-1">
-                                <li><a href="#basic-plan">Basic Plan</a></li>
-                                <li><a href="#premium-plan">Premium Plan</a></li>
-                                <li><a href="#gold-plan">Gold Plan</a></li>
-                                <li><a href="#elite-plan">Elite Plan</a></li>
-                            </ul>
-
-                        </div>
-                        <!-- tc-website-plans  -->
+                        
                     
                     
                         <div id="website-services">

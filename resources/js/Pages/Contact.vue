@@ -89,7 +89,7 @@
         <div class="ebd-container mt-8">
 
             <section class="mb-0">
-                <h2 class="mt-20 mb-10 inline-block">Get In Touch With Evergreen By Design Today<hr/></h2>
+                <h2 class="mt-20 mb-10 inline-block text-center md:text-left">Get In Touch With Evergreen By Design Today<hr/></h2>
                 <p class="text-2xl">Phone: <a style="font-size: 1.4rem" href="tel:+15413785563">(541) 378.5563</a></p>
                 <p class="text-2xl">Hours: Mon-Fri 9:00 AM to 4:00 PM</p>
                 <p class="text-2xl">Location: Roseburg, Oregon</p>

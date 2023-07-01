@@ -549,7 +549,7 @@
 
                 <section id="ebd-section-testimonials">
                     <div class="ebd-container">
-                        <h2 class="inline-block mb-24">What They Say About Evergreen By Design <hr/></h2>
+                        <h2 class="inline-block mb-24 text-center md:text-left">What They Say About Evergreen By Design <hr/></h2>
 
                         <div class="tesimonial-container">
 

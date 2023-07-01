@@ -84,7 +84,7 @@
 
         <PageBanner heading="Website Services And <br/>Management Pricing" />
 
-        <section id="intro" aria-labelledby="intro-heading" class="mt-40 mb-20">
+        <section id="intro" aria-labelledby="intro-heading" class="mt-8 mb-20">
             <div class="text-center md:text-left ebd-container">
                     <h2 id="intro-heading" class="inline-block capitalize">Get a full website design and management starting at $628<hr/></h2>
                     <p>Evergreen By Design is proud to offer peace of mind with your website. These plans are FULLY MANAGED website plans and each plan comes with everything that you need to get your website up and running.</p>
@@ -375,7 +375,7 @@
 
                 <div class="mb-10">
                     <h3 class="mb-4">Do I get my domain if I decide to cancel?</h3>
-                    <p>Yes, your domain is yours and you transfer it to any registrar of your choice upon canceling your plan. Evergreen By Design does NOT cover this type of transfer cost.</p>
+                    <p>Yes, the domain you purchase with Evergreen By Design is yours. You can transfer it to any registrar of your choice upon canceling your plan. Evergreen By Design does NOT cover this type of transfer cost.</p>
                 </div>
                 <div class="mb-10">
                     <h3 class="mb-4">Can I change my plan?</h3>
