@@ -13,6 +13,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png" />
+        <meta property="og:image:secure_url" content="https://secure.evergreenbydesign.com/media/images/png/main-img.png" />
+        <meta property="og:url" content="https://evergreenbydesign.com/media/images/png/main-img.png" />
+        <meta property="og:title" content="Evergreen By Design - Website Design and Management Services" />
+    
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="2182" />
+        <meta property="og:image:height" content="1080" />
+        <meta property="og:image:alt" content="evergreen by design website design and management services" />
+
+        
+
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->

@@ -204,7 +204,7 @@ html {
 
 
 /* Terms of usage and policy links  */
-.tp-links {
+a.tp-links  {
     @apply text-green-600 border-green-600;
 }
 
