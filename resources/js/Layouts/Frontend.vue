@@ -320,6 +320,14 @@ a.tp-links  {
     @apply text-green-600 border-green-600;
 }
 
+a.tp-links:hover {
+    border-bottom: 1px solid rgba(0, 0, 255, 0);
+    color: rgb(20, 140, 20);
+}
+
+
+
+
 
 /* Layout Elements */
 

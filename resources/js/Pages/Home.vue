@@ -95,7 +95,7 @@
             <h1 class="sr-only">Evergreen By Design website design and management services</h1>
             <HeroBanner />
         
-                <section id="ebd-section-intro" class="mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
+                <section id="ebd-section-intro" class="mt-14 md:mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
                     
                     <div class="ebd-container">
 
