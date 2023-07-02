@@ -88,11 +88,11 @@
     <div>
         <Frontend>
 
-            <Head title="Evergreen By Design">
+            <Head title="Evergreen By Design website design and management services">
                 <meta name="description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
-                <meta name="keywords" content="evergreen by design website design and management, website design roseburg oregon, website management roseburg oregon, website services roseburg oregon, website design, website management,full website management, website services, website designer">
+                <meta name="keywords" content="evergreen by design website design and management services, website design roseburg oregon, website management roseburg oregon, website services roseburg oregon, website design, website management,full website management, website services, website designer">
             </Head>
-
+            <h1 class="sr-only">Evergreen By Design website design and management services</h1>
             <HeroBanner />
         
                 <section id="ebd-section-intro" class="mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">

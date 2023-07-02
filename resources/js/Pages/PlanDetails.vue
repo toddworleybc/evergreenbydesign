@@ -131,7 +131,7 @@
                         <div id="premium-plan" aria-labelledby="premium-p-heading" class="mb-12 scroll-mt-20">
                             
                             <h3 id="premium-p-heading" class="mb-4">Premium Plan:</h3>
-                            <p>The Premium plan is great for anyone who is looking for an eCommerce (shop) website and/or email marketing campaigns! You can send newsletters, build your subscriber list, send promotional emails and more.</p>
+                            <p>The Premium plan is great for anyone who is looking for an Ecommerce (shop) website and/or running email marketing campaigns! You can send newsletters, build your subscriber list, send promotional emails and more.</p>
                             <p>Plus, with the unlimited transactional emails you know your website emails are hitting 99.6% of their inboxes and not spam where many websites&#39; emails go.</p>
                             
                         </div>
@@ -147,7 +147,7 @@
                         <div id="elite-plan" aria-labelledby="elite-p-heading" class="mb-12 scroll-mt-20">
                             
                             <h3 id="elite-p-heading" class="mb-4">Elite Plan:</h3>
-                            <p>The Elite plan is a plan that allows me to manage more for you per month. With up to 5-page redesigns and 20 posts per month this plan this plan allows you to constantly make changes to your website. You can also send daily emails and create 3 email list automations.</p>
+                            <p>The Elite plan is a plan that allows me to manage more for you per month. With up to 5-page redesigns per year and 20 posts per month this plan this plan allows you to constantly make changes to your website. You can also send daily emails and create 3 email list automations.</p>
                             
                         </div>
 

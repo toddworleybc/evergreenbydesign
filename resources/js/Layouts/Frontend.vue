@@ -175,7 +175,7 @@
             </main>
             <footer ref="footerEl" class="py-4 px-8 bg-green-900 text-white text-center">
                 All Rights Reserved &copy; Evergreen By Design {{ footerCreditsYear }}<br/><span>Made with &#9829 from the Pacific Northwest</span>
-                <div><a :href="route('website.terms')" class="mr-4 text-green-600 border-green-600">Terms Of Use</a><a :href="route('privacy')" class="text-green-600 border-green-600">Privacy</a></div>
+                <div><a :href="route('website.terms')" class="mr-4 tp-links">Terms Of Use</a><a :href="route('privacy')" class="tp-links">Privacy</a></div>
             </footer>
 
             <button  @click.prevent="backToTop" @focus="showBothBtns" class="z-10 fixed left-2 bottom-2 rounded-full px-2 py-2 opacity-0 transition-opacity bottom-btns"><ArrowUpIcon class="w-5 h-5" /><span class="sr-only">Back to top</span></button>
@@ -203,6 +203,10 @@ html {
 }
 
 
+/* Terms of usage and policy links  */
+.tp-links {
+    @apply text-green-600 border-green-600;
+}
 
 .ebd-container {
     max-width: 1200px;
