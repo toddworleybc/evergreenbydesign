@@ -203,10 +203,6 @@ html {
 }
 
 
-/* Terms of usage and policy links  */
-a.tp-links  {
-    @apply text-green-600 border-green-600;
-}
 
 .ebd-container {
     max-width: 1200px;
@@ -316,6 +312,12 @@ a:hover {
 
 a:focus {
     outline: 2px solid blue;
+}
+
+
+/* Terms of usage and policy links  */
+a.tp-links  {
+    @apply text-green-600 border-green-600;
 }
 
 
