@@ -21,7 +21,7 @@
 
         <FrontEnd>
 
-            <Head title="Plan Details">
+            <Head title="Website Plan Details">
                 <meta name="description" content="Check out Evergreen By Designs website design and management plans today!">
             </Head>
 

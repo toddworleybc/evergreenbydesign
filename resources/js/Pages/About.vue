@@ -79,7 +79,7 @@
  <div>
     <FrontEnd>
 
-        <Head title="About Evergreen By Design">
+        <Head title="About">
             <meta name="description" content="Learn more about Evergreen By Design and website design and website management. My goal is to give my clients fully managed websites that they don't have to worry about managing their website.">
         </Head>
 
