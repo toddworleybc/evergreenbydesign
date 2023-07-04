@@ -21,8 +21,8 @@
 
         <FrontEnd>
 
-            <Head title="Website Plan Details">
-                <meta name="description" content="Check out Evergreen By Designs website design and management plans today!">
+            <Head title="Website Service Plan Details">
+                <meta name="description" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
             </Head>
 
             <PageBanner heading="Website Design And Management<br/> Plan Details" />

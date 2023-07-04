@@ -19,7 +19,7 @@
         <FrontEnd>
 
             <Head title="Terms of Services">
-                <meta name="description" content="Evergreen By Design's terms of services.">
+                <meta name="description" content="Website design and management terms of services. Professional website design.">
             </Head>
 
             <PageBanner heading="Evergreen By Design <br/> Terms of Services" />

@@ -79,7 +79,7 @@
     <FrontEnd>
 
         <Head title="Contact">
-            <meta name="description" content="Contact Evergreen By Design and get your website designed with ongoing full website management today!">
+            <meta name="description" content="Contact your next website designer here today! Not only does Evergreen By Design provide professional website design, but you also receive hosting, domain, content management and email marketing.">
         </Head>
 
         <PageBanner heading="Contact <br/> Evergreen By Design" />

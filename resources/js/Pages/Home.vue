@@ -89,10 +89,9 @@
         <Frontend>
 
             <Head title="Website Design and Management Services">
-                <meta name="description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
-                <meta name="keywords" content="evergreen by design website design and management services, website design roseburg oregon, website management roseburg oregon, website services roseburg oregon, website design, website management,full website management, website services, website designer">
+                <meta name="description" content="Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.">
             </Head>
-            <h1 class="sr-only">Evergreen By Design website design and management services</h1>
+            <h1 class="sr-only">Evergreen By Design Website Design and Management Services</h1>
             <HeroBanner />
         
                 <section id="ebd-section-intro" class="mt-14 md:mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">

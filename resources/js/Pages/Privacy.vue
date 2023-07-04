@@ -73,7 +73,9 @@ word-break: break-word !important;
 
         <FrontEnd> 
 
-                <Head title="Privacy Policy" ></Head>
+                <Head title="Privacy Policy" >
+                        <meta name="description" content="Evergreen By Design website services and design privacy policy.">
+                </Head>
         
             <PageBanner heading="Evergreen By Design <br/> Website Privacy Notice" />
 

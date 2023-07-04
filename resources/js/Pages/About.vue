@@ -80,7 +80,7 @@
     <FrontEnd>
 
         <Head title="About">
-            <meta name="description" content="Learn more about Evergreen By Design and website design and website management. My goal is to give my clients fully managed websites that they don't have to worry about managing their website.">
+            <meta name="description" content="Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!">
         </Head>
 
         <PageBanner heading="About <br/> Evergreen By Design" />
