@@ -6,6 +6,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Http;
 
 /*
 |--------------------------------------------------------------------------
@@ -63,5 +64,17 @@ Route::get('/evergreey-by-design-website-usage-terms', function() {
 Route::get('/thank-you', function(){
    return Inertia::render('ThankYou');
 })->name('thank.you');
+
+
+// Route::get('/delete-pay', function() {
+
+
+//    $response = Http::withHeaders([
+//      'Authorization' => 'Bearer pk_live_51NN1RAJH1XA9r95Ij0UBb853mj85OMt4HcCx2q5fip1SBxIVAd5jl7mFHAsvgKRr19MuytON2xrvCPNmm12993BT00vJyMY64H',
+//      'Accept' => 'application/vnd.api+json'
+//    ])->delete('https://payments.stripe.com/api/stripe_payments/pi_3NQkwEJH1XA9r95I1qk9GMqW');
+
+//    dd($response);
+// });
 
 

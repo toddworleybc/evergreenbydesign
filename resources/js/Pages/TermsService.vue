@@ -466,7 +466,7 @@
 
                         <ul>
                             <li>
-                                <p>(A) Website access to you (the Client) is strictly forbidden for security and maintaining good website health.</p>
+                                <p>(A) Website access is only allowed in limited compacity with a Specialty Self-Management System. These systems give you access to a section of your website where the specialty system is controlled.</p>
                             </li>
                             
                         </ul>

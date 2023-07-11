@@ -25,7 +25,7 @@
                 <meta name="description" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
             </Head>
 
-            <PageBanner heading="Website Design And Management<br/> Plan Details" />
+            <PageBanner heading="Website Design And Management Services<br/> Plan Details" />
 
 
 
@@ -86,6 +86,8 @@
                                 <li><a href="#transactional-emails">Unlimited Transactional Emails</a></li>
                                 <li><a href="#email-marketing">Email Marketing</a></li>
                                 <li><a href="#professional-domain">Professional Domain</a></li>
+                                <li><a href="#specialty-system">Specialty Systems</a></li>
+                                
                             </ul>
 
                         </div>
@@ -140,6 +142,7 @@
                             
                             <h3 id="gold-p-heading" class="mb-4">Gold Plan:</h3>
                             <p>The Gold plan is great for those shops or bloggers who have more frequent changes to their websites, products, newsletters, staff, etc. and/or people who have built a list beyond 1500 subscribers.</p><p>You get even more pages designed and managed, plus email automation and an extra email template design.</p>
+                            <p>You also are able to use Specialty Self-Management Systems for your website. This gives you control over the system when you want it. This is great for online reservations, booking, appointments, and more.</p>
                             
                         </div>
 
@@ -147,7 +150,9 @@
                         <div id="elite-plan" aria-labelledby="elite-p-heading" class="mb-12 scroll-mt-20">
                             
                             <h3 id="elite-p-heading" class="mb-4">Elite Plan:</h3>
-                            <p>The Elite plan is a plan that allows me to manage more for you per month. With up to 5-page redesigns per year and 20 posts per month this plan this plan allows you to constantly make changes to your website. You can also send daily emails and create 3 email list automations.</p>
+                            <p>The Elite plan allows me to manage more for you. With up to 5-page redesigns a year and 20 posts per month this plan this plan allows you to constantly make changes to your website. You can also send daily emails and create 3 email list automations.</p>
+                            <p>The Elite plan also upgrades your Specialty Self-Management System so you can have access to All Posts and gives you multi-user access.</p>
+                            <p>You also receive one-one-one training for your specialty self-management system. This is a 1 hour a month zoom video training. This is great for asking questions and getting familiar with your system. You may downgrade anytime once you feel comfortable with your system and after the 90 day service start has passed.</p>
                             
                         </div>
 
@@ -284,6 +289,18 @@
                         <div id="professional-domain" class="mb-12 scroll-mt-20">
                             <h3 class="mb-4">Professional Domain Email:</h3>
                             <p>With a Premium plan and above you will also receive a professional domain email!</p><p>This gives your business/website a much more professional look, especially when it comes to email marketing! Most email provider&#39;s inboxes look for a more professional email if coming from a website.</p><p>Some will send your email to spam if you do not have a professional email.</p>
+
+                        </div>
+
+
+                        <div id="specialty-system" class="mb-12 scroll-mt-20">
+                            <h3 class="mb-4">Specialty Self-Management Systems</h3>
+                            <p>While it is great to have someone else fully manage your website sometimes you need to work on the fly and can not wait for notification or someone else to manage it for you.</p>
+                            <p>This is where the Specialty Self-Management Systems come into play. These systems are great for people who need to have control over a particular section of their website.</p>
+                            <p>Maybe you need to manage memberships on your website or view online bookings or reservations. Maybe you need to be able to post events quickly, newsletters, handle your email marketing. Some people need direct access to their shop to review purchases or change SKU#&#39;s on products.</p>
+                            <p>Whatever the case maybe this option allows you to actually gain access to specific areas of your website for your own control. Access is limited to only these parts of the website so you don&#39;t have to worry about the other complicated tech stuff.</p>
+                            <p>The Gold plan accommodates a single user (or single password for access) while the Elite plan can have multiple users, each with their own password and access to only the specified system that you deem.</p>
+                            <p>The Elite System also gives you ALL Access to you posts. This will allow you to post events, newsletters, etc. along with your system.</p>
 
                         </div>
 

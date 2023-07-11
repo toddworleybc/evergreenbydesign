@@ -288,6 +288,16 @@
                                             2 Email Template Design
                                         </span>
                                     </li>
+                                    <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                        <span class="block text-base my-3">
+                                            Shop Self-Management<br/>
+                                            Event Postings<br/>
+                                            Membership Websites<br/>Online Booking<br/>
+                                            Email Marketing Self-Management<br/>
+                                            Single-User Access<br/>
+                                        </span>
+                                        <span class="italic mt-2 text-sm">(Note* These are just a few of the Specialty systems available. If you are looking for something specific please contact me)</span>
+                                    </li>
                                 </ul>
 
                             </div>
@@ -311,7 +321,7 @@
                                     <p class="text-white">Ecommerce (Shop)<br/> $749 + $279/mo</p>
                                 </div>
                                 <ul>
-                                    <li><strong class="font-light">Includes Premium Plan +</strong></li>
+                                    <li><strong class="font-light">Includes Gold Plan +</strong></li>
                                     <li><strong class="font-light">Website Design</strong>
                                         <span class="block text-base my-3">
                                             Up to 15 pages <br/>
@@ -332,6 +342,17 @@
                                             5,000 Subscribers <br/>
                                             3 Email List Automation <br/>
                                             3 Email Template Design
+                                        </span>
+                                    </li>
+                                    <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                        <span class="block text-base my-3">
+                                            All Post Access <br/>
+                                            Multi-User Access<br/>
+                                        </span>
+                                    </li>
+                                    <li><strong class="font-light">One-On-One Training</strong>
+                                        <span class="block text-base my-3">
+                                            Get One-On-One Zoom Video Training To Learn How To Use Your Specialty System.
                                         </span>
                                     </li>
                                 </ul>
@@ -391,7 +412,7 @@
                 </div>
                 <div class="mb-10">
                     <h3 class="mb-4">Do I have access to my website?</h3>
-                    <p>No, you do not have access to your website as this is part of the management services that I provide. All access goes through me to ensure the quality of management for your website.</p>
+                    <p>For the most part no, that is the nice thing about a full managed website, I do all the work. But, sometimes you need control on the fly and Evergreen By Design does this with Specialty Systems. A Gold plan or above comes with a Specialty Self-Management System. This give you access to that part of the website for your own personal control. The Elite plan comes with personal one-on-one training for your Specialty System.</p>
                 </div>
                 <div class="mb-10">
                     <h3 class="mb-4">How long does it take for changes to my website?</h3>

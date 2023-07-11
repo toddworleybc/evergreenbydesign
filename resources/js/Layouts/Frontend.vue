@@ -163,7 +163,6 @@
        
         <Head>
             <link rel="stylesheet" href="css/ebd-fonts.css" />
-            <link rel="icon" type="image/svg" href="media/images/svg/ebd-logo-rounded.svg">
         </Head>
         <div>
             <div @click.prevent="closeOverlay" class="fixed w-full h-screen bg-slate-900 transition-all backdrop-blur-sm z-20" :class="[bodyOverlay ? 'bg-opacity-70 block' : 'bg-opacity-0 hidden']"></div>
