@@ -161,9 +161,7 @@
 <template>
     <div>
        
-        <Head>
-            <link rel="stylesheet" href="css/ebd-fonts.css" />
-        </Head>
+    
         <div>
             <div @click.prevent="closeOverlay" class="fixed w-full h-screen bg-slate-900 transition-all backdrop-blur-sm z-20" :class="[bodyOverlay ? 'bg-opacity-70 block' : 'bg-opacity-0 hidden']"></div>
 
@@ -201,10 +199,12 @@ html {
     scroll-behavior: smooth;
 }
 
-
+html {
+    font-size: 110%;
+}
 
 .ebd-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 

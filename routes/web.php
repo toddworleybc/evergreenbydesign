@@ -24,6 +24,38 @@ Route::get('/', function() {
    return Inertia::render('Home');
 })->name('home');
 
+
+
+Route::name('service.')->prefix('service-areas')->group(function () {
+
+   // Springfield ==/
+   Route::get('/springfield-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Springfield');
+   })->name('springfield');
+
+
+   // Roseburg ==/
+   Route::get('/roseburg-oregon-website-design-and-management-services', function () {
+       return Inertia::render('ServiceAreas/Roseburg');
+   })->name('roseburg');
+
+
+   // Eugene ==/
+   Route::get('/eugene-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Eugene');
+   })->name('eugene');
+
+
+   
+});
+
+
+Route::name('admin.')->group(function () {
+   Route::get('/users', function () {
+       // Route assigned name "admin.users"...
+   })->name('users');
+});
+
 Route::post('/sendemail', [SendEmailController::class, 'sendEmail'])->name("send.email");
 
 
@@ -65,16 +97,5 @@ Route::get('/thank-you', function(){
    return Inertia::render('ThankYou');
 })->name('thank.you');
 
-
-// Route::get('/delete-pay', function() {
-
-
-//    $response = Http::withHeaders([
-//      'Authorization' => 'Bearer pk_live_51NN1RAJH1XA9r95Ij0UBb853mj85OMt4HcCx2q5fip1SBxIVAd5jl7mFHAsvgKRr19MuytON2xrvCPNmm12993BT00vJyMY64H',
-//      'Accept' => 'application/vnd.api+json'
-//    ])->delete('https://payments.stripe.com/api/stripe_payments/pi_3NQkwEJH1XA9r95I1qk9GMqW');
-
-//    dd($response);
-// });
 
 
