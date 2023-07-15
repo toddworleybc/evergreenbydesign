@@ -21,7 +21,7 @@
         <section class="space-y-10 mb-8" aria-labelledby="roseburg-heading">
             
 
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-5" style="margin-top: .1rem">Back To Homepage</span></Link>
+                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
 
                 <h2 id="roseburg-heading" class="capitalize inline-block">Need a websiter designer and services local to Roseburg, Oregon!<hr/></h2>
                 <img src="/media/images/jpg/roseburg-opt.jpg" alt="Roseburg welcome sign image">
@@ -46,11 +46,14 @@
                 <p><strong class="font-light">Professional Email Domain:</strong> With a website comes the opportunity to have a personal domain email <span class="italic">(you@yourdomain.com).</span></p>
                 <p>These are just some of the great features that you get with Evergreen By Design. Best of all, since I am local, I can come and meet you where ever you are in Roseburg and the surrounding areas.</p>
                 <p>Call Today: <a href="tel:5413785563">(541) 378.5563</a></p>
-                <div class="flex items-center space-x-4">
+
+                <div class="flex flex-col sm:flex-row justify-start space-y-4 sm:space-y-0 sm:items-center sm:space-x-4">
                     <div class="space-x-2">
-                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex mx-auto md:mx-0 justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
+                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <Link class="btn flex mx-auto md:mx-0 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    <div class="inline-block">
+                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    </div>
                 </div>
             
         </section>

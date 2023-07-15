@@ -21,10 +21,10 @@
         <section class="space-y-10 mb-8" aria-labelledby="roseburg-heading">
             
 
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-5" style="margin-top: .1rem">Back To Homepage</span></Link>
+                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
 
                 <h2 id="roseburg-heading" class="capitalize inline-block">Professional Website Design and Services for Eugene, Oregon!<hr/></h2>
-                <img src="/media/images/jpg/eugene-opt.jpg" alt="Roseburg welcome sign image">
+                <img src="/media/images/jpg/eugene-opt.jpg" alt="Eugene welcome sign image">
                 
                 <p>Go Ducks! It is amazing to be offering website design and management services in one of the greatest cities in Oregon, Eugene!</p>
                 <p>My services cover everything that you need to get your website up and running. No more hoping from service to service managing all your website needs.</p>
@@ -39,7 +39,7 @@
 
         <section class="space-y-10" aria-labelledby="roseburg-website-details">
                 <h2 id="roseburg-website-details" class="capitalize inline-block">Great website design and services features!<hr/></h2>
-                <img src="/media/images/jpg/eugene2-opt.jpg" alt="Roseburg street fall image">
+                <img src="/media/images/jpg/eugene2-opt.jpg" alt="Eugene city">
 
                 <p><strong class="font-light">Unlimited Transactional Emails:</strong> This is great for anyone who is running a shop or subscription website. Transactional emails are emails that send automatically after someone completes an action on your website.</p>
                 <p>Example: I make a purchase on your website and a receipt is sent to my email. The great thing about unlimited transactional emails is that these use SMTP to help ensure that your emails hit inboxes and not spam!</p>
@@ -49,11 +49,14 @@
                 <p><strong class="font-light">Domain:</strong> Can&#39;t be online if you don&#39;t have a domain giving you a place on the internet for your website. Every plan comes with a domain of your choice. If you ever decide to leave Evergreen By Design your domain goes with you.</p>
                 <p>These are just some of the great features that Evergreen By Design provides people everyday to make their lives easier.</p>
                 
-                <div class="flex items-center space-x-4">
+                <div class="flex flex-col sm:flex-row justify-start space-y-4 sm:space-y-0 sm:items-center sm:space-x-4">
                     <div class="space-x-2">
-                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex mx-auto md:mx-0 justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
+                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <Link class="btn flex mx-auto md:mx-0 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    <div class="inline-block">
+                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    </div>
+                    
                 </div>
             
         </section>

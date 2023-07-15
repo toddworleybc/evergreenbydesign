@@ -21,7 +21,7 @@
         <section class="space-y-10 mb-8" aria-labelledby="springfield-heading">
             
 
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-5" style="margin-top: .1rem">Back To Homepage</span></Link>
+                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
 
                 <h2 id="springfield-heading" class="capitalize inline-block">Website Services and Design for Springfield, Oregon!<hr/></h2>
                 <img src="/media/images/jpg/springfield-opt.jpg" alt="Springfield Oregon sign">
@@ -52,11 +52,15 @@
                 <p>Contact Evergreen By Design today and never have to worry about website tech again!</p>
 
                 <p>Call Today: <a href="tel:5413785563">(541) 378.5563</a></p>
-                <div class="flex items-center space-x-4">
+
+                <div class="flex flex-col sm:flex-row justify-start space-y-4 sm:space-y-0 sm:items-center sm:space-x-4">
                     <div class="space-x-2">
-                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex mx-auto md:mx-0 justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
+                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <Link class="btn flex mx-auto md:mx-0 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    <div class="inline-block">
+                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    </div>
+                    
                 </div>
             
         </section>
