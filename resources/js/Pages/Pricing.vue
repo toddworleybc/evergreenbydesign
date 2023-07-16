@@ -174,7 +174,7 @@
                             <!-- ./heading-ul  -->
 
                             <div class="b-link">
-                                <Link href="/website-design-and-management/#basic-plan">See Details</Link>
+                                <Link :href="route('plan.details')">See Details</Link>
                             </div>
                             <!-- ./b-link  -->
 
@@ -240,7 +240,7 @@
                                 <!-- ./heading-ul  -->
 
                                 <div class="b-link">
-                                    <Link href="/website-design-and-management/#premium-plan">See Details</Link>
+                                    <Link :href="route('plan.details')">See Details</Link>
                                 </div>
                                 <!-- ./b-link  -->
                                 
@@ -304,7 +304,7 @@
                             <!-- ./heading-ul  -->
 
                             <div class="b-link">
-                                <Link href="/website-design-and-management/#gold-plan">See Details</Link>
+                                <Link :href="route('plan.details')">See Details</Link>
                             </div>
                             <!-- ./b-link  -->
 
@@ -361,7 +361,7 @@
 
 
                             <div class="b-link">
-                                <Link href="/website-design-and-management/#elite-plan">See Details</Link>
+                                <Link :href="route('plan.details')">See Details</Link>
                             </div>
                             <!-- ./b-link  -->
                             
