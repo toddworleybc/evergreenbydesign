@@ -211,16 +211,6 @@ onMounted( () => {
                             
                         </li>
 
-
-                        <li role="none" class="text-xl group mb-2 bg-green-800 hover:bg-green-400 transition-all w-56 transform scale-100 active:scale-95 nav-item">
-                            
-                            <Link role="menuitem" @keydown.esc.prevent="menu.open = false"  class="nav-link nav-link-shadow font-xl group-hover:text-gray-800 text-white w-full h-full py-3 px-8 flex justify-between items-center" style="border-bottom: 0" :href="`${route('pricing')}/#faq`" ><span class="text-xl">FAQ</span> <QuestionMarkCircleIcon class="w-9 h-9 ml-2 inline"/></Link>
-                            
-                        </li>
-
-                        
-                        
-
                     </ul>
                 </div>
 
