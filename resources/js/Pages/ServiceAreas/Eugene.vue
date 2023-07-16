@@ -37,15 +37,15 @@
             
         </section>
 
-        <section class="space-y-10" aria-labelledby="roseburg-website-details">
-                <h2 id="roseburg-website-details" class="capitalize inline-block">Great website design and services features!<hr/></h2>
+        <section class="space-y-10" aria-labelledby="eugene-website-details">
+                <h2 id="eugene-website-details" class="capitalize inline-block">Great website design and services features!<hr/></h2>
                 <img src="/media/images/jpg/eugene2-opt.jpg" alt="Eugene city">
 
-                <p><strong class="font-light">Unlimited Transactional Emails:</strong> This is great for anyone who is running a shop or subscription website. Transactional emails are emails that send automatically after someone completes an action on your website.</p>
+                <p><strong class="font-light">Unlimited Transactional Emails:</strong> This is great for anyone who is running a shop or subscription website. <a href="https://mailchimp.com/help/about-transactional-email/#:~:text=A%20transactional%20email%20is%20an,or%20a%20password%20reset%20request." target="_blank">Transactional emails</a> are emails that send automatically after someone completes an action on your website.</p>
                 <p>Example: I make a purchase on your website and a receipt is sent to my email. The great thing about unlimited transactional emails is that these use SMTP to help ensure that your emails hit inboxes and not spam!</p>
                 <p><strong class="font-light">Content Management:</strong> What could be better then not having to worry about uploading content to your website! Many people who try changing their website end up breaking it and having to pay for repairs. Here, I handle all your content management needs to help ensure your website runs smoothly!</p>
                 <p><strong class="font-light">Email Marketing:</strong> How many website design companies offer email marketing with their plans? Not many, and for the price of email marketing these days to actually have this included in your plan is simply remarkable! With custom template design you can really brand your emails.</p>
-                <p><strong class="font-light">Integrations:</strong> One of the hardest parts of website design is integrations. There are so many third-party integrations for your website, everything from search consoles, AdSense, affiliate marketing, and etc. I take care of all the heavy lifting for you in this department.</p>
+                <p><strong class="font-light">Integrations:</strong> One of the hardest parts of website design is integrations. There are so many third-party integrations for your website, everything from search consoles, <a href="https://adsense.google.com/start/" target="_blank">AdSense</a>, affiliate marketing, and etc. I take care of all the heavy lifting for you in this department.</p>
                 <p><strong class="font-light">Domain:</strong> Can&#39;t be online if you don&#39;t have a domain giving you a place on the internet for your website. Every plan comes with a domain of your choice. If you ever decide to leave Evergreen By Design your domain goes with you.</p>
                 <p>These are just some of the great features that Evergreen By Design provides people everyday to make their lives easier.</p>
                 

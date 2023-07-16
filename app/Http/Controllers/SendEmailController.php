@@ -56,7 +56,7 @@ class sendEmailController extends Controller
 
 
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("toddworleybc@gmail.com", "Evergreen By Design");
+        $email->setFrom("todd@evergreenbydesign.com", "Evergreen By Design");
         $email->setSubject("New Client Request");
 
         $email->addTo("evergreenbydesignwebsites@gmail.com", "Todd Worley");
@@ -92,7 +92,7 @@ class sendEmailController extends Controller
         $email = new \SendGrid\Mail\Mail();
          
         
-        $email->setFrom("evergreenbydesignwebsites@gmail.com", "Evergreen By Design");
+        $email->setFrom("todd@evergreenbydesign.com", "Evergreen By Design");
         $email->setSubject("Evergreen By Design Received Your Email!");
 
         $email->addTo($request->email, $request->name);

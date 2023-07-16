@@ -2,7 +2,7 @@
 import { Link } from '@inertiajs/vue3';
 import menu from '@/Utilities/menu';
 import { reactive, onMounted, watch } from 'vue';
-import { HomeIcon, DocumentMagnifyingGlassIcon, GlobeAltIcon, DocumentTextIcon, CurrencyDollarIcon, PhoneIcon } from '@heroicons/vue/24/outline';
+import { HomeIcon, DocumentMagnifyingGlassIcon, GlobeAltIcon, DocumentTextIcon, CurrencyDollarIcon, PhoneIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/outline';
 
 
 // REFS==========================//
@@ -163,7 +163,7 @@ onMounted( () => {
         <div id="dropdown-container" class="fixed mt-3 right-0 w-72 transform transition-all" :class="menu.open ? 'translate-x-0' : 'translate-x-full'">
 
             <!-- @transitionend="removeHeightFromDropMenuContainer"  -->
-            <nav id="dropdown-menu" class="w-full max-h-screen overflow-y-auto">
+            <nav id="dropdown-menu" class="w-full overflow-y-auto" style="max-height: calc(100vh - 100px)">
                 
                 <div id="dropdown-menu" class="shadow-md bg-gradient-to-b from-green-300 via-green-200 to-green-300 rounded-b-sm">
                     <ul role="menu" class="nav-list py-10 space-y-6">
@@ -211,6 +211,13 @@ onMounted( () => {
                             
                         </li>
 
+
+                        <li role="none" class="text-xl group mb-2 bg-green-800 hover:bg-green-400 transition-all w-56 transform scale-100 active:scale-95 nav-item">
+                            
+                            <Link role="menuitem" @keydown.esc.prevent="menu.open = false"  class="nav-link nav-link-shadow font-xl group-hover:text-gray-800 text-white w-full h-full py-3 px-8 flex justify-between items-center" style="border-bottom: 0" :href="`${route('pricing')}/#faq`" ><span class="text-xl">FAQ</span> <QuestionMarkCircleIcon class="w-9 h-9 ml-2 inline"/></Link>
+                            
+                        </li>
+
                         
                         
 
@@ -228,6 +235,18 @@ onMounted( () => {
 
 <style>
 
+
+/* No nav scroll bar */
+/* Hide scrollbar for Chrome, Safari and Opera */
+nav::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+nav {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 /* top line  */
 .mt-line-closed {

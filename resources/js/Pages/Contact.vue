@@ -90,13 +90,16 @@
 
             <section class="mb-0">
                 <h2 class="mt-20 mb-10 inline-block text-center md:text-left">Get In Touch With Evergreen By Design Today<hr/></h2>
+                <p>Evergreen By Design is a website design and management business that is proud to serve the cities of Oregon with some of the best in website design and management services.</p>
+                <p>Local to Roseburg, I love the Pacific Northwest. From the beautiful forests to the gorgeous oceans. Being able to design websites for businesses and online entrepreneurs in this great state has been a true blessing.</p>
+                <p>If you want top quality website design and to have all your website services bundled into one nice fee then contact Evergreen By Design today.</p>
                 <p class="text-2xl">Phone: <a style="font-size: 1.4rem" href="tel:+15413785563">(541) 378.5563</a></p>
                 <p class="text-2xl">Hours: Mon-Fri 9:00 AM to 4:00 PM</p>
                 <p class="text-2xl">Location: Roseburg, Oregon</p>
             </section>
 
 
-            <section id="ebd-section-contact" class="contact-bg-gradient mb-0">
+            <section id="ebd-section-contact" class="contact-bg-gradient">
 
                 <div class="ebd-container flex flex-col md:flex-row justify-start items-start shadow-lg border rounded w-full mx-auto">
 

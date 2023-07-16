@@ -170,6 +170,43 @@
             <main>
                 <slot />
             </main>
+            <section id="ebd-footer-wigets" class="flex flex-col md:flex-row md:items-stretch bg-gray-50 py-8 px-4 justify-around mb-0 text-center space-y-10 md:space-y-0">
+
+                <div id="logo" class="md:border-r-2 border-green-300 w-full md:w-1/3 px-10">
+                    <h3 class="inline-block mb-4">Evergreen By Design<hr/></h3>
+                    <img class="w-32 mx-auto" src="/media/images/svg/ebd-logo-rounded.svg" alt="logo">
+                    <p class="text-lg mt-6">Call Today: <br/> <a class="mt-4" href="tel:5413785563">(541) 378.5563</a></p>
+                    <p>Mon-Fri: 9am to 4pm</p>
+                </div>
+
+                <div id="service-areas" class="md:border-r-2 border-green-300 w-full md:w-1/3 px-10">
+                    <h3 class="inline-block mb-4">Service Areas<hr/></h3>
+                    <div>
+                        <ul class="space-y-4">
+                            <li><p><strong class="font-lignt">All of USA</strong></p></li>
+                            <li>
+                                <p><strong class="font-light">Oregon Local Service Areas</strong></p>
+                            </li>
+                            <li><a :href="route('service.roseburg')">Roseburg</a></li>
+                            <li><a :href="route('service.springfield')">Springfield</a></li>
+                            <li><a :href="route('service.eugene')">Eugene</a></li>
+                            <li><a :href="route('service.beaverton')">Beaverton</a></li>
+                            <li><a :href="route('service.oregoncity')">Oregon City</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="social-media" class="w-full md:w-1/3 px-10">
+                    <h3 class="inline-block mb-4">Follow On Social<hr/></h3>
+                    <div class="flex space-x-4 items-center mx-auto w-24">
+                        <a class="border-none hover:border-none transition-all hover:scale-105 hover:-translate-y-2" href="https://www.facebook.com/evergreenbydesignwebsites" target="_blank"><img src="/media/images/png/facebook.png" alt="facebook page link"></a>
+                        <a class="border-none hover:border-none transition-all hover:scale-105 hover:-translate-y-2" href="https://twitter.com/webevergreen"><img src="/media/images/png/twitter.png" alt="twitter page link"></a>
+                    </div>
+                    <p class="mt-6">Follow on social media and get the latest deals and offers from Evergreen By Design!</p>
+                </div>
+
+
+                </section>
             <footer ref="footerEl" class="py-4 px-8 bg-green-900 text-white text-center">
                 All Rights Reserved &copy; Evergreen By Design {{ footerCreditsYear }}<br/><span>Made with &#9829 from the Pacific Northwest</span>
                 <div><a :href="route('website.terms')" class="mr-4 tp-links">Terms Of Use</a><a :href="route('privacy')" class="tp-links">Privacy</a></div>

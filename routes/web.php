@@ -46,6 +46,18 @@ Route::name('service.')->prefix('service-areas')->group(function () {
    })->name('eugene');
 
 
+   // Beaverton ==/
+   Route::get('/beaverton-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Beaverton');
+   })->name('beaverton');
+   
+
+   // Oregon City ==/
+   Route::get('/oregon-city-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/OregonCity');
+   })->name('oregoncity');
+
+
    
 });
 

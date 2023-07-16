@@ -167,7 +167,7 @@
 
                         <div id="overview" class="mb-12  scroll-mt-20">
                             <h3 class="mb-4">Overview:</h3>
-                            <p>Your online presence starts with a great looking website! I not only design your website, but I make sure it is mobile and SEO friendly. Each plan varies on the number of pages that can be designed and the number of page redesigns per year.</p>
+                            <p>Your online presence starts with a great looking website! I not only design your website, but I make sure it is mobile and <a href="https://moz.com/learn/seo/what-is-seo" target="_blank">SEO friendly.</a> Each plan varies on the number of pages that can be designed and the number of page redesigns per year.</p>
                             <p>Website design pricing is separate from the monthly website services fee. It is a ONE-TIME payment paid along with your first month&#39;s service fee to initiate both website design and services.</p> 
                             <p>Website design typically takes 5 to 10 business days depending the number of pages and other services purchased with it. Shop designs may take longer depending on products uploads and email marketing automations and templates.
                             </p>
@@ -185,19 +185,19 @@
                             <h3 class="mb-4">Ecommerce Design:</h3>
                             <p>Ecommerce design comes with everything that website design has to offer, but it also adds shop functionality to your website.</p>
                             <p>This consists of user account page, cart page, shop page (where your products are displayed), and checkout page.</p>
-                            <p>These pages are NOT part of the website design page limit set in each package but are included with them for the ecommerce design fee.</p>
+                            <p>These pages are <strong class="font-light">NOT</strong> part of the website design page limit set in each package but are included with them for the ecommerce design fee.</p>
                         </div>
 
                         <div id="landing-page" class="mb-12 scroll-mt-20">
                             <h3 class="mb-4">Landing Page:</h3>
-                            <p>Landing Pages are used to either capture user information or to promote the sell of a product or service.</p>
+                            <p><a href="https://unbounce.com/landing-page-articles/what-is-a-landing-page/" target="_blank">Landing Pages</a> are used to either capture user information or to promote the sell of a product or service.</p>
                             <p>Landing pages are very useful in the online world for the fact that it gives you a page that is focused on one thing to share/market online. These are great if you are running marketing campaigns and need a place to direct potential customers or subscribers to.</p>
                         </div>
 
 
                         <div id="website-security" class="mb-12 scroll-mt-20">
                             <h3 class="mb-4">Website Security:</h3>
-                            <p>Protecting your website is one of my top priorities. I add an extra layer of protection to your website to prevent brute force attacks, cross site scripting (XSS), and cross site forgery (CSRF), and many other attacks.</p>
+                            <p>Protecting your website is one of my top priorities. I add an extra layer of protection to your website to prevent brute force attacks, <a href="https://owasp.org/www-community/attacks/xss/" target="_blank">cross site scripting (XSS)</a>, and <a href="https://portswigger.net/web-security/csrf#:~:text=Cross%2Dsite%20request%20forgery%20(also,do%20not%20intend%20to%20perform." target="_blank">cross site forgery (CSRF)</a>, and many other attacks.</p>
                         </div>
 
 
@@ -239,6 +239,7 @@
                             <h3 class="mb-4">Hosting:</h3>
                             
                             <p>Hosting service is included with any plan. This also includes complete hosting management and even daily backups of your server! These backups include both database and file backups.</p>
+                            <p>Hosting also comes with unlimited bandwidth and storage!</p>
 
                         </div>
 
@@ -266,7 +267,7 @@
                         <div id="intergrations" class="mb-12 scroll-mt-20">
                             <h3 class="mb-4">Integrations:</h3>
 
-                            <p>With the basic plan you get social media integration into your website. This is great for building up your social media profiles, especially for businesses.</p><p>You also get your Google Analytics (displays information about traffic to your website), integrated into your website as well.</p><p>The premium plan and above will also include AdSense (this is how you run ads on your website) and affiliate marketing.</p>
+                            <p>With the basic plan you get social media integration into your website. This is great for building up your social media profiles, especially for businesses.</p><p>You also get your <a href="https://analytics.google.com/analytics/web/provision/#/provision" target="_blank">Google Analytics</a> (displays information about traffic to your website), integrated into your website as well.</p><p>The premium plan and above will also include AdSense (this is how you run ads on your website) and affiliate marketing.</p>
 
                         </div>
 
@@ -281,7 +282,7 @@
                         <div id="email-marketing" class="mb-12 scroll-mt-20">
                             <h3 class="mb-4">Email Marketing:</h3>
 
-                            <p>This is another great feature of Evergreen By Designs plans is that they include email marketing (Premium plans and above)!</p><p>Email marketing alone can be confusing, let alone having to deal with the tech behind it. These plans include email sending management so you can stay in constant contact with your subscribers/customers.</p><p>Plus you get a custom email templates to give your emails a professional look and feel. With Gold plan and above you can setup email automations from drip marketing.</p>
+                            <p>This is another great feature of Evergreen By Designs plans is that they include email marketing (Premium plans and above)!</p><p><a href="https://neilpatel.com/blog/beginners-guide-email-marketing/" target="_blank">Email marketing alone can be confusing,</a> let alone having to deal with the tech behind it. These plans include email sending management so you can stay in constant contact with your subscribers/customers.</p><p>Plus you get a custom email templates to give your emails a professional look and feel. With Gold plan and above you can setup email automations from drip marketing.</p>
                             <p>Please note that emails setup for automations are NOT counted against your weekly emails.</p>
 
                         </div>

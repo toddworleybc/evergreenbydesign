@@ -142,7 +142,7 @@
         </div>
         <!-- page container  -->
 
-        <section id="ebd-section-contact" class="contact-bg-gradient mb-0">
+        <section id="ebd-section-contact" class="contact-bg-gradient">
 
             <div class="ebd-container flex flex-col md:flex-row justify-start items-start shadow-lg border rounded w-full mx-auto">
 
