@@ -112,7 +112,7 @@
                         <h2 id="information-heading" class="inline-block">Document Information<hr/></h2>
                         <p>Policy Date: 6/13/23</p>
                         <p>Ref# 3e46d4b188e5.v1.0</p>
-                        <a href="/media/docs/Terms of Services.pdf" download>Download PDF</a>
+                        <a href="/media/docs/terms-of-services.pdf" download>Download PDF</a>
                     </section>
 
                     <section id="introduction" aria-labelledby="intro-heading" class="mb-0">

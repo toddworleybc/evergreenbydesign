@@ -84,16 +84,19 @@ class sendEmailController extends Controller
 
     private function sendEmailToClient($request) {
 
+        $welcomePacketLink = url('media/docs/terms-of-services.pdf');
+        $termsOfServicesLink = url('media/docs/terms-of-services.pdf');
 
-        $emailHtml = "<p style='margin-bottom: 20px'>Hello $request->name</p><p style='margin-bottom:20px'>This is Todd at Evergreen By Design. I just wanted to let you know that I have received your email and will be responding in 1 business day.</p><p>If you have any further questions or have you may reply to this email or you can give me a call. Monday - Friday 9:00 am to 4:00 pm</p><p>Phone: (541) 378.5563</p>";
 
-        $ebdWelcomePacket = storage_path('app/docs/ebd-welcome-packet.pdf');    
+        $emailHtml = "<p style='margin-bottom: 20px'>Hello $request->name</p><p style='margin-bottom:20px'>Evergreen By Design has received your message! Please allow 24hrs (1 business day) for response.</p><p>Below is the Evergreen By Design welcome packet and terms of services.</p><p style='margin-bottom: 20px'><a href='$welcomePacketLink'>Welcome Packet</a></p><p style='margin-bottom: 20px'><a href='$termsOfServicesLink'>Terms Of Services</a></p><p style='margin-bottom: 20px'>If you have any further questions or have you may reply to this email or you can give me a call.</p><address><p>Hours: Monday - Friday 9:00 am to 4:00 pm</p><p>Phone:<a href='tel:5413785563'>(541) 378.5563</a></p><p>Roseburg, Oregon 97471</p></address><p>Reply \"Stop\" to this email to stop receiving emails from Evergreen By Design</p>";
+
+        // $ebdWelcomePacket = storage_path('app/docs/ebd-welcome-packet.pdf');    
 
         $email = new \SendGrid\Mail\Mail();
          
         
         $email->setFrom("todd@evergreenbydesign.com", "Evergreen By Design");
-        $email->setSubject("Evergreen By Design Received Your Email!");
+        $email->setSubject("RE: Received Your Message! - Evergreen By Design");
 
         $email->addTo($request->email, $request->name);
         $email->addContent(
@@ -102,13 +105,13 @@ class sendEmailController extends Controller
 
 
         
-        $file_encoded = base64_encode(file_get_contents($ebdWelcomePacket));
-        $email->addAttachment(
-            $file_encoded,
-            "application/pdf",
-            "Welcome Packet.pdf",
-            "attachment"
-        );
+        // $file_encoded = base64_encode(file_get_contents($ebdWelcomePacket));
+        // $email->addAttachment(
+        //     $file_encoded,
+        //     "application/pdf",
+        //     "Welcome Packet.pdf",
+        //     "attachment"
+        // );
 
 
         //============
