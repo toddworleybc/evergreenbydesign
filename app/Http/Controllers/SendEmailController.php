@@ -84,7 +84,7 @@ class sendEmailController extends Controller
 
     private function sendEmailToClient($request) {
 
-        $welcomePacketLink = url('media/docs/terms-of-services.pdf');
+        $welcomePacketLink = url('media/docs/welcome-packet-evergreen-by-design.pdf');
         $termsOfServicesLink = url('media/docs/terms-of-services.pdf');
 
 
