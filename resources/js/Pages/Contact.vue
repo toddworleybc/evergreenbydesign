@@ -94,6 +94,7 @@
                 <p>Local to Roseburg, I love the Pacific Northwest. From the beautiful forests to the gorgeous oceans. Being able to design websites for businesses and online entrepreneurs in this great state has been a true blessing.</p>
                 <p>If you want top quality website design and to have all your website services bundled into one nice fee then contact Evergreen By Design today.</p>
                 <p class="text-2xl">Phone: <a style="font-size: 1.4rem" href="tel:+15413785563">(541) 378.5563</a></p>
+                <p class="text-2xl">Email: <a style="font-size: 1.4rem" href="mailto:todd@evergreenbydesign.com">todd@evergreenbydesign.com</a></p>
                 <p class="text-2xl">Hours: Mon-Fri 9:00 AM to 4:00 PM</p>
                 <p class="text-2xl">Location: Roseburg, Oregon</p>
             </section>

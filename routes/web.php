@@ -28,17 +28,11 @@ Route::get('/', function() {
 
 Route::name('service.')->prefix('service-areas')->group(function () {
 
-   // Springfield ==/
-   Route::get('/springfield-oregon-website-design-and-management-services', function() {
-      return Inertia::render('ServiceAreas/Springfield');
-   })->name('springfield');
 
-
-   // Roseburg ==/
-   Route::get('/roseburg-oregon-website-design-and-management-services', function () {
-       return Inertia::render('ServiceAreas/Roseburg');
-   })->name('roseburg');
-
+   // Beaverton ==/
+   Route::get('/beaverton-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Beaverton');
+   })->name('beaverton');
 
    // Eugene ==/
    Route::get('/eugene-oregon-website-design-and-management-services', function() {
@@ -46,11 +40,11 @@ Route::name('service.')->prefix('service-areas')->group(function () {
    })->name('eugene');
 
 
-   // Beaverton ==/
-   Route::get('/beaverton-oregon-website-design-and-management-services', function() {
-      return Inertia::render('ServiceAreas/Beaverton');
-   })->name('beaverton');
-   
+   // Keizer ==/
+   Route::get('/website-design-and-services-keizer-oregon', function() {
+      return Inertia::render('ServiceAreas/Keizer');
+   })->name('keizer');
+
 
    // Oregon City ==/
    Route::get('/oregon-city-website-design-and-management-services', function() {
@@ -58,6 +52,25 @@ Route::name('service.')->prefix('service-areas')->group(function () {
    })->name('oregoncity');
 
 
+
+   // Roseburg ==/
+   Route::get('/roseburg-oregon-website-design-and-management-services', function () {
+      return Inertia::render('ServiceAreas/Roseburg');
+  })->name('roseburg');
+
+
+  // Wilsonville ==/
+  Route::get('/website-management-and-design-wilsonville-oregon', function () {
+   return Inertia::render('ServiceAreas/Wilsonville');
+   })->name('wilsonville');
+
+
+
+
+   // Springfield ==/
+   Route::get('/springfield-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Springfield');
+   })->name('springfield');
    
 });
 
