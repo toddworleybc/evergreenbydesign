@@ -81,6 +81,22 @@
 
         <Head title="About">
             <meta name="description" content="Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!">
+            <!-- Facebook Meta Tags -->
+                    <meta property="og:url" content="https://www.evergreenbydesign.com/about-evergreen-by-design">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="About - Evergreen By Design">
+                    <meta property="og:description" content="Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!">
+                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/svg/history.svg">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="evergreenbydesign.com">
+                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/about-evergreen-by-design">
+                    <meta name="twitter:title" content="About - Evergreen By Design">
+                    <meta name="twitter:description" content="Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!">
+                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/svg/history.svg">
+
+                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="About <br/> Evergreen By Design" />
