@@ -141,6 +141,22 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong><bdt clas
 
             <Head title="Terms of Use">
                 <meta name="description" content="Evergreen By Design's website terms of usage">
+                <!-- Facebook Meta Tags -->
+                <meta property="og:url" content="https://www.evergreenbydesign.com/evergreey-by-design-website-usage-terms">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="Terms of Use - Evergreen By Design">
+                    <meta property="og:description" content="Evergreen By Design's website terms of usage.">
+                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="evergreenbydesign.com">
+                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/evergreey-by-design-website-usage-terms">
+                    <meta name="twitter:title" content="Terms of Use - Evergreen By Design">
+                    <meta name="twitter:description" content="Evergreen By Design's website terms of usage">
+                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
+
+                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
             </Head>
 
             <PageBanner heading="Evergreen By Design <br/> Website Terms Of Use" />

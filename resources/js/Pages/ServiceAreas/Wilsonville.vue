@@ -13,6 +13,23 @@
 
         <Head title="Website Management and Design | Wilsonville Oregon">
             <meta name="description" content="Get ongoing website management services with FULL website design in Wilsonville Oregon! Includes Hosting, Email Marketing, Content Management, and more!">
+
+            <!-- Facebook Meta Tags -->
+            <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/website-management-and-design-wilsonville-oregon">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="Website Management and Design | Wilsonville Oregon">
+                    <meta property="og:description" content="Get ongoing website management services with FULL website design in Wilsonville Oregon! Includes Hosting, Email Marketing, Content Management, and more!">
+                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/wilsonville-opt.jpg">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="evergreenbydesign.com">
+                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/website-management-and-design-wilsonville-oregon">
+                    <meta name="twitter:title" content="Website Management and Design | Wilsonville Oregon">
+                    <meta name="twitter:description" content="Get ongoing website management services with FULL website design in Wilsonville Oregon! Includes Hosting, Email Marketing, Content Management, and more!">
+                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/wilsonville-opt.jpg">
+
+                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Wilsonville Oregon <br/>Website Management and Design" />

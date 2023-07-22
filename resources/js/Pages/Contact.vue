@@ -80,6 +80,22 @@
 
         <Head title="Contact">
             <meta name="description" content="Contact your next website designer here today! Not only does Evergreen By Design provide professional website design, but you also receive hosting, domain, content management and email marketing.">
+            <!-- Facebook Meta Tags -->
+            <meta property="og:url" content="https://www.evergreenbydesign.com/contact-evergreen-by-design">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="Evergreen By Design - Contact">
+                    <meta property="og:description" content="Contact your next website designer here today! Not only does Evergreen By Design provide professional website design, but you also receive hosting, domain, content management and email marketing.">
+                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="evergreenbydesign.com">
+                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/contact-evergreen-by-design">
+                    <meta name="twitter:title" content="Evergreen By Design - Contact">
+                    <meta name="twitter:description" content="Contact your next website designer here today! Not only does Evergreen By Design provide professional website design, but you also receive hosting, domain, content management and email marketing.">
+                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
+
+                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Contact <br/> Evergreen By Design" />

@@ -13,6 +13,23 @@
 
         <Head title="Roseburg Oregon Website Design and Management Services">
             <meta name="description" content="Roseburg Oregon Website Design and Management Services. Locally owned is a top website designer business providing you with the best in website services!">
+
+            <!-- Facebook Meta Tags -->
+            <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/roseburg-oregon-website-design-and-management-services">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="Roseburg Oregon Website Design and Management Services">
+                    <meta property="og:description" content="Roseburg Oregon Website Design and Management Services. Locally owned is a top website designer business providing you with the best in website services!">
+                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/roseburg-opt.jpg">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="evergreenbydesign.com">
+                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/roseburg-oregon-website-design-and-management-services">
+                    <meta name="twitter:title" content="Roseburg Oregon Website Design and Management Services">
+                    <meta name="twitter:description" content="Roseburg Oregon Website Design and Management Services. Locally owned is a top website designer business providing you with the best in website services!">
+                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/roseburg-opt.jpg">
+
+                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Roseburg Oregon <br/> Website Design and Management Services" />
