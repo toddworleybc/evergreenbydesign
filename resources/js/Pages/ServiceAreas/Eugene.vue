@@ -4,6 +4,22 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
+    import { onMounted } from 'vue';
+    import { openGraph } from '@/Utilities/openGraph';
+
+
+    function setOpenGraph() {
+        openGraph.title = 'Eugene Oregon Website Design and Management Services';
+        openGraph.description = 'Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!';
+        openGraph.slug = 'service-areas/eugene-oregon-website-design-and-management-services';
+        openGraph.img_slug = 'media/images/jpg/eugene-opt.jpg';
+    }//#
+
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
  
 </script>
 
@@ -13,22 +29,6 @@
 
         <Head title="Eugene Oregon Website Design and Management Services">
             <meta name="description" content="Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!">
-             <!-- Facebook Meta Tags -->
-             <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/eugene-oregon-website-design-and-management-services">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Eugene Oregon Website Design and Management Services">
-                    <meta property="og:description" content="Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!">
-                    <meta property="og:image" content="https://evergreenbydesign.com//media/images/jpg/eugene-opt.jpg">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/eugene-oregon-website-design-and-management-services">
-                    <meta name="twitter:title" content="Eugene Oregon Website Design and Management Services">
-                    <meta name="twitter:description" content="Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/eugene-opt.jpg">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Eugene Oregon <br/> Website Design and Management Servicess" />

@@ -4,6 +4,22 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
+    import { openGraph } from '@/Utilities/openGraph';
+    import { onMounted } from 'vue';
+
+    
+    function setOpenGraph() {
+        openGraph.title = 'Oregon City Website Design and Management Services';
+        openGraph.description = 'Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!';
+        openGraph.slug = 'service-areas/oregon-city-website-design-and-management-services';
+        openGraph.img_slug = 'media/images/jpg/oregoncity-opt.jpg';
+    }//#
+
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
  
 </script>
 
@@ -13,23 +29,6 @@
 
         <Head title="Oregon City Website Design and Management Services">
             <meta name="description" content="Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!">
-
-            <!-- Facebook Meta Tags -->
-            <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/oregon-city-website-design-and-management-services">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Oregon City Website Design and Management Services">
-                    <meta property="og:description" content="Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/oregoncity-opt.jpg">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/oregon-city-website-design-and-management-services">
-                    <meta name="twitter:title" content="Oregon City Website Design and Management Services">
-                    <meta name="twitter:description" content="Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/oregoncity-opt.jpg">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Oregon City <br/> Website Design and Management Services" />

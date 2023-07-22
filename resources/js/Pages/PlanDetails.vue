@@ -6,10 +6,20 @@
     import WebsiteDesignSvg from '@/Components/Svg/website.svg';
     import PlansSvg from '@/Components/Svg/plans.svg';
     import { Head } from '@inertiajs/vue3';
+    import { openGraph } from '@/Utilities/openGraph';
 
 
+    function setOpenGraph() {
+        openGraph.title = 'Website Service Plan Details';
+        openGraph.description = 'Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you\'re in good hands!';
+        openGraph.slug = 'website-design-and-management';
+        openGraph.img_slug = 'media/images/png/management.png';
+    }//#
 
 
+    onMounted( () => {
+        setOpenGraph();
+    } );
 
 
 </script>
@@ -23,21 +33,6 @@
 
             <Head title="Website Service Plan Details">
                 <meta name="description" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
-                  <!-- Facebook Meta Tags -->
-                  <meta property="og:url" content="https://www.evergreenbydesign.com/website-design-and-management">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Website Service Plan Details">
-                    <meta property="og:description" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/management.png">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/website-design-and-management">
-                    <meta name="twitter:title" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/management.png">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
             </Head>
 
             <PageBanner heading="Website Design And Management Services<br/> Plan Details" />

@@ -3,7 +3,26 @@
     import PageBanner from '@/Components/PageBanner.vue';
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
-    import { modal } from '@/Utilities/modal'; 
+    import { modal } from '@/Utilities/modal';
+    import { onMounted } from 'vue'; 
+    import { openGraph } from '@/Utilities/openGraph';
+
+
+    function setOpenGraph() {
+        openGraph.title = 'Beaverton Oregon | Website Design and Management Services';
+        openGraph.description = 'Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!';
+        openGraph.slug = 'service-areas/beaverton-oregon-website-design-and-management-services';
+        openGraph.img_slug = 'media/images/jpg/beaverton-opt.jpg';
+    }//#
+
+
+    
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
+
  
 </script>
 
@@ -13,24 +32,6 @@
 
         <Head title="Beaverton Oregon | Website Design and Management Services">
             <meta name="description" content="Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!">
-
-
-             <!-- Facebook Meta Tags -->
-             <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/beaverton-oregon-website-design-and-management-services">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Beaverton Oregon | Website Design and Management Services">
-                    <meta property="og:description" content="Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/beaverton-opt.jpg">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/beaverton-oregon-website-design-and-management-services">
-                    <meta name="twitter:title" content="Beaverton Oregon | Website Design and Management Services">
-                    <meta name="twitter:description" content="Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/beaverton-opt.jpg">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Beaverton Oregon <br/> Website Design and Management Services" />

@@ -4,6 +4,24 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
+    import { openGraph } from '@/Utilities/openGraph';
+    import { onMounted } from 'vue';
+
+
+
+    function setOpenGraph() {
+        openGraph.title = 'Website Services and Design | Newberg Oregon';
+        openGraph.description = 'Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...';
+        openGraph.slug = 'service-areas/website-design-and-services-newberg-oregon';
+        openGraph.img_slug = 'media/images/jpg/newberg-opt.jpg';
+    }//#
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
+
+
  
 </script>
 
@@ -13,23 +31,6 @@
 
         <Head title="Website Services and Design | Newberg Oregon">
             <meta name="description" content="Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...">
-
-            <!-- Facebook Meta Tags -->
-            <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/website-design-and-services-newberg-oregon">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Website Services and Design | Newberg Oregon">
-                    <meta property="og:description" content="Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/newberg-opt.jpg">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/website-design-and-services-newberg-oregon">
-                    <meta name="twitter:title" content="Website Services and Design | Newberg Oregon">
-                    <meta name="twitter:description" content="Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/newberg-opt.jpg">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Newberg Oregon <br/> Website Services and Design" />

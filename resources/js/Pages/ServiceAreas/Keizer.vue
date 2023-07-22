@@ -4,6 +4,21 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
+    import { openGraph } from '@/Utilities/openGraph';
+    import { onMounted } from 'vue';
+
+
+    function setOpenGraph() {
+        openGraph.title = 'Website Design and Services | Keizer Oregon';
+        openGraph.description = 'Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...';
+        openGraph.slug = 'service-areas/website-design-and-services-keizer-oregon';
+        openGraph.img_slug = 'media/images/jpg/keizer-opt.jpg';
+    }//#
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
  
 </script>
 
@@ -13,23 +28,6 @@
 
         <Head title="Website Design and Services | Keizer Oregon">
             <meta name="description" content="Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...">
-
-            <!-- Facebook Meta Tags -->
-            <meta property="og:url" content="https://www.evergreenbydesign.com/service-areas/website-design-and-services-keizer-oregon">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Website Design and Services | Keizer Oregon">
-                    <meta property="og:description" content="Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/jpg/keizer-opt.jpg">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/service-areas/website-design-and-services-keizer-oregon">
-                    <meta name="twitter:title" content="Website Design and Services | Keizer Oregon">
-                    <meta name="twitter:description" content="Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/jpg/keizer-opt.jpg">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Keizer Oregon <br/>Website Design and Services" />

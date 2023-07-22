@@ -6,6 +6,7 @@
     import { ref, onMounted } from 'vue';
     import { modal } from '@/Utilities/modal';
     import { useForm, Link, Head } from '@inertiajs/vue3';
+    import { openGraph } from '@/Utilities/openGraph';
 
 
     const formSuccess = ref(false);
@@ -65,9 +66,18 @@
     }//#
 
 
+    function setOpenGraph() {
+        openGraph.title = 'Website Design and Service Pricing';
+        openGraph.description = 'Get a professional website designer and ongoing website management with one of Evergreen By Design\'s website service plans. These plans include hosting, content management, email marketing, and more.';
+        openGraph.slug = 'website-design-and-management-pricing';
+        openGraph.img_slug = 'media/images/png/main-img.png';
+    }//#
+
+
 
     onMounted( () => {
         addReCAPTCHA();
+        setOpenGraph();
     } );
 
 
@@ -80,22 +90,6 @@
 
         <Head title="Website Design and Service Pricing">
             <meta name="description" content="Get a professional website designer and ongoing website management with one of Evergreen By Design's website service plans. These plans include hosting, content management, email marketing, and more.">
-            <!-- Facebook Meta Tags -->
-            <meta property="og:url" content="https://www.evergreenbydesign.com/website-design-and-management-pricing">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Website Design and Service Pricing">
-                    <meta property="og:description" content="Get a professional website designer and ongoing website management with one of Evergreen By Design's website service plans. These plans include hosting, content management, email marketing, and more.">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/website-design-and-management-pricing">
-                    <meta name="twitter:title" content="Website Design and Service Pricing">
-                    <meta name="twitter:description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         </Head>
 
         <PageBanner heading="Website Services And <br/>Management Pricing" />

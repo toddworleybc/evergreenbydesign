@@ -7,7 +7,8 @@
     import MostPopular from '@/Components/Svg/most-popular.svg';
     import WorkImg from '@/Components/Svg/work.svg';
     import { modal } from '@/Utilities/modal';
-    import { ref, onMounted } from 'vue';
+    import { openGraph } from '@/Utilities/openGraph';
+    import { ref, onMounted, onBeforeMount } from 'vue';
     import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline';
     
 
@@ -74,10 +75,17 @@
         document.head.append(recaptchaScript);
     }//#
 
+    function setOpenGraph() {
+        openGraph.title = 'Website Design and Management Services';
+        openGraph.description = 'Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.';
+        openGraph.slug = '';
+        openGraph.img_slug = 'media/images/png/main-img.png';
+    }//#
 
-
+  
     onMounted( () => {
         addReCAPTCHA();
+        setOpenGraph();
     } );
 
  
@@ -90,22 +98,9 @@
 
             <Head title="Website Design and Management Services">
                 <meta name="description" content="Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.">
-                <!-- Facebook Meta Tags -->
-                    <meta property="og:url" content="https://www.evergreenbydesign.com/">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Evergreen By Design - Website Design and Management Services">
-                    <meta property="og:description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/">
-                    <meta name="twitter:title" content="Evergreen By Design - Website Design and Management Services">
-                    <meta name="twitter:description" content="Evergreen By design provides both website design and FULL ongoing website management. Get your website services started today!">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+                <!--META TAGS HERE-->
+                hello
+                    
             </Head>
             <h1 class="sr-only">Evergreen By Design Website Design and Management Services</h1>
             <HeroBanner />

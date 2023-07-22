@@ -7,7 +7,21 @@
     import WebsiteDesignSvg from '@/Components/Svg/website.svg';
     import PlansSvg from '@/Components/Svg/plans.svg';
     import { Link } from '@inertiajs/vue3';
+    import { openGraph } from '@/Utilities/openGraph';
 
+
+    
+    function setOpenGraph() {
+        openGraph.title = 'Terms of Services - Evergreen By Design';
+        openGraph.description = 'Website design and management terms of services. Professional website design.';
+        openGraph.slug = 'terms-of-services';
+        openGraph.img_slug = 'media/images/png/main-img.png';
+    }//#
+
+
+    onMounted( () => {
+        setOpenGraph();
+    } );
 
 </script>
 
@@ -20,22 +34,6 @@
 
             <Head title="Terms of Services">
                 <meta name="description" content="Website design and management terms of services. Professional website design.">
-                    <!-- Facebook Meta Tags -->
-                    <meta property="og:url" content="https://www.evergreenbydesign.com/terms-of-services">
-                    <meta property="og:type" content="website">
-                    <meta property="og:title" content="Terms of Services - Evergreen By Design">
-                    <meta property="og:description" content="Website design and management terms of services. Professional website design.">
-                    <meta property="og:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Twitter Meta Tags -->
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta property="twitter:domain" content="evergreenbydesign.com">
-                    <meta property="twitter:url" content="https://www.evergreenbydesign.com/terms-of-services">
-                    <meta name="twitter:title" content="Terms of Services - Evergreen By Design">
-                    <meta name="twitter:description" content="Website design and management terms of services. Professional website design.">
-                    <meta name="twitter:image" content="https://evergreenbydesign.com/media/images/png/main-img.png">
-
-                    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
             </Head>
 
             <PageBanner heading="Evergreen By Design <br/> Terms of Services" />
