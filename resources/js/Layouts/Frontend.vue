@@ -6,7 +6,7 @@
     import menu from '@/Utilities/menu';
     import { ChatBubbleLeftIcon, ArrowUpIcon } from '@heroicons/vue/24/outline';
     import Modal from '@/Components/Modal.vue';
-    import { openGraph } from '@/Utilities/openGraph';
+    // import { openGraph } from '@/Utilities/openGraph';
     import { ref, watch, onMounted } from 'vue';
 
 
@@ -163,19 +163,19 @@
     <div>
         <Head>
             <!-- Facebook Meta Tags -->
-            <meta property="og:url" :content="route('home')+'/'+openGraph.slug">
+            <!-- <meta property="og:url" :content="route('home')+'/'+openGraph.slug">
             <meta property="og:type" content="website">
             <meta property="og:title" :content="openGraph.title">
             <meta property="og:description" :content="openGraph.description">
-            <meta property="og:image" :content="route('home')+'/'+openGraph.img_slug">
+            <meta property="og:image" :content="route('home')+'/'+openGraph.img_slug"> -->
 
             <!-- Twitter Meta Tags -->
-            <meta name="twitter:card" content="summary_large_image">
+            <!-- <meta name="twitter:card" content="summary_large_image">
             <meta property="twitter:domain" content="evergreenbydesign.com">
             <meta property="twitter:url" :content="route('home')+'/'+openGraph.slug">
             <meta name="twitter:title" :content="openGraph.title">
             <meta name="twitter:description" :content="openGraph.description">
-            <meta name="twitter:image" :content="route('home')+'/'+openGraph.img_slug">
+            <meta name="twitter:image" :content="route('home')+'/'+openGraph.img_slug"> -->
         </Head>
        
     

@@ -4,23 +4,23 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
+    // import { openGraph } from '@/Utilities/openGraph';
+    // import { onMounted } from 'vue';
 
 
 
-    function setOpenGraph() {
-        openGraph.title = 'Woodburn Oregon Professional Website Design and Services';
-        openGraph.description = '"Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!';
-        openGraph.slug = 'service-areas/woodburn-oregon-professional-website-design-and-services';
-        openGraph.img_slug = 'media/images/jpg/woodburn-opt.jpg';
-    }//#
+    // function setOpenGraph() {
+    //     openGraph.title = 'Woodburn Oregon Professional Website Design and Services';
+    //     openGraph.description = '"Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!';
+    //     openGraph.slug = 'service-areas/woodburn-oregon-professional-website-design-and-services';
+    //     openGraph.img_slug = 'media/images/jpg/woodburn-opt.jpg';
+    // }//#
 
 
 
-    onMounted( () => {
-        setOpenGraph();
-    } );
+    // onMounted( () => {
+    //     setOpenGraph();
+    // } );
 
  
 </script>
@@ -31,6 +31,27 @@
 
         <Head title="Woodburn Oregon Professional Website Design and Services">
             <meta name="description" content="Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!">
+            <meta property="og:locale" content="en_US" />
+            <!-- Facebook Meta Tags -->
+            <meta property='og:url' content='https://evergreenbydesign.com/'>
+            <meta property='og:title' content='Woodburn Oregon Professional Website Design and Services'>
+            <meta property='og:description' content='Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!'>
+            <meta property='og:image' content='https://evergreenbydesign.com/media/images/jpg/woodburn-opt.jpg'>
+
+            <!-- Twitter Meta Tags -->
+            <meta name='twitter:card' content='summary_large_image'>
+            <meta property='twitter:domain' content='evergreenbydesign.com/service-areas/woodburn-oregon-professional-website-design-and-services'>
+            <meta property='twitter:url' content=''>
+            <meta name='twitter:title' content='Woodburn Oregon Professional Website Design and Services'>
+            <meta name='twitter:description' content='Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!'>
+            <meta name='twitter:image' content='https://evergreenbydesign.com/media/images/jpg/woodburn-opt.jpg'>
+
+            <!-- Meta Tags Generated via DNSChecker.org -->
+
+
+
+
+
         </Head>
 
         <PageBanner heading="Woodburn Oregon <br/> Professional Website Design and Services" />
