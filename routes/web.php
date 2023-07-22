@@ -46,6 +46,12 @@ Route::name('service.')->prefix('service-areas')->group(function () {
    })->name('keizer');
 
 
+   // Newberg ==/
+   Route::get('/website-design-and-services-newberg-oregon', function() {
+      return Inertia::render('ServiceAreas/Newberg');
+   })->name('newberg');
+
+
    // Oregon City ==/
    Route::get('/oregon-city-website-design-and-management-services', function() {
       return Inertia::render('ServiceAreas/OregonCity');
@@ -59,18 +65,27 @@ Route::name('service.')->prefix('service-areas')->group(function () {
   })->name('roseburg');
 
 
+   // Springfield ==/
+   Route::get('/springfield-oregon-website-design-and-management-services', function() {
+      return Inertia::render('ServiceAreas/Springfield');
+   })->name('springfield');
+
+
   // Wilsonville ==/
   Route::get('/website-management-and-design-wilsonville-oregon', function () {
    return Inertia::render('ServiceAreas/Wilsonville');
    })->name('wilsonville');
 
 
+    // Woodburn ==/
+    Route::get('/woodburn-oregon-professional-website-design-and-services', function() {
+      return Inertia::render('ServiceAreas/Woodburn');
+   })->name('woodburn');
 
 
-   // Springfield ==/
-   Route::get('/springfield-oregon-website-design-and-management-services', function() {
-      return Inertia::render('ServiceAreas/Springfield');
-   })->name('springfield');
+
+
+  
    
 });
 

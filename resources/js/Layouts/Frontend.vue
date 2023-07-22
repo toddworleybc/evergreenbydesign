@@ -194,6 +194,9 @@
                             <li><a :href="route('service.oregoncity')">Oregon City</a></li>
                             <li><a :href="route('service.keizer')">Keizer</a></li>
                             <li><a :href="route('service.wilsonville')">Wilsonville</a></li>
+                            <li><a :href="route('service.newberg')">Newberg</a></li>
+                            <li><a :href="route('service.woodburn')">Woodburn</a></li>
+                            
                         </ul>
                     </div>
                 </div>
