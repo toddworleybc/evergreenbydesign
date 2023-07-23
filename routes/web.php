@@ -20,8 +20,15 @@ use Illuminate\Support\Facades\Http;
 */
 
 
+
 Route::get('/', function() {
-   return Inertia::render('Home');
+   return Inertia::render('Home', [
+      'openGraph' => [
+         'title' => 'Website Design and Management Services',
+         'description' => 'Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.',
+         'imageUrl' => asset('media/images/png/main-img.png'),
+      ]
+   ]);
 })->name('home');
 
 
@@ -79,7 +86,13 @@ Route::name('service.')->prefix('service-areas')->group(function () {
 
     // Woodburn ==/
     Route::get('/woodburn-oregon-professional-website-design-and-services', function() {
-      return Inertia::render('ServiceAreas/Woodburn');
+      return Inertia::render('ServiceAreas/Woodburn', [
+         'openGraph' => [
+            'title' => 'Woodburn Oregon Professional Website Design and Services',
+            'description' => 'Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!',
+            'imageUrl' => asset('media/images/jpg/woodburn-opt.jpg'),
+         ]
+      ]);
    })->name('woodburn');
 
 
@@ -90,11 +103,11 @@ Route::name('service.')->prefix('service-areas')->group(function () {
 });
 
 
-Route::name('admin.')->group(function () {
-   Route::get('/users', function () {
-       // Route assigned name "admin.users"...
-   })->name('users');
-});
+// Route::name('admin.')->group(function () {
+//    Route::get('/users', function () {
+//        // Route assigned name "admin.users"...
+//    })->name('users');
+// });
 
 Route::post('/sendemail', [SendEmailController::class, 'sendEmail'])->name("send.email");
 
@@ -103,8 +116,17 @@ Route::get( '/website-design-and-management', function() {
    return Inertia::render('PlanDetails');
 } )->name('plan.details');
 
+
+
+
 Route::get( '/about-evergreen-by-design', function() {
-   return Inertia::render('About');
+   return Inertia::render('About', [
+      'openGraph' => [
+         'title' => 'About - Evergreen By Design',
+         'description' => 'Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!',
+         'imageUrl' => asset('media/images/svg/history.svg'),
+      ]
+   ]);
 } )->name('about');
 
 

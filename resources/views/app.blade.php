@@ -12,11 +12,16 @@
         </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="en_US" />
         
-        <link rel="icon" type="image/svg" href="media/images/svg/ebd-logo-rounded.svg">
+        <link rel="icon" type="image/svg" href="{{ asset('media/images/svg/ebd-logo-rounded.svg') }}">
 
         <title inertia>{{ config('app.name', 'Evergreen By Design') }}</title>
 
+       
+       
+        
+       
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -27,9 +32,23 @@
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
 
-          
+        @if( isset($page['props']['openGraph']) )
+        <!-- Facebook Meta Tags -->
+        <meta property='og:url' content="{{ $page['props']['ziggy']['location'] }}">
+        <meta property='og:title' content="{{ $page['props']['openGraph']['title'] }}">
+        <meta property='og:description' content="{{ $page['props']['openGraph']['description'] }}">
+        <meta property='og:image' content="{{ $page['props']['openGraph']['imageUrl'] }}">
 
-        
+        <!-- Twitter Meta Tags -->
+        <meta name='twitter:card' content='summary_large_image'>
+        <meta property='twitter:domain' content="evergreenbydesign.com{{ $page['url'] }}">
+        <meta property='twitter:url' content="{{ $page['props']['ziggy']['location'] }}">
+        <meta name='twitter:title' content="{{ $page['props']['openGraph']['title'] }}">
+        <meta name='twitter:description' content="{{ $page['props']['openGraph']['description'] }}">
+        <meta name='twitter:image' content="{{ $page['props']['openGraph']['imageUrl'] }}">
+
+        <!-- Meta Tags Generated via DNSChecker.org -->
+        @endif
 
         <!-- Meta Pixel Code -->
         <script>

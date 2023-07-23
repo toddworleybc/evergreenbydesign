@@ -3,7 +3,6 @@
     import FrontEnd from '@/Layouts/Frontend.vue';
     import ComputerImg from '@/Components/Svg/computer-green-screen.svg';
     import { PhoneIcon, EnvelopeIcon, ArrowPathIcon } from '@heroicons/vue/24/outline';
-    import { openGraph } from '@/Utilities/openGraph';
     import { ref, onMounted } from 'vue';
     import { useForm, Link, Head } from '@inertiajs/vue3';
 
@@ -67,17 +66,8 @@
     }//#
 
 
-    function setOpenGraph() {
-        openGraph.title = 'About - Evergreen By Design';
-        openGraph.description = 'Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!';
-        openGraph.slug = 'about-evergreen-by-design';
-        openGraph.img_slug = 'media/images/svg/history.svg';
-    }//#
-
-
     onMounted( () => {
         addReCAPTCHA();
-        setOpenGraph();
     } );
 
 

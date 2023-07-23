@@ -7,8 +7,7 @@
     import MostPopular from '@/Components/Svg/most-popular.svg';
     import WorkImg from '@/Components/Svg/work.svg';
     import { modal } from '@/Utilities/modal';
-    import { openGraph } from '@/Utilities/openGraph';
-    import { ref, onMounted, onBeforeMount } from 'vue';
+    import { ref, onMounted } from 'vue';
     import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline';
     
 
@@ -75,17 +74,11 @@
         document.head.append(recaptchaScript);
     }//#
 
-    function setOpenGraph() {
-        openGraph.title = 'Website Design and Management Services';
-        openGraph.description = 'Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.';
-        openGraph.slug = '';
-        openGraph.img_slug = 'media/images/png/main-img.png';
-    }//#
+    
 
   
     onMounted( () => {
         addReCAPTCHA();
-        setOpenGraph();
     } );
 
  
@@ -98,8 +91,6 @@
 
             <Head title="Website Design and Management Services">
                 <meta name="description" content="Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.">
-                <!--META TAGS HERE-->
-                hello
                     
             </Head>
             <h1 class="sr-only">Evergreen By Design Website Design and Management Services</h1>
