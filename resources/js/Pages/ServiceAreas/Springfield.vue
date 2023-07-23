@@ -4,23 +4,9 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal';
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
     
 
-    function setOpenGraph() {
-        openGraph.title = 'Springfield Oregon Website Design and Management Services';
-        openGraph.description = 'Springfield Oregon Website Design and Management Services. These website services provide everything you need to get your website up and running. Contact Today.';
-        openGraph.slug = 'service-areas/springfield-oregon-website-design-and-management-services';
-        openGraph.img_slug = 'media/images/jpg/springfield-opt.jpg';
-    }//#
 
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
- 
 </script>
 
 <template>

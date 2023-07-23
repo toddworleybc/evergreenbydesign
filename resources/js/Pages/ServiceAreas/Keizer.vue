@@ -4,21 +4,6 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
-
-
-    function setOpenGraph() {
-        openGraph.title = 'Website Design and Services | Keizer Oregon';
-        openGraph.description = 'Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...';
-        openGraph.slug = 'service-areas/website-design-and-services-keizer-oregon';
-        openGraph.img_slug = 'media/images/jpg/keizer-opt.jpg';
-    }//#
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
  
 </script>
 

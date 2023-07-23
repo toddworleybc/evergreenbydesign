@@ -1,27 +1,16 @@
 <script setup>
     import PageBanner from '@/Components/PageBanner.vue';
-    import { onMounted, ref } from 'vue';
     import { Head } from '@inertiajs/vue3';
     import FrontEnd from '@/Layouts/Frontend.vue';
     import ManagementSvg from '@/Components/Svg/management.svg';
     import WebsiteDesignSvg from '@/Components/Svg/website.svg';
     import PlansSvg from '@/Components/Svg/plans.svg';
     import { Link } from '@inertiajs/vue3';
-    import { openGraph } from '@/Utilities/openGraph';
-
-
     
-    function setOpenGraph() {
-        openGraph.title = 'Terms of Services - Evergreen By Design';
-        openGraph.description = 'Website design and management terms of services. Professional website design.';
-        openGraph.slug = 'terms-of-services';
-        openGraph.img_slug = 'media/images/png/main-img.png';
-    }//#
 
 
-    onMounted( () => {
-        setOpenGraph();
-    } );
+   
+
 
 </script>
 

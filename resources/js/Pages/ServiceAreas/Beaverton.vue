@@ -4,25 +4,6 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal';
-    import { onMounted } from 'vue'; 
-    import { openGraph } from '@/Utilities/openGraph';
-
-
-    function setOpenGraph() {
-        openGraph.title = 'Beaverton Oregon | Website Design and Management Services';
-        openGraph.description = 'Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!';
-        openGraph.slug = 'service-areas/beaverton-oregon-website-design-and-management-services';
-        openGraph.img_slug = 'media/images/jpg/beaverton-opt.jpg';
-    }//#
-
-
-    
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
-
  
 </script>
 

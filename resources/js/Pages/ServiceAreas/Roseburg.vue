@@ -4,21 +4,10 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
+    
 
 
-    function setOpenGraph() {
-        openGraph.title = 'Roseburg Oregon Website Design and Management Services';
-        openGraph.description = 'Roseburg Oregon Website Design and Management Services. Locally owned is a top website designer business providing you with the best in website services!';
-        openGraph.slug = 'service-areas/roseburg-oregon-website-design-and-management-services';
-        openGraph.img_slug = 'media/images/jpg/roseburg-opt.jpg';
-    }//#
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
+  
 
  
 </script>

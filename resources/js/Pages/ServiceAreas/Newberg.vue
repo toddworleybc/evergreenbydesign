@@ -4,23 +4,7 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
-
-
-
-    function setOpenGraph() {
-        openGraph.title = 'Website Services and Design | Newberg Oregon';
-        openGraph.description = 'Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...';
-        openGraph.slug = 'service-areas/website-design-and-services-newberg-oregon';
-        openGraph.img_slug = 'media/images/jpg/newberg-opt.jpg';
-    }//#
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
-
+  
 
  
 </script>

@@ -1,7 +1,6 @@
 <script setup>
     import PageBanner from '@/Components/PageBanner.vue';
     import FrontEnd from '@/Layouts/Frontend.vue';
-    import { openGraph } from '@/Utilities/openGraph';
     import { PhoneIcon, EnvelopeIcon, ArrowPathIcon } from '@heroicons/vue/24/outline';
     import { ref, onMounted } from 'vue';
     import { useForm, Head } from '@inertiajs/vue3';
@@ -65,17 +64,11 @@
     }//#
 
 
-    function setOpenGraph() {
-        openGraph.title = 'Contact - Evergreen By Design';
-        openGraph.description = 'Contact your next website designer here today! Not only does Evergreen By Design provide professional website design, but you also receive hosting, domain, content management and email marketing.';
-        openGraph.slug = 'contact-evergreen-by-design';
-        openGraph.img_slug = 'media/images/jpg/main-img.jpg';
-    }//#
+  
 
 
     onMounted( () => {
         addReCAPTCHA();
-        setOpenGraph();
     } );
 
 

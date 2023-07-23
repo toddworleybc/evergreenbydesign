@@ -1,9 +1,9 @@
 <script setup>
    import FrontEnd from '@/Layouts/Frontend.vue';
    import PageBanner from '@/Components/PageBanner.vue';
-   import { onMounted, ref } from 'vue';
+   import { ref } from 'vue';
    import { Head } from '@inertiajs/vue3';
-   import { openGraph } from '@/Utilities/openGraph';
+
 
 
 
@@ -64,16 +64,8 @@ word-break: break-word !important;
       This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator/">Privacy Policy Generator</a>.
       </div>`);
 
-      function setOpenGraph() {
-        openGraph.title = 'Privacy Policy';
-        openGraph.description = 'Evergreen By Design website services and design privacy policy.';
-        openGraph.slug = 'evergreey-by-design-privacy-notice';
-        openGraph.img_slug = 'media/images/png/main-img.png';
-    }//#
 
-      onMounted( () => {
-        setOpenGraph();
-      } );
+
 
 </script>
 

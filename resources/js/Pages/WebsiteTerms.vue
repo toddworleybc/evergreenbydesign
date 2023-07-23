@@ -1,9 +1,9 @@
 <script setup>
  import FrontEnd from '@/Layouts/Frontend.vue';
  import PageBanner from '@/Components/PageBanner.vue';
- import {ref, onMounted} from 'vue';
+ import {ref} from 'vue';
  import { Head } from '@inertiajs/vue3';
- import { openGraph } from '@/Utilities/openGraph';
+
 
   const termsHtml = ref(`<style>
   [data-custom-class='body'], [data-custom-class='body'] * {
@@ -134,16 +134,7 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong><bdt clas
       </div>`);
 
 
-      function setOpenGraph() {
-        openGraph.title = 'Terms of Use - Evergreen By Design';
-        openGraph.description = 'Evergreen By Design\'s website terms of usage.';
-        openGraph.slug = 'evergreey-by-design-website-usage-terms';
-        openGraph.img_slug = 'media/images/png/main-img.png';
-    }//#
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
+   
 
 </script>
 

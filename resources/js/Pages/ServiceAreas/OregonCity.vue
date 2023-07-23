@@ -4,22 +4,7 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { openGraph } from '@/Utilities/openGraph';
-    import { onMounted } from 'vue';
-
-    
-    function setOpenGraph() {
-        openGraph.title = 'Oregon City Website Design and Management Services';
-        openGraph.description = 'Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!';
-        openGraph.slug = 'service-areas/oregon-city-website-design-and-management-services';
-        openGraph.img_slug = 'media/images/jpg/oregoncity-opt.jpg';
-    }//#
-
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
+  
  
 </script>
 

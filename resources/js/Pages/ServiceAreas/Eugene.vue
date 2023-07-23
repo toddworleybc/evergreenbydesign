@@ -4,22 +4,7 @@
     import Frontend from '@/Layouts/Frontend.vue';
     import { ArrowUturnLeftIcon, ChatBubbleLeftIcon, DocumentCheckIcon } from '@heroicons/vue/24/outline';
     import { modal } from '@/Utilities/modal'; 
-    import { onMounted } from 'vue';
-    import { openGraph } from '@/Utilities/openGraph';
-
-
-    function setOpenGraph() {
-        openGraph.title = 'Eugene Oregon Website Design and Management Services';
-        openGraph.description = 'Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!';
-        openGraph.slug = 'service-areas/eugene-oregon-website-design-and-management-services';
-        openGraph.img_slug = 'media/images/jpg/eugene-opt.jpg';
-    }//#
-
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
+    
  
 </script>
 

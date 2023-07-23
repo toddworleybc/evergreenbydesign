@@ -6,7 +6,7 @@
     import { ref, onMounted } from 'vue';
     import { modal } from '@/Utilities/modal';
     import { useForm, Link, Head } from '@inertiajs/vue3';
-    import { openGraph } from '@/Utilities/openGraph';
+   
 
 
     const formSuccess = ref(false);
@@ -66,18 +66,10 @@
     }//#
 
 
-    function setOpenGraph() {
-        openGraph.title = 'Website Design and Service Pricing';
-        openGraph.description = 'Get a professional website designer and ongoing website management with one of Evergreen By Design\'s website service plans. These plans include hosting, content management, email marketing, and more.';
-        openGraph.slug = 'website-design-and-management-pricing';
-        openGraph.img_slug = 'media/images/png/main-img.png';
-    }//#
-
-
+   
 
     onMounted( () => {
         addReCAPTCHA();
-        setOpenGraph();
     } );
 
 

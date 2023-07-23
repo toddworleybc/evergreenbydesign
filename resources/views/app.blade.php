@@ -37,6 +37,7 @@
         <meta property='og:url' content="{{ $page['props']['ziggy']['location'] }}">
         <meta property='og:title' content="{{ $page['props']['openGraph']['title'] }}">
         <meta property='og:description' content="{{ $page['props']['openGraph']['description'] }}">
+        <meta property="og:type" content="website" />
         <meta property='og:image' content="{{ $page['props']['openGraph']['imageUrl'] }}">
 
         <!-- Twitter Meta Tags -->

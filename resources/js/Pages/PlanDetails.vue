@@ -1,25 +1,11 @@
 <script setup>
     import PageBanner from '@/Components/PageBanner.vue';
-    import { onMounted, ref } from 'vue';
     import FrontEnd from '@/Layouts/Frontend.vue';
     import ManagementSvg from '@/Components/Svg/management.svg';
     import WebsiteDesignSvg from '@/Components/Svg/website.svg';
     import PlansSvg from '@/Components/Svg/plans.svg';
     import { Head } from '@inertiajs/vue3';
-    import { openGraph } from '@/Utilities/openGraph';
-
-
-    function setOpenGraph() {
-        openGraph.title = 'Website Service Plan Details';
-        openGraph.description = 'Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you\'re in good hands!';
-        openGraph.slug = 'website-design-and-management';
-        openGraph.img_slug = 'media/images/png/management.png';
-    }//#
-
-
-    onMounted( () => {
-        setOpenGraph();
-    } );
+   
 
 
 </script>
