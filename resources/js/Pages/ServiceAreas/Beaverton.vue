@@ -20,8 +20,10 @@
         <div class="max-w-3xl mx-auto mt-8">
         <section class="space-y-10 mb-8" aria-labelledby="beaverton-heading">
             
-
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
+                <div class="w-56">
+                    <Link class="btn flex items-center" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
+                </div>
+                
 
                 <h2 id="beaverton-heading" class="capitalize inline-block">Website design and managment services for Beaverton, Oregon<hr/></h2>
                 <img src="/media/images/jpg/beaverton-opt.jpg" alt="Beaverton welcome image">
@@ -51,8 +53,8 @@
                     <div class="space-x-2">
                         <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <div class="inline-block">
-                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    <div class="inline-block w-36">
+                        <Link class="btn flex justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
                     </div>
                     
                 </div>

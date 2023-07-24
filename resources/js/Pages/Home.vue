@@ -485,7 +485,7 @@
                         <OwlImg class="w-60" />
                     </div>
                     <div class="ebd-container">
-                        <h2 class="text-6xl py-24 text-white inspiration-heading text-center capitalize">Get the website design and management that your business needs to succeed in today's world!</h2>
+                        <h2 class="text-5xl sm:text-6xl py-24 text-white inspiration-heading text-center capitalize">Get the website design and management that your business needs to succeed in today's world!</h2>
                     </div>
                 </section>
 
