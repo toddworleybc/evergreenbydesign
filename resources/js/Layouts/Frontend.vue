@@ -1,12 +1,10 @@
 <script setup>
 
     import Header from '@/Components/Header.vue';
-    import { Head } from '@inertiajs/vue3';
     import { modal }   from '@/Utilities/modal';
     import menu from '@/Utilities/menu';
     import { ChatBubbleLeftIcon, ArrowUpIcon } from '@heroicons/vue/24/outline';
     import Modal from '@/Components/Modal.vue';
-    // import { openGraph } from '@/Utilities/openGraph';
     import { ref, watch, onMounted } from 'vue';
 
 
@@ -161,23 +159,6 @@
 
 <template>
     <div>
-        <Head>
-            <!-- Facebook Meta Tags -->
-            <!-- <meta property="og:url" :content="route('home')+'/'+openGraph.slug">
-            <meta property="og:type" content="website">
-            <meta property="og:title" :content="openGraph.title">
-            <meta property="og:description" :content="openGraph.description">
-            <meta property="og:image" :content="route('home')+'/'+openGraph.img_slug"> -->
-
-            <!-- Twitter Meta Tags -->
-            <!-- <meta name="twitter:card" content="summary_large_image">
-            <meta property="twitter:domain" content="evergreenbydesign.com">
-            <meta property="twitter:url" :content="route('home')+'/'+openGraph.slug">
-            <meta name="twitter:title" :content="openGraph.title">
-            <meta name="twitter:description" :content="openGraph.description">
-            <meta name="twitter:image" :content="route('home')+'/'+openGraph.img_slug"> -->
-        </Head>
-       
     
         <div>
             <div @click.prevent="closeOverlay" class="fixed w-full h-screen bg-slate-900 transition-all backdrop-blur-sm z-20" :class="[bodyOverlay ? 'bg-opacity-70 block' : 'bg-opacity-0 hidden']"></div>
