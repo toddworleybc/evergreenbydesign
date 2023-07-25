@@ -21,7 +21,10 @@
         <section class="space-y-10 mb-8" aria-labelledby="keizer-heading">
             
 
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
+            <div class="inline-block">
+                    <Link class="btn flex items-center space-x-3" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg" style="margin-top: .1rem">Back To Homepage</span></Link>
+                </div>
+
 
                 <h2 id="keizer-heading" class="capitalize inline-block">Keizer Oregon Website Design and Management Service.<hr/></h2>
                 <img src="/media/images/jpg/keizer-opt.jpg" alt="keizer city">
@@ -78,8 +81,10 @@
                     <div class="space-x-2">
                         <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <div class="inline-block">
-                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    
+                    <div class="flex">
+                        
+                        <Link class="btn flex sm:justify-start items-center text-lg space-x-2" href="/#ebd-section-pricing"><span>View Plans</span> <DocumentCheckIcon class="w-5 h-5" /></Link>
                     </div>
                     
                 </div>

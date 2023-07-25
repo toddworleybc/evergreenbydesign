@@ -212,7 +212,7 @@
                                             <div class="ebd-ph ph-purple relative">
                                                 <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4">$499 + $179/mo</span></h3>
                                                 <p class="text-white">Ecommerce (Shop)<br/> $749 + $179/mo</p>
-                                                <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0 lg:left-0" />
+                                                <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
                                             </div>
 
                                             <ul>

@@ -24,7 +24,9 @@
         <section class="space-y-10 mb-8" aria-labelledby="wilsonville-heading">
             
 
-                <Link class="btn flex items-center w-56" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg ml-3" style="margin-top: .1rem">Back To Homepage</span></Link>
+                <div class="inline-block">
+                    <Link class="btn flex items-center space-x-3" :href="route('home')"><ArrowUturnLeftIcon class="w-5 h-5" /><span class="text-lg" style="margin-top: .1rem">Back To Homepage</span></Link>
+                </div>
 
                 <h2 id="wilsonville-heading" class="capitalize inline-block">Wilsonville, Oregon website design and services!<hr/></h2>
                 <img src="/media/images/jpg/wilsonville-opt.jpg" alt="wilsonville welcome sign image">
@@ -43,22 +45,22 @@
 
 
         <section class="space-y-10 mb-8" aria-labelledby="wilsonville-heading-2">
+                
+
+                <h2 id="wilsonville-heading-2" class="capitalize inline-block">Website services by Evergreen By Design<hr/></h2>
+                <img src="/media/images/jpg/wilsonville2-opt.jpg" alt="wilsonville welcome sign image">
+
+
+                <p>It&#39;s great to get a website designed and managed by Evergreen By Design because I always ensure that your website is in good health. Think of these monthly plans as full website insurance!</p>
+                <p>I don&#39;t know how many clients I have gotten because someone did their website and just left them hanging. What eventually happens is, that website ends up breaking as new technology continues to roll out into the real world.</p>
+                <p>Then they either have to pay for a whole new website, or pay to get their original website fixed. In the end, I have saved plenty of people from this travesty!</p>
+                <p>But I wanted to do more then just save their websites, instead I want to take care of their website to ensure that things like breakage, outdated software, hosting connection issues, won&#39;t ever be a problem for my clients.</p>
+                <p>That is why instead of directing people to buy hosting, domain, email marketing, SSL certs, different systems to manage their website, etc.., which ultimately made life harder and more confusing for my clients, I decided to lump all these expensive services into one lump sum and provide all the setup and integration needs for my client.</p>
+                <p>This has made my client&#39;s online needs so much more manageable since they have just one simple bill and a person that they know they can call on to take care their website!</p>
+                <p>Now comes the exciting part, some of the features in these great website plans!</p>
+                
             
-
-            <h2 id="wilsonville-heading-2" class="capitalize inline-block">Website services by Evergreen By Design<hr/></h2>
-            <img src="/media/images/jpg/wilsonville2-opt.jpg" alt="wilsonville welcome sign image">
-
-
-            <p>It&#39;s great to get a website designed and managed by Evergreen By Design because I always ensure that your website is in good health. Think of these monthly plans as full website insurance!</p>
-            <p>I don&#39;t know how many clients I have gotten because someone did their website and just left them hanging. What eventually happens is, that website ends up breaking as new technology continues to roll out into the real world.</p>
-            <p>Then they either have to pay for a whole new website, or pay to get their original website fixed. In the end, I have saved plenty of people from this travesty!</p>
-            <p>But I wanted to do more then just save their websites, instead I want to take care of their website to ensure that things like breakage, outdated software, hosting connection issues, won&#39;t ever be a problem for my clients.</p>
-            <p>That is why instead of directing people to buy hosting, domain, email marketing, SSL certs, different systems to manage their website, etc.., which ultimately made life harder and more confusing for my clients, I decided to lump all these expensive services into one lump sum and provide all the setup and integration needs for my client.</p>
-            <p>This has made my client&#39;s online needs so much more manageable since they have just one simple bill and a person that they know they can call on to take care their website!</p>
-            <p>Now comes the exciting part, some of the features in these great website plans!</p>
-            
-        
-    </section>
+        </section>
 
         <section class="space-y-10" aria-labelledby="wilsonville-website-details">
                 <h2 id="wilsonville-website-details" class="capitalize inline-block">Features included with website plans!<hr/></h2>
@@ -76,8 +78,8 @@
                     <div class="space-x-2">
                         <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
                     </div>
-                    <div class="inline-block">
-                        <Link class="btn flex w-36 justify-start items-center text-xl" href="/#ebd-section-pricing">View Plans <DocumentCheckIcon class="w-5 h-5 ml-2" /></Link>
+                    <div class="flex">
+                        <Link class="btn flex sm:justify-start items-center text-lg space-x-2" href="/#ebd-section-pricing"><span>View Plans</span> <DocumentCheckIcon class="w-5 h-5" /></Link>
                     </div>
                 </div>
             
