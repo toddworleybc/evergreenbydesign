@@ -208,17 +208,7 @@
                                         </span>
                                     </li>
                                     
-                                    <li><strong class="font-light">Integrations</strong>
-                                        <span class="block text-base my-3">
-                                            AdSense<br/>
-                                            Social Media <br/>
-                                            Facebook Pixel<br/>
-                                            Google Analytics<br/>
-                                            Affiliate marketing<br/>
-                                            Search Engine Console<br/>
-                                            <span class="italic mt-2 text-sm">(And Many Others)</span>
-                                        </span>
-                                    </li>
+                                    
                                     <li><strong class="font-light">FREE HTTPS/SSL</strong></li>
                                 </ul>
 
