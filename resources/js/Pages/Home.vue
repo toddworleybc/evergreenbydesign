@@ -8,7 +8,7 @@
     import WorkImg from '@/Components/Svg/work.svg';
     import { modal } from '@/Utilities/modal';
     import { ref, onMounted } from 'vue';
-    import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline';
+    import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon, BookOpenIcon, CurrencyDollarIcon, GlobeAmericasIcon, ChartBarSquareIcon, ScaleIcon, CursorArrowRippleIcon } from '@heroicons/vue/24/outline';
     
 
 
@@ -87,707 +87,777 @@
 
 <template>
     <div>
+
         <Frontend>
-
-            <Head title="Website Design and Management Services">
-                <meta name="description" content="Looking for a professional website designer and website services like hosting, domain, and email marketing? Get all your website services here at Evergreen By Design.">
-                    
-            </Head>
-            <h1 class="sr-only">Evergreen By Design Website Design and Management Services</h1>
-            <HeroBanner />
-        
-                <section id="ebd-section-intro" class="mt-14 md:mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
-                    
-                    <div class="ebd-container">
-
-                        <div class="md:flex md:justify-between">
+            <article>
+                <h1 class="sr-only">Website Design and Management Services - Evergreen By Design</h1>
+                <HeroBanner />
+            
+                    <section id="ebd-section-intro" class="mt-14 mb-20 md:mb-40 md:mt-40 md:pt-0" aria-labelledby="ebd-intro-heading">
                         
-                            <div class="w-full md:w-8/12 space-y-5 md:mr-10 text-center md:text-left">
-                                <h2 id="ebd-intro-heading" class="inline-block">A Little Bit About Evergreen By Design Websites<hr/></h2> 
-                                
-                                <p>Here at Evergreen By Design I provide <strong class="font-light">COMPLETE WEBSITE MANAGEMENT & SERVICES</strong> where the only tech you will have to use is an email and/or phone.</p>
-                                <p>My website services offer everything you need to get your website up and running. This includes professional website design, hosting, domain, email marketing, and more…</p>
-                                <p>The plans below also include content management and uploading, including sending weekly emails, products, events, and more…</p>
-                                
-                                <p>To put it simply, I do it all for you! With Evergreen By Design you got someone in your corner when it comes to your website needs!</p>
-                                
-                            </div>
+                        <div class="ebd-container">
 
-                            <div class="hidden md:block md:show md:w-4/12">
-                                <ComputerImg class="w-full shadow-lg" />
-                            </div>
-                        </div>
-                        <div class="text-center md:text-left">
-                            <Link class="btn mt-8 inline-block" :href="route('about')">Learn More</Link>
-                        </div>
-                        
-                        <div class="pt-20">
-                            <img class="w-full" :src="`${route('home')}/media/images/png/castle2.png`" alt="">
-                        </div>
-
-                    </div>
-                    <!-- ./ebd-container  -->
-                </section>
-
-                
-
-                <section id="ebd-section-pricing" class="scroll-mt-36 mb-20">
-
-                    <div class="ebd-container space-y-24">
-
-                        <div class="text-center md:text-left">
-                            <h2 class="inline-block">Get Your Website For ONLY $628<hr/></h2>
-                            <p>Below are the plans offered by Evergreen By Design. These plans represent two categories:</p> <p><strong class="font-light">Website Design $499/Shop $749 (one-time fee) + Website Management (cost per month).</strong></p><p>Simply choose the plan that fits your needs then call or email me to get services started. Just that simple!</p>
+                            <div class="md:flex md:justify-between">
                             
-                            <p><strong class="font-light">Please Note* There is an estimated 3% processing fee charge when making payments.</strong></p>
-
-                            <div class="space-x-2">
-                                <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex mx-auto md:mx-0 justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
-                            </div>
-                        </div>
-                    
-                    
-
-                        <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
-
-                            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2">
-
-                                <div id="website-design" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-
-                                    <div class="heading-ul">
-                                        <div class="ebd-ph ph-teal">
-                                            <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4">$499 + $129/mo</span></h3>
-                                            <p class="mb-0 text-white">Ecommerce (Shop)<br/>(Unavaliable)</p>
-                                        </div>
-
-                                        
-                                        <ul>
-                                            
-                                            <li><strong class="font-light">Website Design</strong>
-                                                <span class="block text-base my-3">
-                                                Up to 5 pages <br/>
-                                                SEO Friendly<br/>
-                                                Website Security<br/>
-                                                Mobile/Responsive Design<br/>
-                                                </span>
-                                            </li>
-                                            
-                                            <li><strong class="font-light">Includes Hosting</strong></li>
-                                            <li><strong class="font-light">Includes 1 Domain</strong>
-                                            </li>
-                                            <li><strong class="font-light">Ongoing Maintenance</strong></li>
-                                            <li><strong class="font-light">Https/SSL</strong></li>
-                                            <li><strong class="font-light">Content Management</strong>
-                                                <span class="block text-base my-3">
-                                                    3 Posts Per Month <br/>
-                                                    1 Custom Post Type <br/>
-                                                    1 Content Update Per Month
-                                                </span>
-                                            </li>
-                                            
-                                            <li><strong class="font-light">Integrations</strong>
-                                                <span class="block text-base my-3">
-                                                    Social Media <br/>
-                                                    Google Analytics
-                                                </span>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <!-- ./heading-ul  -->
-
-                                    <div class="b-link">
-                                        <Link :href="route('plan.details')+'#basic-plan'">See Details</Link>
-                                    </div>
-                                    <!-- ./b-link  -->
-
+                                <div class="w-full md:w-8/12 md:mr-10 text-center md:text-left">
+                                    <h2 id="ebd-intro-heading" class="inline-block lg:text-4xl">A Little Bit About Evergreen By Design Websites<hr/></h2> 
+                                    
+                                    <p class="ebd-leading-text">Evergreen By Design simplifies the entire process of website design and management, offering you a comprehensive solution that equips you to effortlessly launch your website. Say goodbye to the hassle of navigating through multiple services or grappling with intricate technologies. No longer will you need to invest hours into crafting your own website, wrestling with the complexities of CSS technologies and UX/UI designs.</p>
+                                    
+                                    <p class="ebd-leading-text">In essence, think of me as your dedicated website liaison, streamlining every aspect of your website design and service requirements.</p>
+                                    
+                                   
+                                    
                                 </div>
-                                    <!-- #/website-design  -->
 
-                                <!-- Premium Design  -->
+                                <div class="hidden md:block md:show md:w-4/12">
+                                    <ComputerImg class="w-full shadow-lg" />
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="pt-20">
+                                <img class="w-full" :src="`${route('home')}/media/images/png/castle2.png`" alt="">
+                            </div>
+
+                        </div>
+                        <!-- ./ebd-container  -->
+                    </section>
+
+                    
+
+                    <section id="ebd-section-pricing" class="scroll-mt-36 mb-10 sm:mb-20 md:mb-40">
+
+                        <div class="ebd-container space-y-24">
+
+                            <div class="text-center">
+                                <h2 class="inline-block lg:text-4xl">Get Your Website Services at an Unbeatable Price<hr/></h2>
+                                <p class="px-4 lg:px-12 ebd-leading-text">Evergreen By Design takes immense pride in presenting to you top-tier website services at an unparalleled value! My commitment to excellence is evident in the exceptional quality I offer at an incredibly competitive price point. When you evaluate the comprehensive array of services provided by Evergreen By Design, the true essence of savings and convenience becomes evident.</p> 
+                                <div class="flex flex-wrap justify-center space-x-4 mt-10">
+                                    <div class="space-x-2 mb-10">
+                                        <button id="contact-btn-pricing" @click.prevent="modal.openModal('chat', 'Get In Touch', $event)" class="flex mx-auto justify-start items-center text-xl"><span>Contact Today</span> <ChatBubbleLeftIcon class="w-5 h-5 ml-2"/></button>
+                                    </div>
+                                    <div class="space-x-2 mb-10">
+                                        <a href="/media/docs/welcome-packet-evergreen-by-design.pdf" class="btn flex mx-auto justify-start items-center text-xl" download><span>Download Welcome Packet</span> <BookOpenIcon class="w-5 h-5 ml-2"/></a>
+                                    </div>
+                                </div>
+                                <div class="ebd-card-container items-center flex flex-col lg:items-stretch lg:flex-row  lg:justify-around py-4 md:py-12 px-1 md:px-4 lg:space-x-12">
+                                    
+
+                                    <div class="ebd-card w-11/12 sm:w-10/12 md:5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+
+                                        <h3 class="text-2xl">Website and Ecommerce Design <br/><small>(One Time Fee)</small><hr/></h3>
+                                        <p>This fee includes all costs for your initial website design, offering a comprehensive package with top features. This encompasses detailed mobile design for excellent cross-device performance, SEO-friendly setup for better online visibility, and valuable content creation to engage your audience. The fee also covers a unique logo creation that embodies your brand.</p>
+                                            
+                                            <!-- <button>Learn More</button> -->
+                                    </div>
+
+                                    <div class="ebd-card w-11/12 sm:w-10/12 md:5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                            
+                                            <h3 class="text-2xl">Website Management Services<br/><small>(Monthly Fee)</small><hr/></h3>
+                                            <p>This fee covers comprehensive ongoing website services and personalized one-on-one support. You can leave vital tasks like hosting, domain management, content and email marketing, professional email setup, transactional emails, integrations, and platform maintenance to me. Focus on your core business while I handle the intricate aspects of your website.</p>
+                                                <!-- <button>Learn More</button> -->
+                                        </div>
+                                </div>
                                 
-                                    <div id="premium-p" class="ebd-pricing transform sm:scale-105 bg-white shadow-xl flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+
+                                
+
+                                
+                                <hr class="mt-10 mb-44"/>
+
+                            </div>
+                        
+                        
+
+                            <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
+
+                                <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2">
+
+                                    <div id="website-design" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
 
                                         <div class="heading-ul">
-                                            <div class="ebd-ph ph-purple relative">
-                                                <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4">$499 + $179/mo</span></h3>
-                                                <p class="text-white">Ecommerce (Shop)<br/> $749 + $179/mo</p>
-                                                <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
+                                            <div class="ebd-ph ph-teal">
+                                                <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4">$499 + $129/mo</span></h3>
+                                                <p class="mb-0 text-white">Ecommerce (Shop)<br/>(Unavaliable)</p>
                                             </div>
 
+                                            
                                             <ul>
-                                                <li><strong class="font-light">Includes Basic Plan +</strong></li>
+                                                
                                                 <li><strong class="font-light">Website Design</strong>
                                                     <span class="block text-base my-3">
-                                                        Up to 7 pages<br/>
-                                                        1 Landing Page<br/>
-                                                        1 Page Redesign Per Year
+                                                    Logo Design<br/>
+                                                    SEO Friendly<br/>
+                                                    Up to 5 pages <br/>
+                                                    Website Security<br/>
+                                                    Mobile/Responsive Design<br/>
+                                                    Complete Content Creation<br/>
+                                                    
                                                     </span>
                                                 </li>
-                                                <li><strong class="font-light">Ecommerce Design</strong>
+                                                
+                                                <li><strong class="font-light">Full Website Hosting</strong>
                                                     <span class="block text-base my-3">
-                                                        Cart Page <br/>
-                                                        Shop Page <br/>
-                                                        Account Page <br/>
-                                                        Checkout Page <br/>
+                                                        Nightly Backups<br/>
+                                                        Built-in Caching<br/>
+                                                        Unlimited Storage <br/>
+                                                        Unlimited Bandwidth<br/>
                                                     </span>
                                                 </li>
-                                                <li><strong class="font-light">Unlimited Transactional Emails</strong></li>
+                                                <li><strong class="font-light">1 Top-Level Domain</strong>
+                                                    <span class="italic mt-2 text-sm"><br/>(.com, .net, .org, etc...)</span>
+                                                </li>
+                                                <li><strong class="font-light">Ongoing Maintenance</strong>
+                                                    <span class="block text-base my-3">
+                                                        Website Fixes<br/>
+                                                        Weekly Updates<br/>
+                                                        Backups and Restores<br/>
+                                                        Performance Optimization<br/>
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Personal Support</strong>
+                                                    <span class="block text-base my-3">
+                                                        Via Phone or Email<br/>
+                                                        One-on-One Video Support<br/>
+                                                    </span>
+                                                </li>
+                                                
+                                                <li><strong class="font-light">Content Creation</strong>
+                                                    <span class="block text-base my-3">
+                                                        1 Unique Post Per Month<br/>
+                                                        1 Content Update Per Month<br/>
+                                                    </span>
+                                                </li>
                                                 <li><strong class="font-light">Content Management</strong>
                                                     <span class="block text-base my-3">
-                                                        10 Posts Per Month <br/>
-                                                        2 Custom Post Type <br/>
-                                                        3 Content Updates Per Month
+                                                        3 Posts Per Month <br/>
+                                                        1 Update Per Month<br/>
+                                                        1 Custom Post Type <br/>
+                                                        
                                                     </span>
                                                 </li>
-                                                <li><strong class="font-light">Includes Email Marketing</strong>
+                                                
+                                                <li><strong class="font-light">FREE HTTPS/SSL</strong></li>
+                                            </ul>
+
+                                        </div>
+                                        <!-- ./heading-ul  -->
+
+                                        <div class="b-link">
+                                            <Link :href="route('plan.details')+'#basic-plan'">See Details</Link>
+                                        </div>
+                                        <!-- ./b-link  -->
+
+                                    </div>
+                                        <!-- #/website-design  -->
+
+                                    <!-- Premium Design  -->
+                                    
+                                        <div id="premium-p" class="ebd-pricing transform sm:scale-105 bg-white shadow-xl flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+
+                                            <div class="heading-ul">
+                                                <div class="ebd-ph ph-purple relative">
+                                                    <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4">$499 + $179/mo</span></h3>
+                                                    <p class="text-white">Ecommerce (Shop)<br/> $749 + $179/mo</p>
+                                                    <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
+                                                </div>
+
+                                                <ul>
+                                                    <li><strong class="font-light">Includes Basic Plan +</strong></li>
+                                                    <li><strong class="font-light">Website Design</strong>
+                                                        <span class="block text-base my-3">
+                                                            Up to 7 pages<br/>
+                                                            1 Landing Page<br/>
+                                                            1 Page Redesign Per Year
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Ecommerce Design</strong>
+                                                        <span class="block text-base my-3">
+                                                            Cart Page <br/>
+                                                            Shop Page <br/>
+                                                            Account Page <br/>
+                                                            Checkout Page <br/>
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Content Management</strong>
+                                                        <span class="block text-base my-3">
+                                                            10 Posts Per Month <br/>
+                                                            2 Custom Post Type <br/>
+                                                            3 Updates Per Month
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Includes Email Marketing System</strong>
+                                                        <span class="block text-base my-3">
+                                                            1 Weekly Emails <br/>
+                                                            1,500 Subscribers <br/>
+                                                            1 Email Template Design <br/>
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Professional Domain Email</strong>
+                                                        <span class="block text-base my-3">
+                                                            you@yourdomain.com
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Content Creation</strong>
+                                                        <span class="block text-base my-3">
+                                                            2 Unique Posts Per Month<br/>
+                                                            2 Content Update Per Month<br/>
+                                                        </span>
+                                                    </li>
+                                                    <li><strong class="font-light">Unlimited Transactional Emails</strong></li>
+                                                    <li><strong class="font-light">Branding Removal</strong></li>
+                                                </ul>
+                                            </div>
+                                            <!-- ./heading-ul  -->
+
+                                            <div class="b-link">
+                                                <Link :href="route('plan.details')+'#premium-plan'">See Details</Link>
+                                            </div>
+                                            <!-- ./b-link  -->
+                                            
+                                        </div>
+                                        <!-- #/premium-p  -->
+
+
+                                </div>
+
+                                
+                                    
+                                
+                                <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2 mb-12">
+
+                                    <div id="gold-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+                                        
+                                        <div class="heading-ul">
+
+                                            <div class="ebd-ph ph-orange">
+                                                <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4">$499 + $229/mo</span></h3>
+                                                <p class="text-white">Ecommerce (Shop)<br/> $749 + $229/mo</p>
+                                            </div>
+                                            
+                                            <ul>
+                                                <li><strong class="font-light">Includes Premium Plan +</strong></li>
+                                                <li><strong class="font-light">Website Design</strong>
                                                     <span class="block text-base my-3">
-                                                        1 Weekly Emails <br/>
-                                                        1,500 Subscribers <br/>
-                                                        1 Email Template Design <br/>
+                                                        Up to 10 pages <br/>
+                                                        2 Landing Pages <br/>
+                                                        3 Page Redesign Per Year
                                                     </span>
                                                 </li>
-                                                <li><strong class="font-light">Professional Domain Email</strong>
+                                                <li><strong class="font-light">Content Management</strong>
                                                     <span class="block text-base my-3">
-                                                        you@yourdomain.com
+                                                        15 Posts Per Month <br/>
+                                                        3 Custom Post Types <br/>
+                                                        5 Updates Per Month
                                                     </span>
                                                 </li>
-                                                <li><strong class="font-light">Intergrations</strong>
+                                                <li><strong class="font-light">Includes Email Marketing System</strong>
                                                     <span class="block text-base my-3">
-                                                        AdSense<br/>
-                                                        Affiliate marketing 
+                                                        3 Weekly Emails <br/>
+                                                        2,500 Subscribers <br/>
+                                                        1 Email List Automation<br/>
+                                                        2 Email Template Design
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Content Creation</strong>
+                                                    <span class="block text-base my-3">
+                                                        3 unique post<br/>
+                                                        3 content update<br/>
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                                    <span class="block text-base my-3">
+                                                        Shop Self-Management<br/>
+                                                        Event Postings<br/>
+                                                        Membership Websites<br/>Online Booking<br/>
+                                                        Email Marketing Self-Management<br/>
+                                                        Single-User Access<br/>
+                                                    </span>
+                                                    <span class="italic mt-2 text-sm">(Note* These are just a few of the Specialty systems available. If you are looking for something specific please contact me)</span>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <!-- ./heading-ul  -->
+
+                                        <div class="b-link">
+                                            <Link :href="route('plan.details')+'#gold-plan'">See Details</Link>
+                                        </div>
+                                        <!-- ./b-link  -->
+
+                                    </div>
+                                    <!-- #/gold-p  -->
+
+
+                                    <div id="elite-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+
+
+                                        <div class="heading-ul">
+                                            <div class="ebd-ph ph-green">
+                                                <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4">$499 + $279/mo</span></h3>
+                                                <p class="text-white">Ecommerce (Shop)<br/> $749 + $279/mo</p>
+                                            </div>
+                                            <ul>
+                                                <li><strong class="font-light">Includes Gold Plan +</strong></li>
+                                                <li><strong class="font-light">Website Design</strong>
+                                                    <span class="block text-base my-3">
+                                                        Up to 15 pages <br/>
+                                                        3 Landing Pages <br/>
+                                                        5 Page Redesigns Per Year
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Content Management</strong>
+                                                    <span class="block text-base my-3">
+                                                        20 Posts Per Month <br/>
+                                                        5 Custom Post Types <br/>
+                                                        7 Content Creations/Updating Per Month
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Includes Email Marketing System</strong>
+                                                    <span class="block text-base my-3">
+                                                        7 Weekly Emails <br/>
+                                                        5,000 Subscribers <br/>
+                                                        3 Email List Automation <br/>
+                                                        3 Email Template Design
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Content Creation</strong>
+                                                    <span class="block text-base my-3">
+                                                        4 unique post<br/>
+                                                        4 content update<br/>
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                                    <span class="block text-base my-3">
+                                                        All Post Access <br/>
+                                                        Multi-User Access<br/>
+                                                    </span>
+                                                </li>
+                                                <li><strong class="font-light">One-On-One Training</strong>
+                                                    <span class="block text-base my-3">
+                                                        Get One-On-One Zoom Video Training To Learn How To Use Your Specialty System.
                                                     </span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <!-- ./heading-ul  -->
 
+
                                         <div class="b-link">
-                                            <Link :href="route('plan.details')+'#premium-plan'">See Details</Link>
+                                            <Link :href="route('plan.details')+'#elite-plan'">See Details</Link>
                                         </div>
                                         <!-- ./b-link  -->
                                         
                                     </div>
-                                    <!-- #/premium-p  -->
+                                    <!-- #/training  -->
 
+                                </div>
 
-                            </div>
-
-                            
                                 
-                            
-                            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2 mb-12">
-
-                                <div id="gold-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-                                    
-                                    <div class="heading-ul">
-
-                                        <div class="ebd-ph ph-orange">
-                                            <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4">$499 + $229/mo</span></h3>
-                                            <p class="text-white">Ecommerce (Shop)<br/> $749 + $229/mo</p>
-                                        </div>
-                                        
-                                        <ul>
-                                            <li><strong class="font-light">Includes Premium Plan +</strong></li>
-                                            <li><strong class="font-light">Website Design</strong>
-                                                <span class="block text-base my-3">
-                                                    Up to 10 pages <br/>
-                                                    2 Landing Pages <br/>
-                                                    3 Page Redesign Per Year
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Content Management</strong>
-                                                <span class="block text-base my-3">
-                                                    15 Posts Per Month <br/>
-                                                    3 Custom Post Types <br/>
-                                                    5 Content Updates Per Month
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Includes Email Marketing</strong>
-                                                <span class="block text-base my-3">
-                                                    3 Weekly Emails <br/>
-                                                    2,500 Subscribers <br/>
-                                                    1 Email List Automation<br/>
-                                                    2 Email Template Design
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Specialty  Self-Management Systems</strong>
-                                                <span class="block text-base my-3">
-                                                    Shop Self-Management<br/>
-                                                    Event Postings<br/>
-                                                    Membership Websites<br/>Online Booking<br/>
-                                                    Email Marketing Self-Management<br/>
-                                                    Single-User Access<br/>
-                                                </span>
-                                                <span class="italic mt-2 text-sm">(Note* These are just a few of the Specialty systems available. If you are looking for something specific please contact me)</span>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <!-- ./heading-ul  -->
-
-                                    <div class="b-link">
-                                        <Link :href="route('plan.details')+'#gold-plan'">See Details</Link>
-                                    </div>
-                                    <!-- ./b-link  -->
-
-                                </div>
-                                <!-- #/gold-p  -->
-
-
-                                <div id="elite-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-
-
-                                    <div class="heading-ul">
-                                        <div class="ebd-ph ph-green">
-                                            <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4">$499 + $279/mo</span></h3>
-                                            <p class="text-white">Ecommerce (Shop)<br/> $749 + $279/mo</p>
-                                        </div>
-                                        <ul>
-                                            <li><strong class="font-light">Includes Gold Plan +</strong></li>
-                                            <li><strong class="font-light">Website Design</strong>
-                                                <span class="block text-base my-3">
-                                                    Up to 15 pages <br/>
-                                                    3 Landing Pages <br/>
-                                                    5 Page Redesigns Per Year
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Content Management</strong>
-                                                <span class="block text-base my-3">
-                                                    20 Posts Per Month <br/>
-                                                    5 Custom Post Types <br/>
-                                                    7 Content Updates Per Month
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Includes Email Marketing</strong>
-                                                <span class="block text-base my-3">
-                                                    7 Weekly Emails <br/>
-                                                    5,000 Subscribers <br/>
-                                                    3 Email List Automation <br/>
-                                                    3 Email Template Design
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">Specialty  Self-Management Systems</strong>
-                                                <span class="block text-base my-3">
-                                                    All Post Access <br/>
-                                                    Multi-User Access<br/>
-                                                </span>
-                                            </li>
-                                            <li><strong class="font-light">One-On-One Training</strong>
-                                                <span class="block text-base my-3">
-                                                    Get One-On-One Zoom Video Training To Learn How To Use Your Specialty System.
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- ./heading-ul  -->
-
-
-                                    <div class="b-link">
-                                        <Link :href="route('plan.details')+'#elite-plan'">See Details</Link>
-                                    </div>
-                                    <!-- ./b-link  -->
-                                    
-                                </div>
-                                <!-- #/training  -->
 
                             </div>
+                            <!-- #/package-container  -->
 
-                            
 
-                        </div>
-                        <!-- #/package-container  -->
-
-
-                    </div>
-                    <!-- ./ebd-container  -->
-
-                    
-                    
-                </section>
-
-              
-
-                <section id="ebd-section-services" aria-labelledby="ebd-services-heading" class="pb-10 px-0">
-
-                    <div class="ebd-container">
-
-                    
-
-                        <div class="flex space-y-8 flex-col md:flex-row justify-between  items-center px-6 md:px-4">
-                            <div class="text-center md:text-left">
-                                <h2 id="ebd-services-heading" class="capitalize inline-block">All your website services in one place<hr/></h2>
-                                <p>Tired of having to hop between different services or dealing with technology that you might not understand when it comes to website design and management? Well, your worries are over!</p>
-                                <p>Evergreen By Design takes all the tech work out of website design and management!</p>
-                                <Link :href="route('plan.details')" class="text-xl btn">View All Services</Link>
-                            </div>
-                            <WorkImg class="w-4/6 md:w-4/6" />
-                            
-                        </div>
-                        
-                        <div class="mt-12 pt-6 ebd-background-cards">
-
-                            <div class="ebd-card-container items-center flex flex-col md:items-stretch md:flex-row md:justify-around lg:justify-between flex-wrap py-4 md:py-12 px-1 md:px-4">
-
-                            
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <CircleStackIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Hosting<hr/></h3>
-                                    <p>Hosting service is included with your plan. This also includes complete hosting management and even daily backups of your server!</p>
-                                    <!-- <button>Learn More</button> -->
-                                </div>
-
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <RectangleGroupIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Website Design<hr/></h3>
-                                    <p>Your online presence starts with a great looking website! I not only design your website, but I make sure it is mobile and SEO friendly.</p>
-                                </div>
-
-
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <UserGroupIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Content Management<hr/></h3>
-                                    <p>This is really the great thing about these plans. The fact that you can make changes on your website without having to learn complicated technology!</p>
-                                </div>
-
-
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <WrenchScrewdriverIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Ongoing Maintenance<hr/></h3>
-                                    <p>Your website is precious and sometimes things change in the tech world. If your website does not receive regular maintenance then it not only becomes vulnerable to attacks, but your entire website can break!</p>
-                                </div>
-
-
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <PhotoIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Unlimited Transactional Emails<hr/></h3>
-                                    <p>This is great for anyone who is running a shop and all emails are sent through an SMTP service. To put it simple, this insures that your emails go to the inbox and not the spam folder!</p>
-                                </div>
-
-                                <div class="ebd-card w-10/12 md:w-80 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
-                                    <EnvelopeOpenIcon class="w-12 h-12 mx-auto mb-4" />
-                                    <h3 class="text-2xl">Email Marketing<hr/></h3>
-                                    <p>The backbone of any website is maintaining contact with people who visit your website. Collecting subscribers and keeping in touch with them promotes your website and sales</p>
-                                </div>   
-                            </div>
-                            <!-- ./ebd-card-container -->
-                        </div>
-                        <!-- ./ebd-card-divider -->
-
-
-                    </div>
-                    <!-- ./ebd-container  -->
-                  
-                </section>
-
-                <section id="ebd-section-inspiration" class="relative">
-                    <div class="absolute -top-0 right-2 -translate-y-1/2">
-                        <OwlImg class="w-60" />
-                    </div>
-                    <div class="ebd-container">
-                        <h2 class="text-5xl sm:text-6xl py-24 text-white inspiration-heading text-center capitalize">Get the website design and management that your business needs to succeed in today's world!</h2>
-                    </div>
-                </section>
-
-
-                <section id="ebd-section-experience" class="text-center md:text-left relative expertise-bg py-24" aria-labelledby="ebd-experience-heading">
-
-
-                    <div class="ebd-container bg-white bg-opacity-90 shadow py-6 px-8 rounded">
-
-                        <h2 id="ebd-experience-heading" class="capitalize inline-block mb-4">The experience and expertise you get with Evergreen By Design<hr/></h2>
-                        <p class="text-xl mb-12">I have been building websites and developing web technologies for over 7 years. Below are the technologies I have used to help build websites and develop web based systems for organizations. Let me help you build the online presence you deserve! &#128522;</p>
-                        
-                        <div class="flex flex-col md:flex-row xl:justify-start flex-wrap ols-container">
-                            <div class="order-2 mb-10 lg:border-r-2 md:pr-10 md:mr-10">
-                                <h3 class="mb-4">Web Design</h3>
-                                <ul class="list-none">
-                                    <li>UX/UI</li>
-                                    <li>Photoshop</li>
-                                    <li>Graphic Design</li>
-                                    <li>Frontend and Backend Design</li>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                </ul>
-                            </div>
-
-                            <div class="order-3 lg:order-3">
-                                <h3 class="mb-4">Web Technologies</h3>
-                                <ul class="list-none">
-                                    <div class="flex flex-col sm:flex-row sm:justify-between sm:space-x-6">
-
-                                        <div>
-                                            <li>Javascript</li>
-                                            <li>PHP</li>
-                                            <li>XML</li>
-                                            <li>Sass</li>
-                                            <li>JSON</li>
-                                            <li>VueJs</li>
-                                        </div>
-                                        <div>
-                                            <li>Laravel</li>
-                                            <li>Git</li>
-                                            <li>Ubuntu</li>
-                                            <li>NodeJS</li>
-                                            <li>Tailwind Css</li>
-                                            <li>Bootstrap</li>
-                                        </div>
-                                        <div>
-                                            <li>Nginx (server)</li>
-                                            <li>InertiaJs</li>
-                                            <li>Linux</li>
-                                            <li>Composer (php)</li>
-                                            <li>Apache (server)</li>
-                                            <li>MySQL (database)</li>
-                                        </div>
-                                        <div>
-                                            <li>ViteJs</li>
-                                            <li>Materialize Css</li>
-                                            <li>jQuery (used for legacy systems only)</li>
-                                            <li>Wordpress Development</li>
-                                        </div>
-                                        
-
-
-                                    </div>
-                                    <!-- ul list flex  -->
-                                    
-                                </ul>
-                            </div>
-                        
-                        </div>
-                        <!-- ols-container -->
-
-
-
-
-                    </div>
-                    <!-- ./ebd-container  -->
-                    
-                    
-                </section>
-
-                
-
-                <section id="ebd-section-testimonials">
-                    <div class="ebd-container">
-                        <h2 class="inline-block mb-24 text-center md:text-left">What They Say About Evergreen By Design <hr/></h2>
-
-                        <div class="tesimonial-container">
-
-                            <div class="testimonial-individual bg-green-300 bg-opacity-90 mb-32">
-
-                                <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
-                                    <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
-                                        <img class="w-36" src="/media/images/jpg/Miriam L.jpg" alt="">
-                                    </div>
-                                    <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
-                                        <h4 class="mb-2">Miriam L.</h4>
-                                        <p>I was struggling with the tech in my Wordpress website till I was lucky enough to meet Todd. He's an awesome & gifted web designer that goes the extra mile to not only make sure that everything runs smoothly, but also makes it beautiful! I highly recommend Todd and Evergreen by Design to anyone who needs a talented designer.</p>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-                            <!-- //====/ -->
-
-
-                            <div class="testimonial-individual bg-purple-300 bg-opacity-90 mb-32">
-
-                                <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
-                                    <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
-                                        <img class="w-36" src="/media/images/jpg/Kelly H.jpg" alt="">
-                                    </div>
-                                    <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
-                                        <h4 class="mb-2">Kelly H.</h4>
-                                        <p>I would highly recommend Evergreen By Design for all of your web-design needs. Todd is highly efficient and more importantly, he cares. My favorite thing about Todd is that he answers my questions and explains things in a respectful way that I can understand. (I like to know how things work). If by chance I ask a random question and he doesn't know right away, he is humble enough to say, "I'll find out and get back to you." And then, he does. He works hard to satisfy and is gifted at what he does.
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                </div>
-                                <!-- //====/ -->
-
-
-                                <div class="testimonial-individual bg-teal-300 bg-opacity-90 mb-32">
-
-                                    <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
-                                        <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
-                                            <img class="w-36" src="/media/images/jpg/Heather R.png" alt="">
-                                        </div>
-                                        <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
-                                            <h4 class="mb-2">Heather R.</h4>
-                                                <p>Todd does such a great job on our company website.  He is very efficient and detailed. He answered all our questions and he explained everything thoroughly and simply.  
-
-                                                He was even willing to come into our office and do a quick fix on our other website that I was unable to figure out myself.
-
-                                                I would highly recommend Evergreen By Design.
-                                                </p>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <!-- //====/ -->
-
-
-                        </div>
-
-                    </div>
-                    
-                </section>
-
-                <section id="ebd-section-portfolio" class="px-0 mb-0">
-
-                    <div class="flex justify-center mb-20">
-                        <h2 class="inline-block">Here Is Some Of My Work <hr/></h2>
-                    </div>
-
-                    <div class="py-8 portfolio-bg">
-
-                    
-
-                        <div class="ebd-container">
-
-
-                                <div class="flex flex-col items-center md:flex-row flex-wrap justify-around md:space-x-10">
-
-                                <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
-                                    <h3>JustDuctless</h3>
-                                    <a href="https://justductless.com/" target="_blank">justductless.com</a>
-                                    <img class="w-full" :src="`${route('home')}/media/images/jpg/Justductless.jpg`" alt="">
-                                </div>
-
-                                <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
-                                    <h3>Statewide Exhaust</h3>
-                                    <a href="Https://statewideexhaustservices.com/" target="_blank">statewideexhaustservices.com</a>
-                                    <img class="w-full" :src="`${route('home')}/media/images/jpg/statewideexhaust.jpg`" alt="">
-                                </div>
-
-
-
-
-                                <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
-                                    <h3>Double K Cleaning</h3>
-                                    <a href="https://www.doublekkleaning.com/" target="_blank">doublekcleaning.com</a>
-                                    <img class="w-full" :src="`${route('home')}/media/images/jpg/double-k-cleaning.jpg`" alt="">
-                                </div>
-                                </div>
-                                <!-- ./flex  -->
-
-                                <div class="flex flex-col md:flex-row flex-wrap justify-around items-center md:space-x-10">
-
-                                <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
-                                    <h3>Lines of Expression</h3>
-                                    <a href="https://linesofexpression.com/" target="_blank">linesofexpression.com</a>
-                                    <img class="w-full" :src="`${route('home')}/media/images/jpg/linesofexpression.jpg`" alt="">
-                                </div>
-
-
-                               
-
-
-                                <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
-                                    <h3>Nicc's Direct Primary Care</h3>
-                                    <a href="https://www.niccdpc.com/" target="_blank">niccdpc.com/</a>
-                                    <img class="w-full" :src="`${route('home')}/media/images/jpg/Niccs-Rogers-Website.jpg`" alt="">
-                                </div>
-
-                                </div>
-                                <!-- ./flex  -->
-                            
                         </div>
                         <!-- ./ebd-container  -->
 
-                    </div>
-                </section>
-
-              
-
-                <section id="ebd-section-contact" class="contact-bg-gradient mt-20">
-
-                    <div class="ebd-container flex flex-col md:flex-row justify-start items-start shadow-lg border rounded md:w-5/6 mx-auto">
-
-                        <div class="form-header md:w-1/3 self-stretch bg-gradient-to-b from-white via-teal-100 to-green-400">
-                            <div class="py-4">
-
-                                <div class="flex justify-center">
-                                    <h2 class="inline-block pb-4 w-3/4 text-center text-4xl">Get In Touch <hr/></h2>
-                                </div>
-                                
-
-                                <div class="mb-8">
-
-                                    <div class="flex justify-center items-center mb-4 text-green-500">
-                                        <h3 class="border-none mb-0 pb-0 text-3xl" style="padding-bottom: 0px;">Call Today</h3>
-                                        <PhoneIcon class="w-8 h-8 ml-2 mt-1 stroke-slate-700" />
-                                    </div>
-
-                                    <p class="font-xl text-center text-2xl">Phone:&nbsp;<br/><a aria-label="click to call" class="py-1 px-2" style="font-size: 1.5rem; line-height: 2rem; color: rgb(74, 72, 72); border-color: rgb(74, 72, 72)" href="tel:5413735563">(541) 378.5563</a></p>
-                                    <p class="text-center">Mon-Fri 9am-4pm</p>
-                                </div>
-
-                            </div>
-                            <!-- ./contact-heading  -->
-
-                        </div>
-                        <!-- ./form-header  -->
                         
-                    
-                        <div class="form-container bg-white w-full flex-1 py-4 px-4 mt-8 md:mt-0 md:px-10">
-
-                            <form ref="formEl" @submit.prevent="sendEmail">
-                            
-                                <div>
-                                    <div class="flex justify-start items-center mb-4 text-green-500">
-                                        <h3 id="chat-email" class="text-2xl">Email Me</h3>
-                                        <EnvelopeIcon class="w-6 h-6 ml-2" />
-                                    </div>
-                                    <label for="name">Name</label>
-                                    <p v-if="form.errors.name" class="text-red-700 mt-2">{{ form.errors.name }}</p>
-                                    <input v-model="form.name" placeholder="John Smith" type="text" id="name">
-                                </div>
-                                <div>
-                                    <label for="email">Email</label>
-                                    <p v-if="form.errors.email" class="text-red-700 mt-2">{{ form.errors.email }}</p>
-                                    <input v-model="form.email" type="email" placeholder="johnsmith@gmail.com" name="email" id="email">
-                                </div>
-                                <div>
-                                    <label for="message">Message</label>
-                                    <p v-if="form.errors.message" class="text-red-700 mt-2">{{ form.errors.message }}</p>
-                                    <textarea v-model="form.message" placeholder="Enter Message" name="message" id="message" cols="30" rows="4"></textarea>
-                                </div>
-
-                                <div class="mt-8 overflow-hidden">
-                                    <p v-if="form.errors.token" class="text-red-700 mt-2">reCapatcha failed</p>
-                                    <div class="g-recaptcha" data-sitekey="6LcewFcmAAAAAJHuq4ieGQ1qd0fuHYddHki1eKH9"></div>
-                                </div>
-
-                                <div class="mt-8">
-                                    <p class="text-red-600" v-if="formErrors">Error Has Occured!</p>
-                                    <div v-if="form.processing" class="mt-8 flex items-center"><span class="mr-2">Sending....</span><ArrowPathIcon class="animate-spin w-5 h-5" /></div>
-                                    <p v-if="formSuccess">Thank you for submitting the form!</p>
-                                    <button class="mt-4"
-                                    :disabled="form.processing">Send Message</button>
-                                   
-                                </div>
-                            
-                            
-                            </form>
-
-
-
-                        </div>
-                        <!-- ./form-container  -->
-
-
-                    </div>
-                    <!-- ./ebd-container  -->
-                    
-                </section>
+                        
+                    </section>
 
                 
+
+                    <section id="ebd-section-services" aria-labelledby="ebd-services-heading" class="pb-10 px-0">
+
+                        <div class="ebd-container">
+
+                        
+
+                            <div class="px-6 md:px-4">
+                                <div class="text-center md:text-left">
+                                    
+                                    <div class="flex flex-col md:flex-row justify-between items-center">
+                                        <div class="md:w-2/3">
+                                            <h2 id="ebd-services-heading" class="capitalize inline-block mb-4">Integrating Third-Party Features with Evergreen by Design!<hr/></h2>
+                                            <p class="ebd-leading-text">Embark on an exciting journey of discovering and leveraging an array of third-party functionalities seamlessly integrated with your website. When you bring these tools into the fold, your website's capabilities expand exponentially. It's like turning your digital presence into a strategic powerhouse. You'll gain insights into how users interact with your site, and discover what engages your audience.</p>
+                                            <p class="ebd-leading-text">You have the opportunity to effortlessly incorporate a diverse spectrum of potent tools that include but are certainly not limited to…</p>
+                                        </div>
+                                        <div class="w-4/6 md:w-1/3">
+                                            <WorkImg />
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            <div class="mt-12 pt-6 ebd-background-cards">
+
+                                <div class="ebd-card-container items-center flex flex-col md:items-stretch md:flex-row md:justify-around lg:justify-between flex-wrap py-4 md:py-12 px-1 md:px-4">
+
+                                
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <CurrencyDollarIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Adsense<hr/></h3>
+                                        <p>AdSense is a Google advertising platform that enables website owners and content creators to monetize their online content. By placing targeted ads on their websites, creators can earn revenue based on factors like ad clicks or impressions. AdSense uses contextual targeting to display ads relevant to the content of the webpage.</p>
+                                        <!-- <button>Learn More</button> -->
+                                    </div>
+
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <GlobeAmericasIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Social Media<hr/></h3>
+                                        <p>Social media integration on a website links and displays content from platforms like Facebook, Twitter, Instagram. Visitors can easily share site content via social media buttons, follow buttons, live feeds, and embedded posts. This boosts engagement, expands reach, and encourages interaction with visitors on social platforms.</p>
+                                    </div>
+
+
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <UserGroupIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Facebook Pixel<hr/></h3>
+                                        <p>Facebook Pixel, from Facebook, tracks user actions on websites. By adding code, businesses monitor page views, purchases, sign-ups, etc. This data enhances Facebook ad effectiveness, campaign optimization, and retargeting. It's a tool for refining ad targeting and marketing strategies on Facebook.</p>
+                                    </div>
+
+
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <ChartBarSquareIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Google Analytics<hr/></h3>
+                                        <p>Google Analytics, from Google, tracks and analyzes site performance. Users add a tracking code to collect data on traffic, behavior, demographics, etc. It reveals user interaction, popular pages, navigation, and drop-offs. Valuable insights aid website optimization, content strategy, and user experience decisions.</p>
+                                    </div>
+
+
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <ScaleIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Affiliate Marketing<hr/></h3>
+                                        <p>Affiliate marketing rewards individuals (affiliates) for boosting sales or traffic. They use unique links to promote a company's offerings and earn commissions. This benefits both: companies expand reach without upfront costs, while affiliates earn income by promoting products they trust. It's a win-win model leveraging the affiliate's efforts to boost company sales.</p>
+                                    </div>
+
+                                    <div class="ebd-card w-10/12 md:w-5/12 mb-12 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
+                                        <CursorArrowRippleIcon class="w-12 h-12 mx-auto mb-4" />
+                                        <h3 class="text-2xl">Search Console<hr/></h3>
+                                        <p>Google Search Console is a free service by Google for website owners. It helps monitor site presence in Google search, offers insights into how the search engine interacts with the site, shows indexed pages, monitors search traffic, identifies leading queries, and alerts about performance issues. It optimizes site visibility and functionality in search engines.</p>
+                                    </div>   
+                                </div>
+                                <!-- ./ebd-card-container -->
+                            </div>
+                            <!-- ./ebd-card-divider -->
+
+
+                        </div>
+                        <!-- ./ebd-container  -->
+                    
+                    </section>
+
+                    <section id="ebd-section-inspiration" class="relative">
+                        <div class="absolute -top-0 right-2 -translate-y-1/2">
+                            <OwlImg class="w-60" />
+                        </div>
+                        <div class="ebd-container">
+                            <h2 class="text-5xl sm:text-6xl py-24 text-white inspiration-heading text-center capitalize">Secure the Website Design and Management Services Your Business Requires for Success in Today's World!</h2>
+                        </div>
+                    </section>
+
+
+                    <section id="ebd-section-experience" class="text-center md:text-left relative expertise-bg py-24" aria-labelledby="ebd-experience-heading">
+
+
+                        <div class="ebd-container bg-white bg-opacity-90 shadow py-6 px-8 rounded">
+
+                            <h2 id="ebd-experience-heading" class="capitalize inline-block mb-4">The experience and expertise you get with Evergreen By Design<hr/></h2>
+                            <p class="text-xl mb-12">I have been building websites and developing web technologies for over 7 years. Below are the technologies I have used to help build websites and develop web based systems for organizations. Let me help you build the online presence you deserve! &#128522;</p>
+                            
+                            <div class="flex flex-col md:flex-row xl:justify-start flex-wrap ols-container">
+                                <div class="order-2 mb-10 lg:border-r-2 md:pr-10 md:mr-10">
+                                    <h3 class="mb-4">Web Design</h3>
+                                    <ul class="list-none">
+                                        <li>UX/UI</li>
+                                        <li>Photoshop</li>
+                                        <li>Graphic Design</li>
+                                        <li>Frontend and Backend Design</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                    </ul>
+                                </div>
+
+                                <div class="order-3 lg:order-3">
+                                    <h3 class="mb-4">Web Technologies</h3>
+                                    <ul class="list-none">
+                                        <div class="flex flex-col sm:flex-row sm:justify-between sm:space-x-6">
+
+                                            <div>
+                                                <li>Javascript</li>
+                                                <li>PHP</li>
+                                                <li>XML</li>
+                                                <li>Sass</li>
+                                                <li>JSON</li>
+                                                <li>VueJs</li>
+                                            </div>
+                                            <div>
+                                                <li>Laravel</li>
+                                                <li>Git</li>
+                                                <li>Ubuntu</li>
+                                                <li>NodeJS</li>
+                                                <li>Tailwind Css</li>
+                                                <li>Bootstrap</li>
+                                            </div>
+                                            <div>
+                                                <li>Nginx (server)</li>
+                                                <li>InertiaJs</li>
+                                                <li>Linux</li>
+                                                <li>Composer (php)</li>
+                                                <li>Apache (server)</li>
+                                                <li>MySQL (database)</li>
+                                            </div>
+                                            <div>
+                                                <li>ViteJs</li>
+                                                <li>Materialize Css</li>
+                                                <li>jQuery (used for legacy systems only)</li>
+                                                <li>Wordpress Development</li>
+                                            </div>
+                                            
+
+
+                                        </div>
+                                        <!-- ul list flex  -->
+                                        
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                            <!-- ols-container -->
+
+
+
+
+                        </div>
+                        <!-- ./ebd-container  -->
+                        
+                        
+                    </section>
+
+                    
+
+                    <section id="ebd-section-testimonials">
+                        <div class="ebd-container">
+                            <h2 class="inline-block mb-24 text-center md:text-left lg:text-4xl">What They Say About Evergreen By Design <hr/></h2>
+
+                            <div class="tesimonial-container">
+
+                                <div class="testimonial-individual bg-green-300 bg-opacity-90 mb-32">
+
+                                    <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
+                                        <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
+                                            <img class="w-36" src="/media/images/jpg/Miriam L.jpg" alt="website design client miriam">
+                                        </div>
+                                        <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
+                                            <h4 class="mb-2">Miriam L.</h4>
+                                            <p>I was struggling with the tech in my Wordpress website till I was lucky enough to meet Todd. He's an awesome & gifted web designer that goes the extra mile to not only make sure that everything runs smoothly, but also makes it beautiful! I highly recommend Todd and Evergreen by Design to anyone who needs a talented designer.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <!-- //====/ -->
+
+
+                                <div class="testimonial-individual bg-purple-300 bg-opacity-90 mb-32">
+
+                                    <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
+                                        <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
+                                            <img class="w-36" src="/media/images/jpg/Kelly H.jpg" alt="website design client kelly">
+                                        </div>
+                                        <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
+                                            <h4 class="mb-2">Kelly H.</h4>
+                                            <p>I would highly recommend Evergreen By Design for all of your web-design needs. Todd is highly efficient and more importantly, he cares. My favorite thing about Todd is that he answers my questions and explains things in a respectful way that I can understand. (I like to know how things work). If by chance I ask a random question and he doesn't know right away, he is humble enough to say, "I'll find out and get back to you." And then, he does. He works hard to satisfy and is gifted at what he does.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    </div>
+                                    <!-- //====/ -->
+
+
+                                    <div class="testimonial-individual bg-teal-300 bg-opacity-90 mb-32">
+
+                                        <div class="testimonial-info bg-white w-11/12 rounded shadow-xl -translate-y-8 flex flex-col md:flex-row items-center py-6 px-8 ml-4 border border-gray-200">
+                                            <div class="testimonial-image rounded-full overflow-hidden border border-yellow-400 shadow shadow-yellow-300 mb-6">
+                                                <img class="w-36" src="/media/images/jpg/Heather R.png" alt="website design client heather">
+                                            </div>
+                                            <div class="testimonial-text w-5/6 md:w-2/3 ml-5">
+                                                <h4 class="mb-2">Heather R.</h4>
+                                                    <p>Todd does such a great job on our company website.  He is very efficient and detailed. He answered all our questions and he explained everything thoroughly and simply.  
+
+                                                    He was even willing to come into our office and do a quick fix on our other website that I was unable to figure out myself.
+
+                                                    I would highly recommend Evergreen By Design.
+                                                    </p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- //====/ -->
+
+
+                            </div>
+
+                        </div>
+                        
+                    </section>
+
+                    <section id="ebd-section-portfolio" class="px-0 mb-0">
+
+                        <div class="flex justify-center mb-20">
+                            <h2 class="inline-block lg:text-4xl">Here Is Some Of My Work <hr/></h2>
+                        </div>
+
+                        <div class="py-8 portfolio-bg">
+
+                        
+
+                            <div class="ebd-container">
+
+
+                                    <div class="flex flex-col items-center md:flex-row flex-wrap justify-around md:space-x-10">
+
+                                    <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
+                                        <h3>JustDuctless</h3>
+                                        <a href="https://justductless.com/" target="_blank">justductless.com</a>
+                                        <img class="w-full" :src="`${route('home')}/media/images/jpg/Justductless.jpg`" alt="justductless website design client">
+                                    </div>
+
+                                    <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
+                                        <h3>Statewide Exhaust</h3>
+                                        <a href="Https://statewideexhaustservices.com/" target="_blank">statewideexhaustservices.com</a>
+                                        <img class="w-full" :src="`${route('home')}/media/images/jpg/statewideexhaust.jpg`" alt="statewide exhause website design client">
+                                    </div>
+
+
+
+
+                                    <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
+                                        <h3>Double K Cleaning</h3>
+                                        <a href="https://www.doublekkleaning.com/" target="_blank">doublekcleaning.com</a>
+                                        <img class="w-full" :src="`${route('home')}/media/images/jpg/double-k-cleaning.jpg`" alt="Double K Cleaning website design client">
+                                    </div>
+                                    </div>
+                                    <!-- ./flex  -->
+
+                                    <div class="flex flex-col md:flex-row flex-wrap justify-around items-center md:space-x-10">
+
+                                    <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
+                                        <h3>Lines of Expression</h3>
+                                        <a href="https://linesofexpression.com/" target="_blank">linesofexpression.com</a>
+                                        <img class="w-full" :src="`${route('home')}/media/images/jpg/linesofexpression.jpg`" alt="Lines of expression website design client">
+                                    </div>
+
+
+                                
+
+
+                                    <div class="w-5/6 md:w-5/12 mb-10 shadow-md border border-gray-200 py-4 px-8 rounded space-y-10 bg-white">
+                                        <h3>Nicc's Direct Primary Care</h3>
+                                        <a href="https://www.niccdpc.com/" target="_blank">niccdpc.com/</a>
+                                        <img class="w-full" :src="`${route('home')}/media/images/jpg/Niccs-Rogers-Website.jpg`" alt="Nicc's Direct Primary Care website design client">
+                                    </div>
+
+                                    </div>
+                                    <!-- ./flex  -->
+                                
+                            </div>
+                            <!-- ./ebd-container  -->
+
+                        </div>
+                    </section>
+
+                
+
+                    <section id="ebd-section-contact" class="contact-bg-gradient mt-20">
+
+                        <div class="ebd-container flex flex-col md:flex-row justify-start items-start shadow-lg border rounded md:w-5/6 mx-auto">
+
+                            <div class="form-header md:w-1/3 self-stretch bg-gradient-to-b from-white via-teal-100 to-green-400">
+                                <div class="py-4">
+
+                                    <div class="flex justify-center">
+                                        <h2 class="inline-block pb-4 w-3/4 text-center text-4xl">Get In Touch <hr/></h2>
+                                    </div>
+                                    
+
+                                    <div class="mb-8">
+
+                                        <div class="flex justify-center items-center mb-4 text-green-500">
+                                            <h3 class="border-none mb-0 pb-0 text-3xl" style="padding-bottom: 0px;">Call Today</h3>
+                                            <PhoneIcon class="w-8 h-8 ml-2 mt-1 stroke-slate-700" />
+                                        </div>
+
+                                        <p class="font-xl text-center text-2xl">Phone:&nbsp;<br/><a aria-label="click to call" class="py-1 px-2" style="font-size: 1.5rem; line-height: 2rem; color: rgb(74, 72, 72); border-color: rgb(74, 72, 72)" href="tel:5413735563">(541) 378.5563</a></p>
+                                        <p class="text-center">Mon-Fri 9am-4pm</p>
+                                    </div>
+
+                                </div>
+                                <!-- ./contact-heading  -->
+
+                            </div>
+                            <!-- ./form-header  -->
+                            
+                        
+                            <div class="form-container bg-white w-full flex-1 py-4 px-4 mt-8 md:mt-0 md:px-10">
+
+                                <form ref="formEl" @submit.prevent="sendEmail">
+                                
+                                    <div>
+                                        <div class="flex justify-start items-center mb-4 text-green-500">
+                                            <h3 id="chat-email" class="text-2xl">Email Me</h3>
+                                            <EnvelopeIcon class="w-6 h-6 ml-2" />
+                                        </div>
+                                        <label for="name">Name</label>
+                                        <p v-if="form.errors.name" class="text-red-700 mt-2">{{ form.errors.name }}</p>
+                                        <input v-model="form.name" placeholder="John Smith" type="text" id="name">
+                                    </div>
+                                    <div>
+                                        <label for="email">Email</label>
+                                        <p v-if="form.errors.email" class="text-red-700 mt-2">{{ form.errors.email }}</p>
+                                        <input v-model="form.email" type="email" placeholder="johnsmith@gmail.com" name="email" id="email">
+                                    </div>
+                                    <div>
+                                        <label for="message">Message</label>
+                                        <p v-if="form.errors.message" class="text-red-700 mt-2">{{ form.errors.message }}</p>
+                                        <textarea v-model="form.message" placeholder="Enter Message" name="message" id="message" cols="30" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="mt-8 overflow-hidden">
+                                        <p v-if="form.errors.token" class="text-red-700 mt-2">reCapatcha failed</p>
+                                        <div class="g-recaptcha" data-sitekey="6LcewFcmAAAAAJHuq4ieGQ1qd0fuHYddHki1eKH9"></div>
+                                    </div>
+
+                                    <div class="mt-8">
+                                        <p class="text-red-600" v-if="formErrors">Error Has Occured!</p>
+                                        <div v-if="form.processing" class="mt-8 flex items-center"><span class="mr-2">Sending....</span><ArrowPathIcon class="animate-spin w-5 h-5" /></div>
+                                        <p v-if="formSuccess">Thank you for submitting the form!</p>
+                                        <button class="mt-4"
+                                        :disabled="form.processing">Send Message</button>
+                                    
+                                    </div>
+                                
+                                
+                                </form>
+
+
+
+                            </div>
+                            <!-- ./form-container  -->
+
+
+                        </div>
+                        <!-- ./ebd-container  -->
+                        
+                    </section>
+
+            </article>
             
         </Frontend>
     </div>
@@ -798,6 +868,11 @@
     .contact-heading {
         @apply text-lg mb-4 space-y-4;
         text-shadow: 1.8px 1.2px 5px rgba(26, 25, 25, 0.628);
+    }
+
+    .ebd-leading-text {
+        @apply text-lg md:text-xl;
+        line-height: 1.85;
     }
 
     #ebd-section-testimonials {
