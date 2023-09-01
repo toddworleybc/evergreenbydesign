@@ -11,10 +11,6 @@
 
     <Frontend>
 
-        <Head title="Beaverton Oregon | Website Design and Management Services">
-            <meta name="description" content="Evergreen By Design provides great website design and services for the area of Beaverton Oregon. This also includes, Hosting, Email Marketing, Content Management!">
-        </Head>
-
         <PageBanner heading="Beaverton Oregon <br/> Website Design and Management Services" />
 
         <div class="max-w-3xl mx-auto mt-8">

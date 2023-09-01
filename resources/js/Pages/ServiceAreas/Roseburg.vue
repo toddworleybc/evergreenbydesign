@@ -15,11 +15,7 @@
 <template>
 
     <Frontend>
-
-        <Head title="Roseburg Oregon Website Design and Management Services">
-            <meta name="description" content="Roseburg Oregon Website Design and Management Services. Locally owned is a top website designer business providing you with the best in website services!">
-        </Head>
-
+        
         <PageBanner heading="Roseburg Oregon <br/> Website Design and Management Services" />
 
         <div class="max-w-3xl mx-auto mt-8">

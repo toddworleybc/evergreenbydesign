@@ -13,9 +13,6 @@
 
     <Frontend>
 
-        <Head title="Woodburn Oregon Professional Website Design and Services">
-            <meta name="description" content="Website Design and Management Services for Woodburn Oregon. Get a full website designed for your business with ongoing website services!">
-        </Head>
 
         <PageBanner heading="Woodburn Oregon <br/> Professional Website Design and Services" />
 

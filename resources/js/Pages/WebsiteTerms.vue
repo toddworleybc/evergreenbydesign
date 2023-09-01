@@ -142,10 +142,6 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong><bdt clas
  
         <FrontEnd>
 
-            <Head title="Terms of Use">
-                <meta name="description" content="Evergreen By Design's website terms of usage">
-            </Head>
-
             <PageBanner heading="Evergreen By Design <br/> Website Terms Of Use" />
 
 

@@ -80,17 +80,13 @@
  <div>
     <FrontEnd>
 
-        <Head title="Website Design and Service Pricing">
-            <meta name="description" content="Get a professional website designer and ongoing website management with one of Evergreen By Design's website service plans. These plans include hosting, content management, email marketing, and more.">
-        </Head>
-
         <PageBanner heading="Website Services And <br/>Management Pricing" />
 
         <section id="intro" aria-labelledby="intro-heading" class="mt-14 mb-20">
             <div class="text-center ebd-container px-4 lg:px-12">
                     <h2 id="intro-heading" class="inline-block capitalize" style="line-height: 1.4">Unlock Complete Website Design and Management Services<br/> <small>- Starting At $628.00 -</small><hr/></h2>
-                    <p class="md:text-xl">Evergreen By Design takes pride in offering you peace of mind when it comes to your website. My plans are all-inclusive and fully managed, providing everything necessary to launch and maintain your website with ease. You can say goodbye to concerns about renewing hosting and domains, deciphering complex website design jargon, and managing on-page optimization<br/> – I handle it all for you!</p>
-                    <p class="my-12">At Evergreen By Design, my pricing is divided into two components. Firstly, there's the one-time fee for your website design. The second component encompasses your continuous website services and management, requiring a monthly fee due on the date of your sign-up!</p>
+                    <p class="ebd-leading-text">Evergreen By Design takes pride in offering you peace of mind when it comes to your website. My plans are all-inclusive and fully managed, providing everything necessary to launch and maintain your website with ease. You can say goodbye to concerns about renewing hosting and domains, deciphering complex website design jargon, and managing on-page optimization<br/> – I handle it all for you!</p>
+                    <p class="my-12 ebd-leading-text">At Evergreen By Design, my pricing is divided into two components. Firstly, there's the one-time fee for your website design. The second component encompasses your continuous website services and management, requiring a monthly fee due on the date of your sign-up!</p>
                     <p class="text-center mb-12"><strong class="font-light">Please Note* <br/>There is an estimated 3% processing fee charge when making payments.</strong></p>
 
                     <div class="flex flex-col items-center md:flex-row justify-around  space-x-4">
@@ -533,6 +529,11 @@
 
 .ebd-pricing {
         @apply border border-slate-300 rounded-lg  overflow-hidden bg-white;
+    }
+
+    .ebd-leading-text {
+        @apply text-lg md:text-xl;
+        line-height: 1.85;
     }
 
     .ebd-pricing .ebd-ph {

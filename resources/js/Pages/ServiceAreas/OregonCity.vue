@@ -12,9 +12,6 @@
 
     <Frontend>
 
-        <Head title="Oregon City Website Design and Management Services">
-            <meta name="description" content="Professional website design for Oregon City. This includes Website Management and Services like Hosting, Domain, Email Marketing, Ongoing Maintenance and more!">
-        </Head>
 
         <PageBanner heading="Oregon City <br/> Website Design and Management Services" />
 

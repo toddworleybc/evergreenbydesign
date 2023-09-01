@@ -78,9 +78,6 @@
  <div>
     <FrontEnd>
 
-        <Head title="About">
-            <meta name="description" content="Evergreen By Design provides all your website design and service needs including hosting, domains, email marketing, and more. Learn all about Evergreen By Designs website services today!">
-        </Head>
 
         <PageBanner heading="About <br/> Evergreen By Design" />
 

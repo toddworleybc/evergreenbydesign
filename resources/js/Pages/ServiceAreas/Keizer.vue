@@ -11,9 +11,6 @@
 
     <Frontend>
 
-        <Head title="Website Design and Services | Keizer Oregon">
-            <meta name="description" content="Affordable website design and management services for Keizer Oregon including, Website Hosting, Content Management, Email Marketing, Ongoing Maintenance...">
-        </Head>
 
         <PageBanner heading="Keizer Oregon <br/>Website Design and Services" />
 

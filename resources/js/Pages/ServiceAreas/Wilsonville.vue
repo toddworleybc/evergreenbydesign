@@ -14,9 +14,6 @@
 
     <Frontend>
 
-        <Head title="Website Management and Design | Wilsonville Oregon">
-            <meta name="description" content="Get ongoing website management services with FULL website design in Wilsonville Oregon! Includes Hosting, Email Marketing, Content Management, and more!">
-        </Head>
 
         <PageBanner heading="Wilsonville Oregon <br/>Website Management and Design" />
 

@@ -17,9 +17,6 @@
 
         <FrontEnd>
 
-            <Head title="Website Service Plan Details">
-                <meta name="description" content="Choose the best plan that suits all your website design and service needs! With ongoing website management including hosting, domain, and email marketing you know you're in good hands!">
-            </Head>
 
             <PageBanner heading="Website Design And Management Services<br/> Plan Details" />
 

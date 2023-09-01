@@ -12,9 +12,6 @@
 
     <Frontend>
 
-        <Head title="Eugene Oregon Website Design and Management Services">
-            <meta name="description" content="Get a professional website designer and FULL website management services all here at Evergreen By Design. This includes Hosting, Domain, Content Management and more!">
-        </Head>
 
         <PageBanner heading="Eugene Oregon <br/> Website Design and Management Servicess" />
 

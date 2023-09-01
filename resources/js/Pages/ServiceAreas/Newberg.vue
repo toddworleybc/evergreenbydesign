@@ -13,10 +13,6 @@
 
     <Frontend>
 
-        <Head title="Website Services and Design | Newberg Oregon">
-            <meta name="description" content="Website Services and design now available in Newberg, Oregon. Hire a professional website designer and get services that include Hosting, Email marketing...">
-        </Head>
-
         <PageBanner heading="Newberg Oregon <br/> Website Services and Design" />
 
         <div class="max-w-3xl mx-auto mt-8">

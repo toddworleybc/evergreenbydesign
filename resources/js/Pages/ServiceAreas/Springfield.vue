@@ -13,9 +13,6 @@
 
     <Frontend>
 
-        <Head title="Springfield Oregon Website Design and Management Services">
-            <meta name="description" content="Springfield Oregon Website Design and Management Services. These website services provide everything you need to get your website up and running. Contact Today.">
-        </Head>
 
         <PageBanner heading="Springfield Oregon <br/> Website Design and Management Services" />
 
