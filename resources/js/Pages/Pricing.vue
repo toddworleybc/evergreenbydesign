@@ -88,7 +88,7 @@
 
         <section id="intro" aria-labelledby="intro-heading" class="mt-14 mb-20">
             <div class="text-center ebd-container px-4 lg:px-12">
-                    <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto mb-10">
+                    <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-full md:w-1/2 mx-auto mb-10">
                                 
                         <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
                     
@@ -98,7 +98,7 @@
                     <p class="my-12 ebd-leading-text">At Evergreen By Design, my pricing is divided into two components. Firstly, there's the one-time fee for your website design. The second component encompasses your continuous website services and management, requiring a monthly fee due on the date of your sign-up!</p>
                     <p class="text-center mb-12"><strong class="font-light">Please Note* <br/>There is an estimated 3% processing fee charge when making payments.</strong></p>
 
-                    <div class="flex flex-col items-stretch md:flex-row justify-around  space-x-4">
+                    <div class="flex flex-col items-stretch md:flex-row justify-around  md:space-x-4">
 
                         <div class="ebd-card mb-10 sm:w-4/5 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
                             <h3 class="mb-4 text-2xl">Website / Ecommerce Design <br/> <small>one-time payment</small> <hr/></h3>

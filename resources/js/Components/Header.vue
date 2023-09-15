@@ -122,7 +122,7 @@ onMounted(() => {
             <!-- promo  -->
             <div ref="promoBar" class="fixed bg-yellow-300 py-2 px-1 bottom-0 left-0 right-0 transform translate-y-full text-center hidden">
                
-               <XCircleIcon @click.prevent="closePromo" class="w-6 h-6 stroke-red-600 fill-red-200 absolute right-2 top-1/2 transform -translate-y-1/2 hover:scale-95 transition-all hover:stroke-gray-600 hover:cursor-pointer active:scale-90 active:fill-gray-500 active:stroke-gray-400"/>
+               <XCircleIcon @click.prevent="closePromo" class="w-6 hidden sm:block h-6 stroke-red-600 fill-red-200 absolute right-2 top-1/2 transform -translate-y-1/2 hover:scale-95 transition-all hover:stroke-gray-600 hover:cursor-pointer active:scale-90 active:fill-gray-500 active:stroke-gray-400"/>
                <a class="capitalize" :href="route('promo')">LIMITED TIME OFFER - 30% off website design</a> 
           
            

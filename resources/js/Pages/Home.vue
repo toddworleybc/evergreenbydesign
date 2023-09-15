@@ -133,7 +133,7 @@
                             <div class="text-center">
                                 <h2 class="inline-block lg:text-4xl">Get Your Website Services at an Unbeatable Price<hr/></h2>
                                 <!-- promo  -->
-                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto mb-10">
+                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-full md:w-1/2 mx-auto mb-10">
                                 
                                 <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
                             
@@ -178,7 +178,7 @@
 
                            
                              <!-- promo  -->
-                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto">
+                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-full md:w-1/2 mx-auto">
                                 
                                 <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
                             
@@ -498,7 +498,7 @@
                                 <div class="text-center md:text-left">
                                     
                                     <div class="flex flex-col md:flex-row justify-between items-center">
-                                        <div class="md:w-2/3 pr-6">
+                                        <div class="md:w-2/3 md:pr-6">
                                             <h2 id="ebd-services-heading" class="capitalize inline-block mb-4">FREE third-Party intergrations with ALL website plans!<hr/></h2>
                                             <p class="ebd-leading-text">Embark on an exciting journey of discovering and leveraging an array of third-party functionalities seamlessly integrated with your website. When you bring these tools into the fold, your website's capabilities expand exponentially. It's like turning your digital presence into a strategic powerhouse. You'll gain insights into how users interact with your site, and discover what engages your audience.</p>
                                             <p class="ebd-leading-text">You have the opportunity to effortlessly incorporate a diverse spectrum of potent tools that include but are certainly not limited to…</p>
