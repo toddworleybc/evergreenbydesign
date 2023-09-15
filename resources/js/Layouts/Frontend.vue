@@ -1,11 +1,12 @@
 <script setup>
 
-    import Header from '@/Components/Header.vue';
+    import HeaderComponent from '@/Components/Header.vue';
     import { modal }   from '@/Utilities/modal';
     import menu from '@/Utilities/menu';
     import { ChatBubbleLeftIcon, ArrowUpIcon } from '@heroicons/vue/24/outline';
     import Modal from '@/Components/Modal.vue';
     import { ref, watch, onMounted } from 'vue';
+    import { XCircleIcon } from '@heroicons/vue/24/outline';
 
 
 // controls the background overlay for the body
@@ -163,7 +164,7 @@
         <div>
             <div @click.prevent="closeOverlay" class="fixed w-full h-screen bg-slate-900 transition-all backdrop-blur-sm z-20" :class="[bodyOverlay ? 'bg-opacity-70 block' : 'bg-opacity-0 hidden']"></div>
 
-            <Header />
+            <HeaderComponent />
         
             <main>
                 <slot />
@@ -177,23 +178,43 @@
                     <p>Mon-Fri: 9am to 4pm</p>
                 </div>
 
-                <div id="service-areas" class="md:border-r-2 border-green-300 w-full md:w-1/3 px-10">
+                <div id="service-areas" class="md:border-r-2 border-green-300 w-full md:w-2/4 px-10">
                     <h3 class="inline-block mb-4">Service Areas<hr/></h3>
                     <div>
-                        <ul class="space-y-4">
-                            <li><p><strong class="font-lignt">All of USA</strong></p></li>
-                            <li>
-                                <p><strong class="font-light">Oregon Local Service Areas</strong></p>
-                            </li>
-                            <li><a :href="route('service.roseburg')">Roseburg</a></li>
-                            <li><a :href="route('service.springfield')">Springfield</a></li>
-                            <li><a :href="route('service.eugene')">Eugene</a></li>
-                            <li><a :href="route('service.beaverton')">Beaverton</a></li>
-                            <li><a :href="route('service.oregoncity')">Oregon City</a></li>
-                            <li><a :href="route('service.keizer')">Keizer</a></li>
-                            <li><a :href="route('service.wilsonville')">Wilsonville</a></li>
-                            <li><a :href="route('service.newberg')">Newberg</a></li>
-                            <li><a :href="route('service.woodburn')">Woodburn</a></li>
+                        <p><strong class="font-lignt text-2xl">All of USA</strong></p>
+                        <p><strong class="font-light">Oregon Local Service Areas</strong></p>
+                        <ul class="flex flex-col md:flex-row justify-center items-center flex-wrap">
+                            
+                            <div class="service-col p-4 space-y-4">
+                                <li><a :href="route('service.roseburg')">Roseburg</a></li>
+                                <li><a :href="route('service.springfield')">Springfield</a></li>
+                                <li><a :href="route('service.eugene')">Eugene</a></li>
+                                
+                                
+                            </div>
+
+
+                            <div class="service-col p-4 space-y-4">
+                                
+                                
+                                <li><a :href="route('service.keizer')">Keizer</a></li>
+                                <li><a :href="route('service.wilsonville')">Wilsonville</a></li>
+                                <li><a :href="route('service.newberg')">Newberg</a></li>
+                                
+                            </div>
+
+                            <div class="service-col p-4 space-y-4">
+                                <li><a :href="route('service.oregoncity')">Oregon City</a></li>
+                                <li><a :href="route('service.woodburn')">Woodburn</a></li>
+                                <li><a :href="route('service.hillsboro')">Hillsboro</a></li>
+                                
+                            </div>
+
+                            <div class="service-col p-4 space-y-4">
+                                <li><a :href="route('service.beaverton')">Beaverton</a></li>
+                                
+                            </div>
+                            
                             
                         </ul>
                     </div>
@@ -209,7 +230,7 @@
                 </div>
 
 
-                </section>
+            </section>
             <footer ref="footerEl" class="py-4 px-8 bg-green-900 text-white text-center">
                 All Rights Reserved &copy; Evergreen By Design {{ footerCreditsYear }}<br/><span>Made with &#9829 from the Pacific Northwest</span>
                 <div><a :href="route('website.terms')" class="mr-4 tp-links">Terms Of Use</a><a :href="route('privacy')" class="tp-links">Privacy</a></div>
@@ -217,8 +238,8 @@
 
             <button  @click.prevent="backToTop" @focus="showBothBtns" class="z-10 fixed left-2 bottom-2 rounded-full px-2 py-2 opacity-0 transition-opacity bottom-btns"><ArrowUpIcon class="w-5 h-5" /><span class="sr-only">Back to top</span></button>
 
-           
-
+            
+            
             <a ref="callTodayFixed" class="group fixed bottom-0 text-center right-0 md:right-1/2 transform md:translate-x-1/2 py-2 bg-green-300 z-10 rounded-lg btn opacity-0 transition-opacity bottom-btns border-none" href="tel:5413785563">
                 <span class="text-white group-hover:text-gray-600">Call Today: (541) 378.5563</span>
             </a>

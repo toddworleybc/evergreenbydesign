@@ -79,6 +79,8 @@
  <div>
     <FrontEnd>
 
+    <article>
+
 
         <PageBanner heading="Contact <br/> Evergreen By Design" />
 
@@ -87,10 +89,10 @@
         <div class="ebd-container mt-8">
 
             <section class="mb-0">
-                <h2 class="mt-20 mb-10 inline-block text-center md:text-left">Get In Touch With Evergreen By Design Today<hr/></h2>
-                <p>Evergreen By Design is a website design and management business that is proud to serve the cities of Oregon with some of the best in website design and management services.</p>
-                <p>Local to Roseburg, I love the Pacific Northwest. From the beautiful forests to the gorgeous oceans. Being able to design websites for businesses and online entrepreneurs in this great state has been a true blessing.</p>
-                <p>If you want top quality website design and to have all your website services bundled into one nice fee then contact Evergreen By Design today.</p>
+                <h2 class="mt-20 mb-6 inline-block text-center md:text-left">Get In Touch With Evergreen By Design Today<hr/></h2>
+                <p class="text-xl leading-relaxed">Evergreen By Design is your trusted partner for website design and management services, catering to clients across the United States and locally in Oregon. Nestled in the heart of the Pacific Northwest, I'm deeply passionate about this beautiful region, from its lush forests to its stunning coastlines. </p>
+                <p class="text-xl leading-relaxed">My true privilege lies in crafting exceptional websites for businesses and online entrepreneurs throughout this great nation.</p>
+                <p class="text-xl leading-relaxed">If you're seeking unparalleled website design and comprehensive management services, allowing you to steer clear of technical headaches, look no further than Evergreen By Design. Contact me today, and let me transform your online presence into a seamless, hassle-free experience.</p>
                 
 
                 <div class="mt-12">
@@ -189,7 +191,7 @@
         </div>
         <!-- page container  -->
 
-
+    </article>
     </FrontEnd>
 
  </div>

@@ -10,7 +10,9 @@
 <template>
 
     <Frontend>
+        <article>
 
+        
         <PageBanner heading="Beaverton Oregon <br/> Website Design and Management Services" />
 
         <div class="max-w-3xl mx-auto mt-8">
@@ -61,7 +63,7 @@
         </section>
 
         </div>
-
+    </article>
     </Frontend>
         
 

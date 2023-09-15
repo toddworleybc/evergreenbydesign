@@ -67,12 +67,19 @@ function modalType() {
              <div id="modal-overflow" class="overflow-auto" :style="`max-height: ${screenHeight}px`">
 
                 <div class="bg-white py-10 px-8 rounded">
+                    
                     <div class="flex justify-between items-center">
                         <h2 id="modal-heading" class="capitalize">{{ modal.heading }}</h2>
                         
                         <button id="modal-close-btn" ref="modalCloseBtn" class="btn-svg" @keydown="modal.focusLastElement($event)" @keyup.esc.prevent="modal.closeModal($event)" @click.prevent="modal.closeModal()"><XMarkIcon class="w-6 h-6" /><span class="sr-only">close message</span></button>
                     </div>
                     <hr>
+                    <!-- promo  -->
+                    <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center inline-block mx-auto w-full">
+                                
+                                <a class="capitalize" :href="route('promo')"><span class="text-xl">LIMITED TIME OFFER - 30% off website design</span></a> 
+                            
+                            </div>
                     
                     
                     <component :is="modalType()" ref="modalCloseFocus" @modal-focus-close="focusModalClose"></component>

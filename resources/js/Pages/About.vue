@@ -78,6 +78,8 @@
  <div>
     <FrontEnd>
 
+    <article>
+
 
         <PageBanner heading="About <br/> Evergreen By Design" />
 
@@ -94,7 +96,7 @@
                 <p>My name is Todd, and I am the owner Evergreen By Design. I created this business to help people with all their website design needs and management.</p>
                 <p>My goal is to take all the stress out of having to design and manage a website. Instead, you now have a person who can handle all your website needs and is just a phone call or email away.</p>
                 <p>Yes, that is right. You will have a direct line to me, not a service agent or a random technician, you will not be directed to some call center in India.</p>
-                <p>You get direct contact with me, the one who setup, designed, and knows everything about your website.</p>
+                <p>You get direct contact with me, the one who set up, designed, and knows everything about your website.</p>
 
             </section>
 
@@ -103,7 +105,7 @@
 
                 <h2 class="inline-block mb-0">A Little History<hr/></h2>
                 <img src="/media/images/svg/history.svg" class="w-96 my-6" alt="">
-                <p>I actually started off in the web world as a blogger. I ran affiliate products on my website and offered blog coaching and website setup as part of my services.</p>
+                <p>I actually started off in the web world as a blogger. I ran affiliate products on my website and offered blog coaching and website set up as part of my services.</p>
                 <p>What I started to notice was more people were interested in my expertise as a website designer than a blog coach. Which was great because I really wasn&#39;t too fond of the blog coaching myself. I did however, love the website design aspect.</p>
                 <p>The only problem was I had little expertise at the time when it came to coding or anything of that nature and my website design skills were based on the limitations of the CMS (content management system) that I was using.</p>
                 <p>I knew though that if I wanted to get serious about website design, I had to improve my skills.</p>
@@ -219,7 +221,7 @@
             <!-- ./ebd-container  -->
 
             </section>
-
+        </article>
     </FrontEnd>
 
  </div>

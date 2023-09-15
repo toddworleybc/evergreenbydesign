@@ -11,7 +11,9 @@
 
     <Frontend>
 
+        <article>
 
+        
         <PageBanner heading="Keizer Oregon <br/>Website Design and Services" />
 
         <div class="max-w-3xl mx-auto mt-8">
@@ -91,7 +93,7 @@
         
 
         </div>
-
+    </article>
     </Frontend>
         
 

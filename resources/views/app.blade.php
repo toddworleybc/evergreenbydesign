@@ -92,8 +92,8 @@
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "{{ $page['props']['openGraph']['geo']['lat'] }}",
-            "longitude": "{{ $page['props']['openGraph']['geo']['long'] }}"
+            "latitude": "{{ $page['props']['openGraph']['geo']['lat'] ? $page['props']['openGraph']['geo']['lat'] : ''}}",
+            "longitude": "{{ $page['props']['openGraph']['geo']['long'] ? $page['props']['openGraph']['geo']['long'] : '' }}"
         },
         "openingHours": "Mo, Tu, We, Th, Fr 09:00-16:00",
         "contactPoint": {

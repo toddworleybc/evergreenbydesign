@@ -12,9 +12,12 @@
 
     <Frontend>
 
-
+        <article>
         <PageBanner heading="Oregon City <br/> Website Design and Management Services" />
 
+        
+
+        
         <div class="max-w-3xl mx-auto mt-8">
         <section class="space-y-10 mb-8" aria-labelledby="oregoncity-heading">
             
@@ -64,7 +67,7 @@
         </section>
 
         </div>
-
+    </article>
     </Frontend>
         
 

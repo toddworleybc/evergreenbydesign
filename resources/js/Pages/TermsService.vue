@@ -21,7 +21,9 @@
 
         <FrontEnd>
 
+            <article>
 
+            
             <PageBanner heading="Evergreen By Design <br/> Terms of Services" />
 
 
@@ -692,7 +694,7 @@
             
             </div>
             <!-- page container  -->
-
+        </article>
         </FrontEnd>
 
 

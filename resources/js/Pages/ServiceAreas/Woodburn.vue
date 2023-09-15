@@ -13,7 +13,9 @@
 
     <Frontend>
 
+        <article>
 
+        
         <PageBanner heading="Woodburn Oregon <br/> Professional Website Design and Services" />
 
         <div class="max-w-3xl mx-auto mt-8">
@@ -82,7 +84,7 @@
         </section>
 
         </div>
-
+        </article>
     </Frontend>
         
 

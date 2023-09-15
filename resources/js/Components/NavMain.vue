@@ -166,6 +166,15 @@ onMounted( () => {
             <nav id="dropdown-menu" class="w-full overflow-y-auto" style="max-height: calc(100vh - 100px)">
                 
                 <div id="dropdown-menu" class="shadow-md bg-gradient-to-b from-green-300 via-green-200 to-green-300 rounded-b-sm">
+
+                    <!-- promo  -->
+                    <div ref="promoBar" class="bg-yellow-300 py-2 px-1 text-center">
+                    
+                        <a class="capitalize" :href="route('promo')">LIMITED TIME OFFER - 30% off website design</a> 
+                
+                
+                    </div>
+
                     <ul role="menu" class="nav-list py-10 space-y-6">
 
 

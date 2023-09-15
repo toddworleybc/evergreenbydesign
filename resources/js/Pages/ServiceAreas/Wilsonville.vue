@@ -14,7 +14,9 @@
 
     <Frontend>
 
+        <article>
 
+       
         <PageBanner heading="Wilsonville Oregon <br/>Website Management and Design" />
 
         <div class="max-w-3xl mx-auto mt-8">
@@ -83,7 +85,7 @@
         </section>
 
         </div>
-
+        </article>
     </Frontend>
         
 

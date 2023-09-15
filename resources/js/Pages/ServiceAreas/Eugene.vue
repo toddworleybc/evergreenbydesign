@@ -12,7 +12,9 @@
 
     <Frontend>
 
+        <article>
 
+        
         <PageBanner heading="Eugene Oregon <br/> Website Design and Management Servicess" />
 
         <div class="max-w-3xl mx-auto mt-8">
@@ -65,7 +67,7 @@
         </section>
 
         </div>
-
+    </article>
     </Frontend>
         
 

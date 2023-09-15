@@ -80,22 +80,36 @@
  <div>
     <FrontEnd>
 
+        <article>
+
+        
+
         <PageBanner heading="Website Services And <br/>Management Pricing" />
 
         <section id="intro" aria-labelledby="intro-heading" class="mt-14 mb-20">
             <div class="text-center ebd-container px-4 lg:px-12">
-                    <h2 id="intro-heading" class="inline-block capitalize" style="line-height: 1.4">Unlock Complete Website Design and Management Services<br/> <small>- Starting At $628.00 -</small><hr/></h2>
+                    <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto mb-10">
+                                
+                        <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
+                    
+                    </div>
+                    <h2 id="intro-heading" class="inline-block capitalize" style="line-height: 1.4">Unlock Complete Website Design and Management Services<br/> <small>- Starting At <s>$628.00</s> $479.00 -</small><hr/></h2>
                     <p class="ebd-leading-text">Evergreen By Design takes pride in offering you peace of mind when it comes to your website. My plans are all-inclusive and fully managed, providing everything necessary to launch and maintain your website with ease. You can say goodbye to concerns about renewing hosting and domains, deciphering complex website design jargon, and managing on-page optimization<br/> – I handle it all for you!</p>
                     <p class="my-12 ebd-leading-text">At Evergreen By Design, my pricing is divided into two components. Firstly, there's the one-time fee for your website design. The second component encompasses your continuous website services and management, requiring a monthly fee due on the date of your sign-up!</p>
                     <p class="text-center mb-12"><strong class="font-light">Please Note* <br/>There is an estimated 3% processing fee charge when making payments.</strong></p>
 
-                    <div class="flex flex-col items-center md:flex-row justify-around  space-x-4">
+                    <div class="flex flex-col items-stretch md:flex-row justify-around  space-x-4">
 
                         <div class="ebd-card mb-10 sm:w-4/5 bg-green-50 text-center py-6 px-4 rounded shadow-lg">
                             <h3 class="mb-4 text-2xl">Website / Ecommerce Design <br/> <small>one-time payment</small> <hr/></h3>
+                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-full mx-auto mb-10">
+                                
+                                <a class="capitalize" :href="route('promo')"><span>LIMITED TIME OFFER - 30% off website design</span></a> 
+                            
+                            </div>
                             <ul class="text-xl">
-                                <li class="mb-2">Website Design:<br/> $499.00</li>
-                                <li class="mb-2">Ecommerce Design:<br/> $749.00</li>
+                                <li class="mb-2">Website Design:<br/> <s>$499.00</s> $349.00</li>
+                                <li class="mb-2">Ecommerce Design:<br/><s>$749.00</s> $525.00</li>
                             </ul>
 
                         </div>
@@ -137,298 +151,299 @@
 
         <section id="ebd-section-pricing" class="scroll-mt-36 mt-20 mb-20">
 
-            <div class="ebd-container space-y-24">
+        <div class="ebd-container space-y-24">
 
+            <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
 
-                <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
+            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2">
 
-                    <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2">
+                <div id="website-design" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
 
-                        <div id="website-design" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-
-                            <div class="heading-ul">
-                                <div class="ebd-ph ph-teal">
-                                    <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4">$499 + $129/mo</span></h3>
-                                    <p class="mb-0 text-white">Ecommerce (Shop)<br/>(Unavaliable)</p>
-                                </div>
-
-                                
-                                <ul>
-                                    
-                                    <li><strong class="font-light">Website Design</strong>
-                                        <span class="block text-base my-3">
-                                        Logo Design<br/>
-                                        SEO Friendly<br/>
-                                        Up to 5 pages <br/>
-                                        Website Security<br/>
-                                        Mobile/Responsive Design<br/>
-                                        Complete Content Creation<br/>
-                                        
-                                        </span>
-                                    </li>
-                                    
-                                    <li><strong class="font-light">Full Website Hosting</strong>
-                                        <span class="block text-base my-3">
-                                            Nightly Backups<br/>
-                                            Built-in Caching<br/>
-                                            Unlimited Storage <br/>
-                                            Unlimited Bandwidth<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">1 Top-Level Domain</strong>
-                                        <span class="italic mt-2 text-sm"><br/>(.com, .net, .org, etc...)</span>
-                                    </li>
-                                    <li><strong class="font-light">Ongoing Maintenance</strong>
-                                        <span class="block text-base my-3">
-                                            Website Fixes<br/>
-                                            Weekly Updates<br/>
-                                            Backups and Restores<br/>
-                                            Performance Optimization<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Personal Support</strong>
-                                        <span class="block text-base my-3">
-                                            Via Phone or Email<br/>
-                                            One-on-One Video Support<br/>
-                                        </span>
-                                    </li>
-                                    
-                                    <li><strong class="font-light">Content Creation</strong>
-                                        <span class="block text-base my-3">
-                                            1 Unique Post Per Month<br/>
-                                            1 Content Update Per Month<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Content Management</strong>
-                                        <span class="block text-base my-3">
-                                            3 Posts Per Month <br/>
-                                            1 Update Per Month<br/>
-                                            1 Custom Post Type <br/>
-                                            
-                                        </span>
-                                    </li>
-                                    
-                                    
-                                    <li><strong class="font-light">FREE HTTPS/SSL</strong></li>
-                                </ul>
-
-                            </div>
-                            <!-- ./heading-ul  -->
-
-                            <div class="b-link">
-                                <Link :href="route('plan.details')+'#basic-plan'">See Details</Link>
-                            </div>
-                            <!-- ./b-link  -->
-
+                    <div class="heading-ul">
+                        <div class="ebd-ph ph-teal">
+                            <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4"><s>$499</s> $349 + $129/mo</span></h3>
+                            <p class="mb-0 text-white">Ecommerce (Shop)<br/>(Unavaliable)</p>
                         </div>
-                            <!-- #/website-design  -->
-
-                        <!-- Premium Design  -->
-                        
-                            <div id="premium-p" class="ebd-pricing transform sm:scale-105 bg-white shadow-xl flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-
-                                <div class="heading-ul">
-                                    <div class="ebd-ph ph-purple relative">
-                                        <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4">$499 + $179/mo</span></h3>
-                                        <p class="text-white">Ecommerce (Shop)<br/> $749 + $179/mo</p>
-                                        <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
-                                    </div>
-
-                                    <ul>
-                                        <li><strong class="font-light">Includes Basic Plan +</strong></li>
-                                        <li><strong class="font-light">Website Design</strong>
-                                            <span class="block text-base my-3">
-                                                Up to 7 pages<br/>
-                                                1 Landing Page<br/>
-                                                1 Page Redesign Per Year
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Ecommerce Design</strong>
-                                            <span class="block text-base my-3">
-                                                Cart Page <br/>
-                                                Shop Page <br/>
-                                                Account Page <br/>
-                                                Checkout Page <br/>
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Content Management</strong>
-                                            <span class="block text-base my-3">
-                                                10 Posts Per Month <br/>
-                                                2 Custom Post Type <br/>
-                                                3 Updates Per Month
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Includes Email Marketing System</strong>
-                                            <span class="block text-base my-3">
-                                                1 Weekly Emails <br/>
-                                                1,500 Subscribers <br/>
-                                                1 Email Template Design <br/>
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Professional Domain Email</strong>
-                                            <span class="block text-base my-3">
-                                                you@yourdomain.com
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Content Creation</strong>
-                                            <span class="block text-base my-3">
-                                                2 Unique Posts Per Month<br/>
-                                                2 Content Update Per Month<br/>
-                                            </span>
-                                        </li>
-                                        <li><strong class="font-light">Unlimited Transactional Emails</strong></li>
-                                        <li><strong class="font-light">Branding Removal</strong></li>
-                                    </ul>
-                                </div>
-                                <!-- ./heading-ul  -->
-
-                                <div class="b-link">
-                                    <Link :href="route('plan.details')+'#premium-plan'">See Details</Link>
-                                </div>
-                                <!-- ./b-link  -->
-                                
-                            </div>
-                            <!-- #/premium-p  -->
-
-
-                    </div>
-
 
                         
-
-                    <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2 mb-12">
-
-                        <div id="gold-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+                        <ul>
                             
-                            <div class="heading-ul">
-
-                                <div class="ebd-ph ph-orange">
-                                    <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4">$499 + $229/mo</span></h3>
-                                    <p class="text-white">Ecommerce (Shop)<br/> $749 + $229/mo</p>
-                                </div>
+                            <li><strong class="font-light">Website Design</strong>
+                                <span class="block text-base my-3">
+                                Logo Design<br/>
+                                SEO Friendly<br/>
+                                Up to 5 pages <br/>
+                                Website Security<br/>
+                                Mobile/Responsive Design<br/>
+                                Complete Content Creation<br/>
                                 
-                                <ul>
-                                    <li><strong class="font-light">Includes Premium Plan +</strong></li>
-                                    <li><strong class="font-light">Website Design</strong>
-                                        <span class="block text-base my-3">
-                                            Up to 10 pages <br/>
-                                            2 Landing Pages <br/>
-                                            3 Page Redesign Per Year
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Content Management</strong>
-                                        <span class="block text-base my-3">
-                                            15 Posts Per Month <br/>
-                                            3 Custom Post Types <br/>
-                                            5 Updates Per Month
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Includes Email Marketing System</strong>
-                                        <span class="block text-base my-3">
-                                            3 Weekly Emails <br/>
-                                            2,500 Subscribers <br/>
-                                            1 Email List Automation<br/>
-                                            2 Email Template Design
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Content Creation</strong>
-                                        <span class="block text-base my-3">
-                                            3 unique post<br/>
-                                            3 content update<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Specialty  Self-Management Systems</strong>
-                                        <span class="block text-base my-3">
-                                            Shop Self-Management<br/>
-                                            Event Postings<br/>
-                                            Membership Websites<br/>Online Booking<br/>
-                                            Email Marketing Self-Management<br/>
-                                            Single-User Access<br/>
-                                        </span>
-                                        <span class="italic mt-2 text-sm">(Note* These are just a few of the Specialty systems available. If you are looking for something specific please contact me)</span>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <!-- ./heading-ul  -->
-
-                            <div class="b-link">
-                                <Link :href="route('plan.details')+'#gold-plan'">See Details</Link>
-                            </div>
-                            <!-- ./b-link  -->
-
-                        </div>
-                        <!-- #/gold-p  -->
-
-
-                        <div id="elite-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
-
-
-                            <div class="heading-ul">
-                                <div class="ebd-ph ph-green">
-                                    <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4">$499 + $279/mo</span></h3>
-                                    <p class="text-white">Ecommerce (Shop)<br/> $749 + $279/mo</p>
-                                </div>
-                                <ul>
-                                    <li><strong class="font-light">Includes Gold Plan +</strong></li>
-                                    <li><strong class="font-light">Website Design</strong>
-                                        <span class="block text-base my-3">
-                                            Up to 15 pages <br/>
-                                            3 Landing Pages <br/>
-                                            5 Page Redesigns Per Year
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Content Management</strong>
-                                        <span class="block text-base my-3">
-                                            20 Posts Per Month <br/>
-                                            5 Custom Post Types <br/>
-                                            7 Content Creations/Updating Per Month
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Includes Email Marketing System</strong>
-                                        <span class="block text-base my-3">
-                                            7 Weekly Emails <br/>
-                                            5,000 Subscribers <br/>
-                                            3 Email List Automation <br/>
-                                            3 Email Template Design
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Content Creation</strong>
-                                        <span class="block text-base my-3">
-                                            4 unique post<br/>
-                                            4 content update<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">Specialty  Self-Management Systems</strong>
-                                        <span class="block text-base my-3">
-                                            All Post Access <br/>
-                                            Multi-User Access<br/>
-                                        </span>
-                                    </li>
-                                    <li><strong class="font-light">One-On-One Training</strong>
-                                        <span class="block text-base my-3">
-                                            Get One-On-One Zoom Video Training To Learn How To Use Your Specialty System.
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- ./heading-ul  -->
-
-
-                            <div class="b-link">
-                                <Link :href="route('plan.details')+'#elite-plan'">See Details</Link>
-                            </div>
-                            <!-- ./b-link  -->
+                                </span>
+                            </li>
                             
+                            <li><strong class="font-light">Full Website Hosting</strong>
+                                <span class="block text-base my-3">
+                                    Nightly Backups<br/>
+                                    Built-in Caching<br/>
+                                    Unlimited Storage <br/>
+                                    Unlimited Bandwidth<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">1 Top-Level Domain</strong>
+                                <span class="italic mt-2 text-sm"><br/>(.com, .net, .org, etc...)</span>
+                            </li>
+                            <li><strong class="font-light">Ongoing Maintenance</strong>
+                                <span class="block text-base my-3">
+                                    Website Fixes<br/>
+                                    Weekly Updates<br/>
+                                    Backups and Restores<br/>
+                                    Performance Optimization<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Personal Support</strong>
+                                <span class="block text-base my-3">
+                                    Via Phone or Email<br/>
+                                    One-on-One Video Support<br/>
+                                </span>
+                            </li>
+                            
+                            <li><strong class="font-light">Content Creation</strong>
+                                <span class="block text-base my-3">
+                                    1 Unique Post Per Month<br/>
+                                    1 Content Update Per Month<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Content Management</strong>
+                                <span class="block text-base my-3">
+                                    3 Posts Per Month <br/>
+                                    1 Update Per Month<br/>
+                                    1 Custom Post Type <br/>
+                                    
+                                </span>
+                            </li>
+                            
+                            <li><strong class="font-light">FREE HTTPS/SSL</strong></li>
+                        </ul>
+
+                    </div>
+                    <!-- ./heading-ul  -->
+
+                    <div class="b-link">
+                        <Link :href="route('plan.details')+'#basic-plan'">See Details</Link>
+                    </div>
+                    <!-- ./b-link  -->
+
+                </div>
+                    <!-- #/website-design  -->
+
+                <!-- Premium Design  -->
+                
+                    <div id="premium-p" class="ebd-pricing transform sm:scale-105 bg-white shadow-xl flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+
+                        <div class="heading-ul">
+                            <div class="ebd-ph ph-purple relative">
+                                <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4"><s>$499</s> $349 + $179/mo</span></h3>
+                                <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $179/mo</p>
+                                <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
+                            </div>
+
+                            <ul>
+                                <li><strong class="font-light">Includes Basic Plan +</strong></li>
+                                <li><strong class="font-light">Website Design</strong>
+                                    <span class="block text-base my-3">
+                                        Up to 7 pages<br/>
+                                        1 Landing Page<br/>
+                                        1 Page Redesign Per Year
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Ecommerce Design</strong>
+                                    <span class="block text-base my-3">
+                                        Cart Page <br/>
+                                        Shop Page <br/>
+                                        Account Page <br/>
+                                        Checkout Page <br/>
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Content Management</strong>
+                                    <span class="block text-base my-3">
+                                        10 Posts Per Month <br/>
+                                        2 Custom Post Type <br/>
+                                        3 Updates Per Month
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Includes Email Marketing System</strong>
+                                    <span class="block text-base my-3">
+                                        1 Weekly Emails <br/>
+                                        1,500 Subscribers <br/>
+                                        1 Email Template Design <br/>
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Professional Domain Email</strong>
+                                    <span class="block text-base my-3">
+                                        you@yourdomain.com
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Content Creation</strong>
+                                    <span class="block text-base my-3">
+                                        2 Unique Posts Per Month<br/>
+                                        2 Content Update Per Month<br/>
+                                    </span>
+                                </li>
+                                <li><strong class="font-light">Unlimited Transactional Emails</strong></li>
+                                <li><strong class="font-light">Branding Removal</strong></li>
+                            </ul>
                         </div>
-                        <!-- #/training  -->
+                        <!-- ./heading-ul  -->
+
+                        <div class="b-link">
+                            <Link :href="route('plan.details')+'#premium-plan'">See Details</Link>
+                        </div>
+                        <!-- ./b-link  -->
+                        
+                    </div>
+                    <!-- #/premium-p  -->
+
+
+            </div>
+
+
+                
+
+            <div class="flex flex-col sm:flex-row justify-start w-full lg:w-1/2 mb-12">
+
+                <div id="gold-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+                    
+                    <div class="heading-ul">
+
+                        <div class="ebd-ph ph-orange">
+                            <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4"><s>$499</s> $349 + $229/mo</span></h3>
+                            <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $229/mo</p>
+                        </div>
+                        
+                        <ul>
+                            <li><strong class="font-light">Includes Premium Plan +</strong></li>
+                            <li><strong class="font-light">Website Design</strong>
+                                <span class="block text-base my-3">
+                                    Up to 10 pages <br/>
+                                    2 Landing Pages <br/>
+                                    3 Page Redesign Per Year
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Content Management</strong>
+                                <span class="block text-base my-3">
+                                    15 Posts Per Month <br/>
+                                    3 Custom Post Types <br/>
+                                    5 Updates Per Month
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Includes Email Marketing System</strong>
+                                <span class="block text-base my-3">
+                                    3 Weekly Emails <br/>
+                                    2,500 Subscribers <br/>
+                                    1 Email List Automation<br/>
+                                    2 Email Template Design
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Content Creation</strong>
+                                <span class="block text-base my-3">
+                                    3 unique post<br/>
+                                    3 content update<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                <span class="block text-base my-3">
+                                    Shop Self-Management<br/>
+                                    Event Postings<br/>
+                                    Membership Websites<br/>Online Booking<br/>
+                                    Email Marketing Self-Management<br/>
+                                    Single-User Access<br/>
+                                </span>
+                                <span class="italic mt-2 text-sm">(Note* These are just a few of the Specialty systems available. If you are looking for something specific please contact me)</span>
+                            </li>
+                        </ul>
 
                     </div>
+                    <!-- ./heading-ul  -->
 
-
-
+                    <div class="b-link">
+                        <Link :href="route('plan.details')+'#gold-plan'">See Details</Link>
                     </div>
-                    <!-- #/package-container  -->
+                    <!-- ./b-link  -->
+
+                </div>
+                <!-- #/gold-p  -->
+
+
+                <div id="elite-p" class="ebd-pricing shadow-md flex flex-col justify-between pb-4 w-full sm:w-1/2 mb-12">
+
+
+                    <div class="heading-ul">
+                        <div class="ebd-ph ph-green">
+                            <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4"><s>$499</s> $349 + $279/mo</span></h3>
+                            <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $279/mo</p>
+                        </div>
+                        <ul>
+                            <li><strong class="font-light">Includes Gold Plan +</strong></li>
+                            <li><strong class="font-light">Website Design</strong>
+                                <span class="block text-base my-3">
+                                    Up to 15 pages <br/>
+                                    3 Landing Pages <br/>
+                                    5 Page Redesigns Per Year
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Content Management</strong>
+                                <span class="block text-base my-3">
+                                    20 Posts Per Month <br/>
+                                    5 Custom Post Types <br/>
+                                    7 Content Creations/Updating Per Month
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Includes Email Marketing System</strong>
+                                <span class="block text-base my-3">
+                                    7 Weekly Emails <br/>
+                                    5,000 Subscribers <br/>
+                                    3 Email List Automation <br/>
+                                    3 Email Template Design
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Content Creation</strong>
+                                <span class="block text-base my-3">
+                                    4 unique post<br/>
+                                    4 content update<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">Specialty  Self-Management Systems</strong>
+                                <span class="block text-base my-3">
+                                    All Post Access <br/>
+                                    Multi-User Access<br/>
+                                </span>
+                            </li>
+                            <li><strong class="font-light">One-On-One Training</strong>
+                                <span class="block text-base my-3">
+                                    Get One-On-One Zoom Video Training To Learn How To Use Your Specialty System.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ./heading-ul  -->
+
+
+                    <div class="b-link">
+                        <Link :href="route('plan.details')+'#elite-plan'">See Details</Link>
+                    </div>
+                    <!-- ./b-link  -->
+                    
+                </div>
+                <!-- #/training  -->
+
+            </div>
+
+
+
+            </div>
+<!-- #/package-container  -->
+
+
+                
 
 
             </div>
@@ -508,7 +523,7 @@
 
         </div>
         <!-- page container  -->
-
+        </article>
 
     </FrontEnd>
 

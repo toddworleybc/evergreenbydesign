@@ -1,15 +1,21 @@
 <script setup>
  
     import FrontEnd from '@/Layouts/Frontend.vue';
-    import PageBanner from '@/Components/PageBanner.vue';
-    import { Link, Head } from '@inertiajs/vue3';
+    import { Link } from '@inertiajs/vue3';
+    import { onMounted } from 'vue';
+
+
+    onMounted( () => {
+        window.scrollTo(0, 0);
+    } );
+
+
 
 </script>
 
 <template>
     <div>
         <FrontEnd>
-            <Head title="Thank You"></Head>
             <div class="h-screen flex items-center justify-center bg-ty-img">
                 <div class="text-center bg-white/90 w-4/6 py-12 shadow-lg rounded">
                     <h1>Thank you for submitting your website inquiry.</h1>

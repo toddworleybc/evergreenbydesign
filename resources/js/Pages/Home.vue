@@ -8,7 +8,7 @@
     import WorkImg from '@/Components/Svg/work.svg';
     import { modal } from '@/Utilities/modal';
     import { ref, onMounted } from 'vue';
-    import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon, BookOpenIcon, CurrencyDollarIcon, GlobeAmericasIcon, ChartBarSquareIcon, ScaleIcon, CursorArrowRippleIcon } from '@heroicons/vue/24/outline';
+    import { CircleStackIcon, EnvelopeOpenIcon, PhotoIcon, RectangleGroupIcon, UserGroupIcon, WrenchScrewdriverIcon, ChatBubbleLeftIcon, ArrowPathIcon, EnvelopeIcon, PhoneIcon, BookOpenIcon, CurrencyDollarIcon, GlobeAmericasIcon, ChartBarSquareIcon, ScaleIcon, CursorArrowRippleIcon, XCircleIcon } from '@heroicons/vue/24/outline';
     
 
 
@@ -102,9 +102,9 @@
                                 <div class="w-full md:w-8/12 md:mr-10 text-center md:text-left">
                                     <h2 id="ebd-intro-heading" class="inline-block lg:text-4xl">A Little Bit About Evergreen By Design Websites<hr/></h2> 
                                     
-                                    <p class="ebd-leading-text">Evergreen By Design simplifies the entire process of website design and management, offering you a comprehensive solution that equips you to effortlessly launch your website. Say goodbye to the hassle of navigating through multiple services or grappling with intricate technologies. No longer will you need to invest hours into crafting your own website, wrestling with the complexities of CSS technologies and UX/UI designs.</p>
+                                    <p class="ebd-leading-text">Evergreen By Design makes website design and management a breeze. My all-in-one solution allows you to easily launch your website without the headaches of dealing with multiple services or complicated technologies. Say goodbye to hours spent crafting your site, struggling with CSS, and wrestling with UX/UI designs.</p>
                                     
-                                    <p class="ebd-leading-text">In essence, think of me as your dedicated website liaison, streamlining every aspect of your website design and service requirements.</p>
+                                    <p class="ebd-leading-text">Think of me as your dedicated website liaison, streamlining every aspect of your website design and service requirements.</p>
                                     
                                    
                                     
@@ -132,6 +132,12 @@
 
                             <div class="text-center">
                                 <h2 class="inline-block lg:text-4xl">Get Your Website Services at an Unbeatable Price<hr/></h2>
+                                <!-- promo  -->
+                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto mb-10">
+                                
+                                <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
+                            
+                            </div>
                                 <p class="px-4 lg:px-12 ebd-leading-text">Evergreen By Design takes immense pride in presenting to you top-tier website services at an unparalleled value! My commitment to excellence is evident in the exceptional quality I offer at an incredibly competitive price point. When you evaluate the comprehensive array of services provided by Evergreen By Design, the true essence of savings and convenience becomes evident.</p> 
                                 <div class="flex flex-wrap justify-center space-x-4 mt-10">
                                     <div class="space-x-2 mb-10">
@@ -164,11 +170,24 @@
                                 
 
                                 
-                                <hr class="mt-10 mb-44"/>
+                                <hr class="mt-10 mb-22"/>
 
                             </div>
                         
                         
+
+                           
+                             <!-- promo  -->
+                            <div ref="promoBar" class="bg-yellow-300 py-2 px-14 text-center w-1/2 mx-auto">
+                                
+                                <a class="capitalize" :href="route('promo')"><span class="text-3xl">LIMITED TIME OFFER - 30% off website design</span></a> 
+                            
+                            </div>
+
+
+                            
+                            
+
 
                             <div id="package-container" class="flex flex-col lg:flex-row justify-start text-center max-w-sm sm:max-w-full mx-auto">
 
@@ -178,7 +197,7 @@
 
                                         <div class="heading-ul">
                                             <div class="ebd-ph ph-teal">
-                                                <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4">$499 + $129/mo</span></h3>
+                                                <h3 class="text-3xl text-white">Basic Plan <span class="block mt-4"><s>$499</s> $349 + $129/mo</span></h3>
                                                 <p class="mb-0 text-white">Ecommerce (Shop)<br/>(Unavaliable)</p>
                                             </div>
 
@@ -258,8 +277,8 @@
 
                                             <div class="heading-ul">
                                                 <div class="ebd-ph ph-purple relative">
-                                                    <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4">$499 + $179/mo</span></h3>
-                                                    <p class="text-white">Ecommerce (Shop)<br/> $749 + $179/mo</p>
+                                                    <h3 class="text-3xl text-white">Premium Plan<span class="block mt-4"><s>$499</s> $349 + $179/mo</span></h3>
+                                                    <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $179/mo</p>
                                                     <MostPopular class="w-20 h-20 lg:w-16 lg:h-16 absolute -bottom-10 left-0" />
                                                 </div>
 
@@ -332,8 +351,8 @@
                                         <div class="heading-ul">
 
                                             <div class="ebd-ph ph-orange">
-                                                <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4">$499 + $229/mo</span></h3>
-                                                <p class="text-white">Ecommerce (Shop)<br/> $749 + $229/mo</p>
+                                                <h3 class="text-3xl text-white">Gold Plan<span class="block mt-4"><s>$499</s> $349 + $229/mo</span></h3>
+                                                <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $229/mo</p>
                                             </div>
                                             
                                             <ul>
@@ -395,8 +414,8 @@
 
                                         <div class="heading-ul">
                                             <div class="ebd-ph ph-green">
-                                                <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4">$499 + $279/mo</span></h3>
-                                                <p class="text-white">Ecommerce (Shop)<br/> $749 + $279/mo</p>
+                                                <h3 class="text-3xl text-white">Elite Plan<span class="block mt-4"><s>$499</s> $349 + $279/mo</span></h3>
+                                                <p class="text-white">Ecommerce (Shop)<br/> <s>$749</s> $525 + $279/mo</p>
                                             </div>
                                             <ul>
                                                 <li><strong class="font-light">Includes Gold Plan +</strong></li>
@@ -479,8 +498,8 @@
                                 <div class="text-center md:text-left">
                                     
                                     <div class="flex flex-col md:flex-row justify-between items-center">
-                                        <div class="md:w-2/3">
-                                            <h2 id="ebd-services-heading" class="capitalize inline-block mb-4">Integrating Third-Party Features with Evergreen by Design!<hr/></h2>
+                                        <div class="md:w-2/3 pr-6">
+                                            <h2 id="ebd-services-heading" class="capitalize inline-block mb-4">FREE third-Party intergrations with ALL website plans!<hr/></h2>
                                             <p class="ebd-leading-text">Embark on an exciting journey of discovering and leveraging an array of third-party functionalities seamlessly integrated with your website. When you bring these tools into the fold, your website's capabilities expand exponentially. It's like turning your digital presence into a strategic powerhouse. You'll gain insights into how users interact with your site, and discover what engages your audience.</p>
                                             <p class="ebd-leading-text">You have the opportunity to effortlessly incorporate a diverse spectrum of potent tools that include but are certainly not limited to…</p>
                                         </div>
