@@ -85,8 +85,9 @@
                 <section class="mb-0 p-0 h-5/6 overflow-hidden">
                         <div class="bg-gradient-to-tl from-green-800 to-green-700 py-6 text-white ebd-promo-heading">
                             <h1 class="text-center text-4xl lg:text-5xl mb-4 px-2 lg:px-0 leading-relaxed">30% OFF Website Design</h1>
-                            <p class="text-center text-6xl">ONLY $479.00</p>
-                            <p class="text-center text-3xl">was <s>$628.00</s></p>
+                            <p class="text-center text-6xl"><s>$628</s> ONLY $479</p>
+                            <p class="text-center text-6xl">Limited Time Offer</p>
+                            <p class="text-center text-3xl">Save $150 </p>
                         </div>
                         
                         

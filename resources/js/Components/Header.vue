@@ -4,12 +4,13 @@ import Logo from '@/Components/Svg/ebd-logo-rounded.svg';
 import NavMain from './NavMain.vue';
 import { modal } from '@/Utilities/modal';
 import menu from '@/Utilities/menu';
-import { Link } from '@inertiajs/vue3';
+import { Link, usePage } from '@inertiajs/vue3';
 import { ref, onMounted, watch, onUpdated } from 'vue';
 import { XCircleIcon } from '@heroicons/vue/24/outline';
 
 
 const promoBar = ref('promo-bar');
+const $page = usePage();
 
 
 // controls whether the header should shown or not
@@ -93,9 +94,11 @@ function closePromo() {
 }
 
 function promoBarLoad() {
+    const barDelay = $page.component === "Home" ? 4200 : 1000;
     setTimeout( () => {
+        if($page.component !== "Promo")
         promoBar.value.classList.remove('hidden');
-    }, 4200 );
+    }, barDelay );
 }
 
 
