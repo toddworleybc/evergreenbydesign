@@ -182,7 +182,7 @@
                     <h3 class="inline-block mb-4">Service Areas<hr/></h3>
                     <div>
                         <p><strong class="font-lignt text-2xl">All of USA</strong></p>
-                        <p><strong class="font-light">Oregon Local Service Areas</strong></p>
+                        <p><strong class="font-light">Servicing All of Oregon Locally Including</strong></p>
                         <ul class="flex flex-col md:flex-row justify-center items-center flex-wrap">
                             
                             <div class="service-col p-4 space-y-4">
