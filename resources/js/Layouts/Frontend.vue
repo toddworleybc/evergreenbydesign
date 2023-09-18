@@ -212,7 +212,8 @@
 
                             <div class="service-col p-4 space-y-4">
                                 <li><a :href="route('service.beaverton')">Beaverton</a></li>
-                                
+                                <li><a :href="route('service.medford')">Medford</a></li>
+                                <li><a :href="route('service.hayesville')">Hayesville</a></li>
                             </div>
                             
                             
