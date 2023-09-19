@@ -97,8 +97,10 @@ function promoBarLoad() {
     const barDelay = $page.component === "Home" ? 4200 : 1000;
     setTimeout( () => {
         if($page.component !== "Promo") {
-            if($page.component !== "ThankYou")
-            promoBar.value.classList.remove('hidden');
+            if($page.component !== "ThankYou") {
+                if(!menu.open) 
+                promoBar.value.classList.remove('hidden');
+            }
         }
         
     }, barDelay );
