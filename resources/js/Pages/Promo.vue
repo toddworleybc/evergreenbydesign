@@ -79,13 +79,13 @@
 <template>
     <div>
         <FrontEnd>
-            <div class="flex items-center justify-center bg-ty-img py-12">
+            <div class="flex items-center justify-center bg-ty-img pt-0 pb-16 md:pt-12 md:pb-12">
             <div class="bg-white/90 w-full md:w-4/6 shadow-lg rounded">
                     
-                <section class="mb-0 p-0 h-5/6 overflow-hidden">
+                <section class="mb-0 p-0 h-5/6 overflow-hidden pb-8 bg-white">
                         <div class="bg-gradient-to-tl from-green-800 to-green-700 py-6 text-white ebd-promo-heading">
                             <h1 class="text-center text-4xl lg:text-5xl mb-4 px-2 lg:px-0 leading-relaxed">30% OFF Website Design</h1>
-                            <p class="text-center text-6xl"><s>$628</s> ONLY $479</p>
+                            <p class="text-center text-6xl">ONLY $479</p>
                             <p class="text-center text-6xl">Limited Time Offer</p>
                             <p class="text-center text-3xl">Save $150 </p>
                         </div>
