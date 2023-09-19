@@ -17,11 +17,11 @@
     <div>
         <FrontEnd>
             <div class="h-screen flex items-center justify-center bg-ty-img">
-                <div class="text-center bg-white/90 w-4/6 py-12 shadow-lg rounded">
-                    <h1>Thank you for submitting your website inquiry.</h1>
+                <div class="text-center bg-white/90 w-11/12 px-2 sm:px-0 sm:w-5/6 sm:py-12 shadow-lg rounded">
+                    <h1 class="text-3xl sm:text-4xl">Thank you for submitting your website inquiry.</h1>
                     <section class="mb-0">
-                        <p class="text-3xl">Please give me 1 business day to respond.</p><p class="text-xl">In the meantime, I have sent a welcome packet to your email. <br/>This packet will give you a jumpstart on learning more about how Evergreen By Design works!</p>
-                        <div class="mt-10">
+                        <p class="text-2xl sm:text-3xl">Please give me 1 business day to respond.</p><p class="text-lg sm:text-xl">In the meantime, I have sent a welcome packet to your email. <br/>This packet will give you a jumpstart on learning more about how Evergreen By Design works!</p>
+                        <div class="mt-6 sm:mt-10">
                             <Link :href="route('home')" class="btn">Back To Home</Link>
                         </div>
                     </section>
