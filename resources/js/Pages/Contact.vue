@@ -97,7 +97,8 @@
 
                 <div class="mt-12">
                     <p class="text-2xl">Phone: <a style="font-size: 1.4rem" href="tel:+15413785563">(541) 378.5563</a></p>
-                    <p class="text-2xl">Email: <a style="font-size: 1.4rem" href="mailto:todd@evergreenbydesign.com">todd@evergreenbydesign.com</a></p>
+                    <p class="italic">(accept phone calls til 8pm and on weekends)</p>
+                    <p class="text-2xl">Email: <a class="break-words" style="font-size: 1.4rem" href="mailto:todd@evergreenbydesign.com">todd@evergreenbydesign.com</a></p>
                     <p class="text-2xl">Hours: Mon-Fri 9:00 AM to 4:00 PM</p>
                     <p class="text-2xl">Location: Roseburg, Oregon</p>
                 </div>

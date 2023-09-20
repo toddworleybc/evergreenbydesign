@@ -79,15 +79,15 @@
 <template>
     <div>
         <FrontEnd>
-            <div class="flex items-center justify-center bg-ty-img pt-0 pb-16 md:pt-12 md:pb-12">
-            <div class="bg-white/90 w-full md:w-4/6 shadow-lg rounded">
+            <div class="flex items-center justify-center pt-0 pb-16 md:pt-12 md:pb-12 bg-gradient-to-bl from-green-100 to-green-50">
+            <div class="bg-white/90 w-full md:w-4/6 shadow-none md:shadow-2xl rounded">
                     
                 <section class="mb-0 p-0 h-5/6 overflow-hidden pb-8 bg-white">
-                        <div class="bg-gradient-to-tl from-green-800 to-green-700 py-6 text-white ebd-promo-heading">
+                    <!-- <div class="bg-gradient-to-tl from-green-800 to-green-700 py-6 text-white ebd-promo-heading"> -->
+                        <div class="bg-ty-img py-6 text-white ebd-promo-heading">
                             <h1 class="text-center text-4xl lg:text-5xl mb-4 px-2 lg:px-0 leading-relaxed">30% OFF Website Design</h1>
                             <p class="text-center text-6xl">ONLY $479</p>
                             <p class="text-center text-6xl">Limited Time Offer</p>
-                            <p class="text-center text-3xl">Save $150 </p>
                         </div>
                         
                         
@@ -96,6 +96,7 @@
                             <p class="text-xl mb-4">30% discount on website designs and e-commerce designs is available for a limited time only.<br/> Don't miss out on this incredible opportunity!</p>
                             <p class="text-lg">Ready to start your website services or have questions? <br/>Just fill out the form below or call.</p>
                             <p><a href="tel:5143785563">Phone: (541) 378.5563</a></p>
+                            <p class="italic">(accept phone calls til 8pm and on weekends)</p>
                             <hr/>
                         </div>
                         
@@ -117,7 +118,7 @@
                                 <input v-model="form.email" type="email" placeholder="johnsmith@gmail.com" name="email" id="email">
                             </div>
                             <div class="mt-10">
-                                <label for="message">Tell me about the website you want and/or your online needs</label>
+                                <label for="message">Tell me about the website you would like to have</label>
                                 <p v-if="form.errors.message" class="text-red-700 mt-2">{{ form.errors.message }}</p>
                                 <textarea v-model="form.message" placeholder="Enter Message" name="message" id="message" cols="30" rows="4"></textarea>
                             </div>
@@ -160,8 +161,8 @@
 
     .ebd-promo-heading h1,
     .ebd-promo-heading p {
-        color: #ffffff;
-        text-shadow: rgb(59, 58, 58) 1px 1px 20px;
+        color: #3d3c3c;
+        text-shadow: rgb(216, 210, 210) 1px 1px 20px;
     }
 
 
