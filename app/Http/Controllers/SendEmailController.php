@@ -56,10 +56,10 @@ class sendEmailController extends Controller
 
 
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("todd@evergreenbydesign.com", "Evergreen By Design");
+        $email->setFrom($request->user()->email, "Evergreen By Design");
         $email->setSubject("New Client Request");
 
-        $email->addTo("evergreenbydesignwebsites@gmail.com", "Todd Worley");
+        $email->addTo($request->user()->email, "Todd Worley");
         $email->addContent(
             "text/html", $emailHtml
         );
@@ -95,7 +95,7 @@ class sendEmailController extends Controller
         $email = new \SendGrid\Mail\Mail();
          
         
-        $email->setFrom("todd@evergreenbydesign.com", "Evergreen By Design");
+        $email->setFrom($request->user()->email, "Evergreen By Design");
         $email->setSubject("RE: Received Your Message! - Evergreen By Design");
 
         $email->addTo($request->email, $request->name);
@@ -132,7 +132,7 @@ class sendEmailController extends Controller
 
     private function googleRecapatchaCheck($token) {
 
-        $response = Http::post( "https://www.google.com/recaptcha/api/siteverify?secret=6LcewFcmAAAAAFMEZZQxQqg-iHSJqF25JmOh6EcK&response=$token");
+        $response = Http::post( "https://www.google.com/recaptcha/api/siteverify?secret=config('app.google_recapatcha_check.key')&response=$token");
 
         return $response['success'];
     }
